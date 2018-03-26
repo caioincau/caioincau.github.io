@@ -2,7 +2,7 @@
 title: Meu blog pessoal
 description: Um blog sobre pessoas e tecnologia
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://http://caioincau.github.io/" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://caio.ninja" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Caio Incau
