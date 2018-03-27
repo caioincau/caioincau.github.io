@@ -60,6 +60,16 @@
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="canonical" href="https://caio.ninja/porque-decidi-escrever/">
     <link rel="alternate" type="application/rss+xml" title="Meu blog pessoal" href="https://caio.ninja/feed.xml" />
+    <!-- Add Service Worker -->
+    <script type="text/javascript">
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("/sw.js").then(function(registration) {
+                console.info("Service Worker registration successful with scope: ", registration.scope);
+            }).catch(function(err) {
+                console.error("Service Worker registration failed: ", err);
+            });
+        }
+    </script>
 </head>
 
     <body>
@@ -182,7 +192,7 @@
         <h3 class="name">
             <a itemprop="name" href="https://plus.google.com/+CaioIncau/posts">Caio Incau</a>
         </h3>
-        <p class="desc">Front-End Engineer at @moip, Slytherin, coffee addicted, JS lover and Batman fan.</p>
+        <p class="desc">Front-End Engineer at @moip, Slytherin, JS lover and Batman fan.</p>
         <a itemprop="email" class="email" href="mailto:caioincau@gmail.com">caioincau@gmail.com</a>
     </div>
 </section>
