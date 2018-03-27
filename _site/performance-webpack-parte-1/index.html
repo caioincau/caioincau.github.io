@@ -327,11 +327,25 @@ O processo é simples usando o plugin UglifyJS:</p>
 
 <p>Você pode ver essa e outras técnicas de otimização no <a href="https://github.com/GoogleChromeLabs/webpack-libs-optimizations">Chrome Labs</a></p>
 
+<h3 id="concatenação-de-es-modules">Concatenação de ES modules</h3>
+
+<p>Ligue a concatenação de ES modules, quando o webpack usava CommonJS, lá no webpack 1, cada módulo precisava ser englobado dentro de uma função, hoje, com o uso dos ES Modules a mesma função pode englobar vários módulos.</p>
+
+<p>Vale lembrar que ligar esta melhoria iria quebrar os módulos de hot-reload, por isso, essa configuração só deve ser usada em produção.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">const</span> <span class="nx">webpack</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'webpack'</span><span class="p">);</span>
+
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
+<span class="na">plugins</span><span class="p">:</span> <span class="p">[</span>
+    <span class="k">new</span> <span class="nx">webpack</span><span class="p">.</span><span class="nx">optimize</span><span class="p">.</span><span class="nx">ModuleConcatenationPlugin</span><span class="p">(),</span>
+<span class="p">],</span>
+<span class="p">};</span></code></pre></figure>
+
             </article>
 
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;Put your twitter description here.&quot;%20https://caio.ninja/performance-webpack-parte-1/%20via%20&#64;icaioincau&hashtags=webpack,web,javascript,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;Melhorando a performance webpack&quot;%20https://caio.ninja/performance-webpack-parte-1/%20via%20&#64;icaioincau&hashtags=webpack,web,javascript,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
@@ -351,8 +365,8 @@ O processo é simples usando o plugin UglifyJS:</p>
         <h3 class="name">
             <a itemprop="name" href="https://plus.google.com/+CaioIncau/posts">Caio Incau</a>
         </h3>
-        <p class="desc">Anon Developer at Lorem Ipsum Dolor</p>
-        <a itemprop="email" class="email" href="mailto:anon@anon.com">anon@anon.com</a>
+        <p class="desc">Front-End Engineer at @moip, Slytherin, coffee addicted, JS lover and Batman fan.</p>
+        <a itemprop="email" class="email" href="mailto:caioincau@gmail.com">caioincau@gmail.com</a>
     </div>
 </section>
 

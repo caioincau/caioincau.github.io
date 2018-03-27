@@ -10,7 +10,7 @@ tags:
 - javascript
 categories:
 - Webpack
-twitter_text: 'Put your twitter description here.'
+twitter_text: 'Melhorando a performance webpack'
 ---
 
 # Performacne Webpack
@@ -242,3 +242,20 @@ module.exports = {
 {% endhighlight %}
 
 Você pode ver essa e outras técnicas de otimização no [Chrome Labs](https://github.com/GoogleChromeLabs/webpack-libs-optimizations)
+
+
+### Concatenação de ES modules
+
+Ligue a concatenação de ES modules, quando o webpack usava CommonJS, lá no webpack 1, cada módulo precisava ser englobado dentro de uma função, hoje, com o uso dos ES Modules a mesma função pode englobar vários módulos.
+
+Vale lembrar que ligar esta melhoria iria quebrar os módulos de hot-reload, por isso, essa configuração só deve ser usada em produção.
+
+{% highlight javascript %}
+const webpack = require('webpack');
+
+module.exports = {
+plugins: [
+    new webpack.optimize.ModuleConcatenationPlugin(),
+],
+};
+{% endhighlight %}
