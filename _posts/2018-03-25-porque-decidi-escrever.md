@@ -29,8 +29,6 @@ O problema que você passa, na maioria das vezes, vai ser o problema de outras p
 
 Dizem que um dos melhores modos de aprender é ensinar, discutir é outro meio, através de blog posts tenho a oportunidade de fazer ambos com uma gama enorme de pessoas!
 
-![Learn pyramid](https://www.permaculturenews.org/images/learning_pyramid.jpg)
-
 
 ### Marketing pessoal
 
@@ -46,6 +44,10 @@ Mas o ideal, que ainda pretendo atingir, é fazer ambos, então, no futuro, quan
 
 ### Qual tecnologia usar?
 Essa foi a parte mais fácil, tenho familiariedade com Jenkins e o [Willian Justen](http://willianjusten.com.br/) fez esse ótimo tema, obrigado Will, logo, preferi usar algo que facilitasse o meu dia a dia, como o Jenkins.
+
+Nunca trabalhei com Gulp antes, como o template usa Gulp, vi isso como uma oportunidade :)
+
+Apesar de ser um projeto relativamente pequeno, uso as melhores práticas como transformar a aplicação em PWA, SEO e acessibilidade.
 
 ### Considerações finais
 
