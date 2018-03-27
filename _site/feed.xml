@@ -5,9 +5,27 @@
     <description>Um blog sobre pessoas e tecnologia</description>
     <link>https://caio.ninja/</link>
     <atom:link href="https://caio.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Mar 2018 11:41:59 -0300</pubDate>
-    <lastBuildDate>Mon, 26 Mar 2018 11:41:59 -0300</lastBuildDate>
+    <pubDate>Tue, 27 Mar 2018 07:48:18 -0300</pubDate>
+    <lastBuildDate>Tue, 27 Mar 2018 07:48:18 -0300</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Performance Webpack Parte - 1</title>
+        <description>&lt;h1 id=&quot;performacne-webpack&quot;&gt;Performacne Webpack&lt;/h1&gt; &lt;p&gt;Essa é a primeira de um série de posts sobre performance Webpack, falei sobre este tema no JSSP, foi uma das talks que eu percebi mais interesse das pessoas.&lt;/p&gt; &lt;p&gt;Por isso acho justo compartilhar o tema em formato de blog posts, para disseminar esse conhecimento para quem não teve a chance de ir no meetup.&lt;/p&gt; &lt;p&gt;Sem mais delongas, vamos começar.&lt;/p&gt; &lt;p&gt;Os posts irão abordar os seguintes temas:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Diminuir o tamanho dos arquivos no Front-End&lt;/li&gt; &lt;li&gt;Melhorias de cache&lt;/li&gt; &lt;li&gt;Monitorar e analisar a aplicação&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Vamos começar por:&lt;/p&gt; &lt;h2 id=&quot;diminuir-o-tamanho-dos-arquivos-no-front-end&quot;&gt;Diminuir o tamanho dos arquivos no Front-End&lt;/h2&gt; &lt;h3 id=&quot;ligue-a-minificação&quot;&gt;Ligue...</description>
+        <pubDate>Tue, 27 Mar 2018 04:15:08 -0300</pubDate>
+        <link>https://caio.ninja/performance-webpack-parte-1/</link>
+        <guid isPermaLink="true">https://caio.ninja/performance-webpack-parte-1/</guid>
+        
+        <category>webpack</category>
+        
+        <category>web</category>
+        
+        <category>javascript</category>
+        
+        
+        <category>Webpack</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll</title>
