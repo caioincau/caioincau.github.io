@@ -9,7 +9,7 @@ tags:
 - web
 categories:
 - Pessoal
-twitter_text:
+twitter_text: "Porque decidi escrever"
 ---
 
 
