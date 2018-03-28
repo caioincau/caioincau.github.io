@@ -43,7 +43,7 @@ Não necessariamente, eu hoje, acredito que temos poucas opções de boa literat
 Mas o ideal, que ainda pretendo atingir, é fazer ambos, então, no futuro, quando tiver mais tempo, irei fazer um `/en` no site para leitores de fora.
 
 ### Qual tecnologia usar?
-Essa foi a parte mais fácil, tenho familiariedade com Jenkins e o [Willian Justen](http://willianjusten.com.br/) fez esse ótimo tema, obrigado Will, logo, preferi usar algo que facilitasse o meu dia a dia, como o Jenkins.
+Essa foi a parte mais fácil, tenho familiaridade com Jenkins e o [Willian Justen](http://willianjusten.com.br/) fez esse ótimo tema, obrigado Will, logo, preferi usar algo que facilitasse o meu dia a dia, como o Jenkins.
 
 Nunca trabalhei com Gulp antes, como o template usa Gulp, vi isso como uma oportunidade :)
 
