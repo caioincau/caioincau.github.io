@@ -259,3 +259,11 @@ plugins: [
 ],
 };
 {% endhighlight %}
+
+### Conclusão
+
+Por hoje é só pessoal, com isso cobrimos toda a parte de melhoria do nosso lado do código.
+
+Na próxima parte iremos abordar as melhorias de cache através do Webpack.
+
+Fiquem a vontade para comentar e sugerir alterações, abraços.
