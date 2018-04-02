@@ -13,7 +13,7 @@ categories:
 twitter_text: 'Melhorando a performance webpack'
 ---
 
-# Performacne Webpack
+# Performance Webpack
 
 Essa é a primeira de um série de posts sobre performance Webpack, falei sobre este tema no JSSP, foi uma das talks que eu percebi mais interesse das pessoas.
 
@@ -58,7 +58,7 @@ export function render(data, target) {
 }
 {% endhighlight %}
 
-#### Código após compile do webpack com babel
+#### Código após compile do Webpack com babel
 
 {% highlight javascript %}
 // bundle.js (part of)
@@ -84,7 +84,7 @@ Object.defineProperty(n,"__esModule",{value:!0}),n.render=t;var o=r(1);r.n(o)
 
 ### Minifique seu CSS
 
-Podemos realizar um processo similar com nosso css, mas para isso, precisamos ativar essa opção no seu loader.
+Podemos realizar um processo similar com nosso CSS, mas para isso, precisamos ativar essa opção no seu loader.
 
 Para os não familiarizados com webpack, os loaders são módulos que ensinam ao webpack, como lidar com cada tipo de arquivo.
 
@@ -162,7 +162,7 @@ Ainda falando em bibliotecas externas, podemos otimizar nossos imports também.
 
 ### Use ES imports!
 
-Quando você usa ES modules, o webpack é capaz de fazer o famoso `'tree-shaking'` e trazer somente o necessário dos arquivos importados.
+Quando você usa ES modules, o Webpack é capaz de fazer o famoso `'tree-shaking'` e trazer somente o necessário dos arquivos importados.
 
 Vamos pegar o seguinte código de exemplo:
 
@@ -246,7 +246,7 @@ Você pode ver essa e outras técnicas de otimização no [Chrome Labs](https://
 
 ### Concatenação de ES modules
 
-Ligue a concatenação de ES modules, quando o webpack usava CommonJS, lá no webpack 1, cada módulo precisava ser englobado dentro de uma função, hoje, com o uso dos ES Modules a mesma função pode englobar vários módulos.
+Ligue a concatenação de ES modules, quando o Webpack usava CommonJS, lá no Webpack 1, cada módulo precisava ser englobado dentro de uma função, hoje, com o uso dos ES Modules a mesma função pode englobar vários módulos.
 
 Vale lembrar que ligar esta melhoria iria quebrar os módulos de hot-reload, por isso, essa configuração só deve ser usada em produção.
 

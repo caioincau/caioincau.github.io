@@ -127,7 +127,7 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h1 id="performacne-webpack">Performacne Webpack</h1>
+                <h1 id="performance-webpack">Performance Webpack</h1>
 
 <p>Essa é a primeira de um série de posts sobre performance Webpack, falei sobre este tema no JSSP, foi uma das talks que eu percebi mais interesse das pessoas.</p>
 
@@ -169,7 +169,7 @@ O processo é simples usando o plugin UglifyJS:</p>
     <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Rendered!'</span><span class="p">);</span>
 <span class="p">}</span></code></pre></figure>
 
-<h4 id="código-após-compile-do-webpack-com-babel">Código após compile do webpack com babel</h4>
+<h4 id="código-após-compile-do-webpack-com-babel">Código após compile do Webpack com babel</h4>
 
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// bundle.js (part of)</span>
 <span class="s2">"use strict"</span><span class="p">;</span>
@@ -191,7 +191,7 @@ O processo é simples usando o plugin UglifyJS:</p>
 
 <h3 id="minifique-seu-css">Minifique seu CSS</h3>
 
-<p>Podemos realizar um processo similar com nosso css, mas para isso, precisamos ativar essa opção no seu loader.</p>
+<p>Podemos realizar um processo similar com nosso CSS, mas para isso, precisamos ativar essa opção no seu loader.</p>
 
 <p>Para os não familiarizados com webpack, os loaders são módulos que ensinam ao webpack, como lidar com cada tipo de arquivo.</p>
 
@@ -260,7 +260,7 @@ O processo é simples usando o plugin UglifyJS:</p>
 
 <h3 id="use-es-imports">Use ES imports!</h3>
 
-<p>Quando você usa ES modules, o webpack é capaz de fazer o famoso <code class="highlighter-rouge">'tree-shaking'</code> e trazer somente o necessário dos arquivos importados.</p>
+<p>Quando você usa ES modules, o Webpack é capaz de fazer o famoso <code class="highlighter-rouge">'tree-shaking'</code> e trazer somente o necessário dos arquivos importados.</p>
 
 <p>Vamos pegar o seguinte código de exemplo:</p>
 
@@ -335,7 +335,7 @@ O processo é simples usando o plugin UglifyJS:</p>
 
 <h3 id="concatenação-de-es-modules">Concatenação de ES modules</h3>
 
-<p>Ligue a concatenação de ES modules, quando o webpack usava CommonJS, lá no webpack 1, cada módulo precisava ser englobado dentro de uma função, hoje, com o uso dos ES Modules a mesma função pode englobar vários módulos.</p>
+<p>Ligue a concatenação de ES modules, quando o Webpack usava CommonJS, lá no Webpack 1, cada módulo precisava ser englobado dentro de uma função, hoje, com o uso dos ES Modules a mesma função pode englobar vários módulos.</p>
 
 <p>Vale lembrar que ligar esta melhoria iria quebrar os módulos de hot-reload, por isso, essa configuração só deve ser usada em produção.</p>
 
