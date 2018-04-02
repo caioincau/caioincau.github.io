@@ -214,7 +214,7 @@ No caso acima, transformamos em inline, qualquer imagem menor que 10kb, evitando
 
 ### LIB HELL
 
-Em média, mas da metade do JavaScript de uma aplicação vem de suas dependências, e parte disso pode ser simplesmente desnecessário.
+Em média, mais da metade do JavaScript de uma aplicação vem de suas dependências, e parte disso pode ser simplesmente desnecessário.
 
 Vamos citar alguns exemplos básicos, o Lodash tem 72 KB minificado, mas vamos chutar alto, quantos métodos dele vocês usam? 15, 20?
 
