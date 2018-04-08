@@ -5,13 +5,13 @@
     <description>Um blog sobre pessoas e tecnologia</description>
     <link>https://caio.ninja/</link>
     <atom:link href="https://caio.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 07 Apr 2018 10:57:18 -0300</pubDate>
-    <lastBuildDate>Sat, 07 Apr 2018 10:57:18 -0300</lastBuildDate>
+    <pubDate>Sun, 08 Apr 2018 10:51:06 -0300</pubDate>
+    <lastBuildDate>Sun, 08 Apr 2018 10:51:06 -0300</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
         <title>Performance Webpack Parte 2</title>
-        <description>&lt;h1 id=&quot;performance-webpack---parte-2&quot;&gt;Performance Webpack - Parte 2&lt;/h1&gt; &lt;p&gt;Vamos dar continuidade no &lt;a href=&quot;https://caio.ninja/performance-webpack-parte-1/&quot;&gt;post anterior&lt;/a&gt; sobre performance em aplicações que usam Webpack.&lt;/p&gt; &lt;p&gt;Nessa segunda parte iremos cobrir a parte de melhoria de cache e separação de código.&lt;/p&gt; &lt;h2 id=&quot;versionamento-de-cache&quot;&gt;Versionamento de cache&lt;/h2&gt; &lt;p&gt;Nós podemos tirar proveito do cache do navegador, mas para isso, precisamos invalidar o cache após realizarmos mudanças em nosso código, o meio mais comum de fazer isso, é mudando os nomes do arquivos.&lt;/p&gt; &lt;p&gt;Antigamente tínhamos o applications_v1.js, applications_v2.js e assim por diante.&lt;/p&gt; &lt;p&gt;Com o webpack podemos gerar um hash automático a cada build que houver alterações e usar essa variável...</description>
+        <description>&lt;h1 id=&quot;performance-webpack---parte-2&quot;&gt;Performance Webpack - Parte 2&lt;/h1&gt; &lt;p&gt;Vamos dar continuidade no &lt;a href=&quot;https://caio.ninja/performance-webpack-parte-1/&quot;&gt;post anterior&lt;/a&gt; sobre performance em aplicações que usam Webpack.&lt;/p&gt; &lt;p&gt;Nesse segundo post iremos cobrir a parte de melhoria de cache e separação de código.&lt;/p&gt; &lt;h2 id=&quot;versionamento-de-cache&quot;&gt;Versionamento de cache&lt;/h2&gt; &lt;p&gt;Nós podemos tirar proveito do &lt;a href=&quot;https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=pt-br&quot;&gt;cache do navegador&lt;/a&gt;, mas para isso, precisamos invalidar o cache após realizarmos mudanças em nosso código, o meio mais comum de fazer isso, é mudando os nomes do arquivos.&lt;/p&gt; &lt;p&gt;Antigamente tínhamos o applications_v1.js, applications_v2.js e assim por diante.&lt;/p&gt; &lt;p&gt;Com o webpack podemos gerar um hash automático a cada build que houver alterações e usar essa...</description>
         <pubDate>Tue, 03 Apr 2018 18:15:33 -0300</pubDate>
         <link>https://caio.ninja/performance-webpack-parte-2/</link>
         <guid isPermaLink="true">https://caio.ninja/performance-webpack-parte-2/</guid>

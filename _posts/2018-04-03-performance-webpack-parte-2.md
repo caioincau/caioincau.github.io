@@ -17,11 +17,11 @@ twitter_text: 'Melhorando a performance webpack'
 
 Vamos dar continuidade no [post anterior](https://caio.ninja/performance-webpack-parte-1/) sobre performance em aplicações que usam Webpack.
 
-Nessa segunda parte iremos cobrir a parte de melhoria de cache e separação de código.
+Nesse segundo post iremos cobrir a parte de melhoria de cache e separação de código.
 
 ## Versionamento de cache
 
-Nós podemos tirar proveito do cache do navegador, mas para isso, precisamos invalidar o cache após realizarmos mudanças em nosso código, o meio mais comum de fazer isso, é mudando os nomes do arquivos.
+Nós podemos tirar proveito do [cache do navegador](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=pt-br), mas para isso, precisamos invalidar o cache após realizarmos mudanças em nosso código, o meio mais comum de fazer isso, é mudando os nomes do arquivos.
 
 Antigamente tínhamos o applications_v1.js, applications_v2.js e assim por diante.
 
@@ -65,7 +65,7 @@ Lazy loading é uma técnica de desenvolvimento, na qual você trás os arquivos
 
 Sendo assim, não travamos o carregamento inicial da página para o usuário.
 
-Existe a função `import`, ela faz a requisição para trazer o arquivo e retorna uma `promisse`, que ao ser resolvida, possui as funções do script importado.
+Podemos fazer isso com o uso da função `import`, ela faz a requisição para trazer o arquivo e retorna uma `promisse`, que ao ser resolvida, possui as funções do script importado.
 
 Vamos supor que nós temos um página com uma seção de comentários, mas não queremos trazer os comentários de forma automática, queremos que os comentários sejam carregados apenas quando clicar em "ver comentários".
 
@@ -77,9 +77,11 @@ onShowCommentsClick(() => {
 });
 {% endhighlight %}
 
+Com o código acima, o arquivo de script `comments` só iria ser carregado no `click`.
+
 
 ## Code Split
-Podemos dividir nosso código em mais do que somente dependências e aplicação, podemos dividir nossa aplicação em várias partes, por exemplo, cada rota pode possuir seu código especifico.
+Podemos dividir nosso código em mais do que somente dependências e aplicação,  na verdade, podemos dividir nossa aplicação em quantas partes precisarmos, por exemplo, cada rota pode possuir seu código especifico.
 
 Para isso, é só adicionarmos mais entry points no nosso `webpack.config.js`.
 

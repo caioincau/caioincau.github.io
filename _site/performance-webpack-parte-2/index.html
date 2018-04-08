@@ -131,11 +131,11 @@
 
 <p>Vamos dar continuidade no <a href="https://caio.ninja/performance-webpack-parte-1/">post anterior</a> sobre performance em aplicações que usam Webpack.</p>
 
-<p>Nessa segunda parte iremos cobrir a parte de melhoria de cache e separação de código.</p>
+<p>Nesse segundo post iremos cobrir a parte de melhoria de cache e separação de código.</p>
 
 <h2 id="versionamento-de-cache">Versionamento de cache</h2>
 
-<p>Nós podemos tirar proveito do cache do navegador, mas para isso, precisamos invalidar o cache após realizarmos mudanças em nosso código, o meio mais comum de fazer isso, é mudando os nomes do arquivos.</p>
+<p>Nós podemos tirar proveito do <a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=pt-br">cache do navegador</a>, mas para isso, precisamos invalidar o cache após realizarmos mudanças em nosso código, o meio mais comum de fazer isso, é mudando os nomes do arquivos.</p>
 
 <p>Antigamente tínhamos o applications_v1.js, applications_v2.js e assim por diante.</p>
 
@@ -175,7 +175,7 @@
 
 <p>Sendo assim, não travamos o carregamento inicial da página para o usuário.</p>
 
-<p>Existe a função <code class="highlighter-rouge">import</code>, ela faz a requisição para trazer o arquivo e retorna uma <code class="highlighter-rouge">promisse</code>, que ao ser resolvida, possui as funções do script importado.</p>
+<p>Podemos fazer isso com o uso da função <code class="highlighter-rouge">import</code>, ela faz a requisição para trazer o arquivo e retorna uma <code class="highlighter-rouge">promisse</code>, que ao ser resolvida, possui as funções do script importado.</p>
 
 <p>Vamos supor que nós temos um página com uma seção de comentários, mas não queremos trazer os comentários de forma automática, queremos que os comentários sejam carregados apenas quando clicar em “ver comentários”.</p>
 
@@ -185,8 +185,10 @@
     <span class="p">});</span>
 <span class="p">});</span></code></pre></figure>
 
+<p>Com o código acima, o arquivo de script <code class="highlighter-rouge">comments</code> só iria ser carregado no <code class="highlighter-rouge">click</code>.</p>
+
 <h2 id="code-split">Code Split</h2>
-<p>Podemos dividir nosso código em mais do que somente dependências e aplicação, podemos dividir nossa aplicação em várias partes, por exemplo, cada rota pode possuir seu código especifico.</p>
+<p>Podemos dividir nosso código em mais do que somente dependências e aplicação,  na verdade, podemos dividir nossa aplicação em quantas partes precisarmos, por exemplo, cada rota pode possuir seu código especifico.</p>
 
 <p>Para isso, é só adicionarmos mais entry points no nosso <code class="highlighter-rouge">webpack.config.js</code>.</p>
 
