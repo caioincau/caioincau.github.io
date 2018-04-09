@@ -65,7 +65,7 @@ Lazy loading é uma técnica de desenvolvimento, na qual você trás os arquivos
 
 Sendo assim, não travamos o carregamento inicial da página para o usuário.
 
-Podemos fazer isso com o uso da função `import`, ela faz a requisição para trazer o arquivo e retorna uma `promisse`, que ao ser resolvida, possui as funções do script importado.
+Podemos fazer isso com o uso da função `import`, ela faz a requisição para trazer o arquivo e retorna uma `promise`, que ao ser resolvida, possui as funções do script importado.
 
 Vamos supor que nós temos um página com uma seção de comentários, mas não queremos trazer os comentários de forma automática, queremos que os comentários sejam carregados apenas quando clicar em "ver comentários".
 
