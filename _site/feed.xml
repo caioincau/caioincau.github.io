@@ -5,9 +5,27 @@
     <description>Um blog sobre pessoas e tecnologia</description>
     <link>https://caio.ninja/</link>
     <atom:link href="https://caio.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 08 Apr 2018 10:51:06 -0300</pubDate>
-    <lastBuildDate>Sun, 08 Apr 2018 10:51:06 -0300</lastBuildDate>
+    <pubDate>Thu, 12 Apr 2018 10:46:06 -0300</pubDate>
+    <lastBuildDate>Thu, 12 Apr 2018 10:46:06 -0300</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Performance Webpack - Final</title>
+        <description>&lt;h1 id=&quot;performance-webpack---parte-2&quot;&gt;Performance Webpack - Parte 2&lt;/h1&gt; &lt;p&gt;Vou dar continuidade no &lt;a href=&quot;https://caio.ninja/performance-webpack-parte-2/&quot;&gt;post anterior&lt;/a&gt; sobre performance em aplicações que usam Webpack.&lt;/p&gt; &lt;p&gt;Com este post, também concluo essa série&lt;/p&gt; &lt;p&gt;Nesse terceiro post irei abordar a parte de monitoria de performance na sua aplicação, focada, claro, na parte do bundle que seu webpack gera.&lt;/p&gt; &lt;p&gt;Não iremos cobrir temas como performance diretamente no navegador e afins, acredito que este tema já tenho sido amplamente explorado em outros sites.&lt;/p&gt; &lt;p&gt;Enfim, vamos ao post!&lt;/p&gt; &lt;h2 id=&quot;melhor-visualização-com-webpack-dashboard&quot;&gt;Melhor visualização com Webpack Dashboard&lt;/h2&gt; &lt;p&gt;Com esse plugin, nós podemos ver melhor todos os nossos módulos, sendo que ele mesmo nos...</description>
+        <pubDate>Thu, 12 Apr 2018 07:04:30 -0300</pubDate>
+        <link>https://caio.ninja/performance-webpack-final/</link>
+        <guid isPermaLink="true">https://caio.ninja/performance-webpack-final/</guid>
+        
+        <category>webpack</category>
+        
+        <category>web</category>
+        
+        <category>javascript</category>
+        
+        
+        <category>Webpack</category>
+        
+      </item>
     
       <item>
         <title>Performance Webpack Parte 2</title>

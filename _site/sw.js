@@ -1,7 +1,9 @@
-const staticCacheName = 'caio-incau-2018-04-08-10-51';
+const staticCacheName = 'caio-incau-2018-04-12-10-46';
 
 const filesToCache = [
   
+  
+    '/performance-webpack-final/',
   
     '/performance-webpack-parte-2/',
   
