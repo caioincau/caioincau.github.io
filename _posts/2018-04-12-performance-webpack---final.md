@@ -45,20 +45,20 @@ module.exports = {
 };
 {% endhighlight %}
 
-Mas isso só avisa o desenvolvedor enquanto ele estiver com o terminal aberto e como temos tendência a automatizar tudo, podemos automatizar essa monitoria com CI.
+Mas isso só avisa o desenvolvedor enquanto ele estiver com o terminal aberto e como nós, programadores, temos tendência a automatizar tudo, podemos automatizar essa monitoria com CI.
 
 ## Bundle size plugin
 
 ![Bundle size](/assets/img/webpack/bundlesize.jpg)
 
-Mas como vamos integrar? Primeiro instalamos no projeto
+Mas como vamos integrar? Primeiro instalamos no projeto:
 
 ```
 npm install bundlesize --save-dev
 ```
 
 Depois configuramos no `package.json`:
-```
+{% highlight javascript %}
 // package.json
 {
   "bundlesize": [
@@ -76,7 +76,7 @@ Depois configuramos no `package.json`:
     }
   ]
 }
-```
+{% endhighlight %}
 
 Repare que podemos criar diversar regras, no primeiro caso, limitamos os arquivos `.png` em no máximo 16kb.
 
@@ -90,6 +90,34 @@ Mas e se o chunk estourar o tamanho? Temos um modo fácil de diagnosticar o prob
 
 ![Bundle size](/assets/img/webpack/analyzer.gif)
 
-Aqui podemos ver quais as dependências são responsáveis por inflar nossos chunks.
+Com esse plugin, podemos:
 
-Para rodarmos essa análise:
+* Ver o que temos dentro do nosso bundle.
+* Encontrar que módulos inflam mais nossos bundles
+* Encontrar módulos que estão lá por engano
+* Otimizar!
+
+
+Para rodarmos essa análise, precisamos instalar o `webpack-analyzer`.
+
+{% highlight javascript %}
+  npm install webpack-bundle-analyzer --save-dev
+{% endhighlight %}
+
+E adicionar seu plugin no webpack:
+
+{% highlight javascript %}
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+
+module.exports = {
+    plugins: [
+        new BundleAnalyzerPlugin(),
+    ],
+};
+{% endhighlight %}
+
+## Conclusão
+
+Com este post terminamos nossa série sobre otimizações de performance em Webpack, espero que tenham gostado.
+
+Deixem seu feedback abaixo e espalhem a palavra do Webpack ❤

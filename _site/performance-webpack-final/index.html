@@ -157,36 +157,36 @@
   <span class="p">],</span>
 <span class="p">};</span></code></pre></figure>
 
-<p>Mas isso só avisa o desenvolvedor enquanto ele estiver com o terminal aberto e como temos tendência a automatizar tudo, podemos automatizar essa monitoria com CI.</p>
+<p>Mas isso só avisa o desenvolvedor enquanto ele estiver com o terminal aberto e como nós, programadores, temos tendência a automatizar tudo, podemos automatizar essa monitoria com CI.</p>
 
 <h2 id="bundle-size-plugin">Bundle size plugin</h2>
 
 <p><img src="/assets/img/webpack/bundlesize.jpg" alt="Bundle size" /></p>
 
-<p>Mas como vamos integrar? Primeiro instalamos no projeto</p>
+<p>Mas como vamos integrar? Primeiro instalamos no projeto:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm install bundlesize --save-dev
 </code></pre></div></div>
 
 <p>Depois configuramos no <code class="highlighter-rouge">package.json</code>:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// package.json
-{
-  "bundlesize": [
-    {
-      "path": "./dist/*.png",
-      "maxSize": "16 kB",
-    },
-    {
-      "path": "./dist/main.*.js",
-      "maxSize": "20 kB",
-    },
-    {
-      "path": "./dist/vendors.*.js",
-      "maxSize": "35 kB",
-    }
-  ]
-}
-</code></pre></div></div>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// package.json</span>
+<span class="p">{</span>
+  <span class="s2">"bundlesize"</span><span class="p">:</span> <span class="p">[</span>
+    <span class="p">{</span>
+      <span class="s2">"path"</span><span class="p">:</span> <span class="s2">"./dist/*.png"</span><span class="p">,</span>
+      <span class="s2">"maxSize"</span><span class="p">:</span> <span class="s2">"16 kB"</span><span class="p">,</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="s2">"path"</span><span class="p">:</span> <span class="s2">"./dist/main.*.js"</span><span class="p">,</span>
+      <span class="s2">"maxSize"</span><span class="p">:</span> <span class="s2">"20 kB"</span><span class="p">,</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="s2">"path"</span><span class="p">:</span> <span class="s2">"./dist/vendors.*.js"</span><span class="p">,</span>
+      <span class="s2">"maxSize"</span><span class="p">:</span> <span class="s2">"35 kB"</span><span class="p">,</span>
+    <span class="p">}</span>
+  <span class="p">]</span>
+<span class="p">}</span></code></pre></figure>
 
 <p>Repare que podemos criar diversar regras, no primeiro caso, limitamos os arquivos <code class="highlighter-rouge">.png</code> em no máximo 16kb.</p>
 
@@ -200,9 +200,34 @@
 
 <p><img src="/assets/img/webpack/analyzer.gif" alt="Bundle size" /></p>
 
-<p>Aqui podemos ver quais as dependências são responsáveis por inflar nossos chunks.</p>
+<p>Com esse plugin, podemos:</p>
 
-<p>Para rodarmos essa análise:</p>
+<ul>
+  <li>Ver o que temos dentro do nosso bundle.</li>
+  <li>Encontrar que módulos inflam mais nossos bundles</li>
+  <li>Encontrar módulos que estão lá por engano</li>
+  <li>Otimizar!</li>
+</ul>
+
+<p>Para rodarmos essa análise, precisamos instalar o <code class="highlighter-rouge">webpack-analyzer</code>.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript">  <span class="nx">npm</span> <span class="nx">install</span> <span class="nx">webpack</span><span class="o">-</span><span class="nx">bundle</span><span class="o">-</span><span class="nx">analyzer</span> <span class="o">--</span><span class="nx">save</span><span class="o">-</span><span class="nx">dev</span></code></pre></figure>
+
+<p>E adicionar seu plugin no webpack:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">const</span> <span class="nx">BundleAnalyzerPlugin</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'webpack-bundle-analyzer'</span><span class="p">).</span><span class="nx">BundleAnalyzerPlugin</span><span class="p">;</span>
+
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="na">plugins</span><span class="p">:</span> <span class="p">[</span>
+        <span class="k">new</span> <span class="nx">BundleAnalyzerPlugin</span><span class="p">(),</span>
+    <span class="p">],</span>
+<span class="p">};</span></code></pre></figure>
+
+<h2 id="conclusão">Conclusão</h2>
+
+<p>Com este post terminamos nossa série sobre otimizações de performance em Webpack, espero que tenham gostado.</p>
+
+<p>Deixem seu feedback abaixo e espalhem a palavra do Webpack ❤</p>
 
             </article>
 
