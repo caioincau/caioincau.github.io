@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Performance Webpack Parte 2"
+title: "Performance Webpack - Final"
 date: 2018-04-03 21:15:33
 image: '/assets/img/'
 description:
@@ -13,7 +13,7 @@ categories:
 twitter_text: 'Melhorando a performance webpack'
 ---
 
-# Performance Webpack - Parte 2
+# Performance Webpack - Final
 
 Vamos dar continuidade no [post anterior](https://caio.ninja/performance-webpack-parte-1/) sobre performance em aplicações que usam Webpack.
 
