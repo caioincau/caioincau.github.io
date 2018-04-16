@@ -5,13 +5,13 @@
     <description>Um blog sobre pessoas e tecnologia</description>
     <link>https://caio.ninja/</link>
     <atom:link href="https://caio.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 Apr 2018 10:27:20 -0300</pubDate>
-    <lastBuildDate>Mon, 16 Apr 2018 10:27:20 -0300</lastBuildDate>
+    <pubDate>Mon, 16 Apr 2018 10:39:36 -0300</pubDate>
+    <lastBuildDate>Mon, 16 Apr 2018 10:39:36 -0300</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
         <title>Performance Webpack - Final</title>
-        <description>&lt;h1 id=&quot;performance-webpack---parte-2&quot;&gt;Performance Webpack - Parte 2&lt;/h1&gt; &lt;p&gt;Vou dar continuidade no &lt;a href=&quot;https://caio.ninja/performance-webpack-parte-2/&quot;&gt;post anterior&lt;/a&gt; sobre performance em aplicações que usam Webpack.&lt;/p&gt; &lt;p&gt;Com este post, também concluo essa série&lt;/p&gt; &lt;p&gt;Nesse terceiro post irei abordar a parte de monitoria de performance na sua aplicação, focada, claro, na parte do bundle que seu webpack gera.&lt;/p&gt; &lt;p&gt;Não iremos cobrir temas como performance diretamente no navegador e afins, acredito que este tema já tenho sido amplamente explorado em outros sites.&lt;/p&gt; &lt;p&gt;Enfim, vamos ao post!&lt;/p&gt; &lt;h2 id=&quot;melhor-visualização-com-webpack-dashboard&quot;&gt;Melhor visualização com Webpack Dashboard&lt;/h2&gt; &lt;p&gt;Com esse plugin, nós podemos ver melhor todos os nossos módulos, sendo que ele mesmo nos...</description>
+        <description>&lt;h1 id=&quot;performance-webpack---final&quot;&gt;Performance Webpack - Final&lt;/h1&gt; &lt;p&gt;Vou dar continuidade no &lt;a href=&quot;https://caio.ninja/performance-webpack-parte-2/&quot;&gt;post anterior&lt;/a&gt; sobre performance em aplicações que usam Webpack.&lt;/p&gt; &lt;p&gt;Com este post, também concluo essa série&lt;/p&gt; &lt;p&gt;Nesse terceiro post irei abordar a parte de monitoria de performance na sua aplicação, focada, claro, na parte do bundle que seu webpack gera.&lt;/p&gt; &lt;p&gt;Não iremos cobrir temas como performance diretamente no navegador e afins, acredito que este tema já tenho sido amplamente explorado em outros sites.&lt;/p&gt; &lt;p&gt;Enfim, vamos ao post!&lt;/p&gt; &lt;h2 id=&quot;melhor-visualização-com-webpack-dashboard&quot;&gt;Melhor visualização com Webpack Dashboard&lt;/h2&gt; &lt;p&gt;Com esse plugin, nós podemos ver melhor todos os nossos módulos, sendo que ele mesmo nos envia...</description>
         <pubDate>Thu, 12 Apr 2018 07:04:30 -0300</pubDate>
         <link>https://caio.ninja/performance-webpack-final/</link>
         <guid isPermaLink="true">https://caio.ninja/performance-webpack-final/</guid>
@@ -28,8 +28,8 @@
       </item>
     
       <item>
-        <title>Performance Webpack - Final</title>
-        <description>&lt;h1 id=&quot;performance-webpack---final&quot;&gt;Performance Webpack - Final&lt;/h1&gt; &lt;p&gt;Vamos dar continuidade no &lt;a href=&quot;https://caio.ninja/performance-webpack-parte-1/&quot;&gt;post anterior&lt;/a&gt; sobre performance em aplicações que usam Webpack.&lt;/p&gt; &lt;p&gt;Nesse segundo post iremos cobrir a parte de melhoria de cache e separação de código.&lt;/p&gt; &lt;h2 id=&quot;versionamento-de-cache&quot;&gt;Versionamento de cache&lt;/h2&gt; &lt;p&gt;Nós podemos tirar proveito do &lt;a href=&quot;https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=pt-br&quot;&gt;cache do navegador&lt;/a&gt;, mas para isso, precisamos invalidar o cache após realizarmos mudanças em nosso código, o meio mais comum de fazer isso, é mudando os nomes do arquivos.&lt;/p&gt; &lt;p&gt;Antigamente tínhamos o applications_v1.js, applications_v2.js e assim por diante.&lt;/p&gt; &lt;p&gt;Com o webpack podemos gerar um hash automático a cada build que houver alterações e usar essa variável...</description>
+        <title>Performance Webpack Parte 2</title>
+        <description>&lt;h1 id=&quot;performance-webpack---parte-2&quot;&gt;Performance Webpack - Parte 2&lt;/h1&gt; &lt;p&gt;Vamos dar continuidade no &lt;a href=&quot;https://caio.ninja/performance-webpack-parte-1/&quot;&gt;post anterior&lt;/a&gt; sobre performance em aplicações que usam Webpack.&lt;/p&gt; &lt;p&gt;Nesse segundo post iremos cobrir a parte de melhoria de cache e separação de código.&lt;/p&gt; &lt;h2 id=&quot;versionamento-de-cache&quot;&gt;Versionamento de cache&lt;/h2&gt; &lt;p&gt;Nós podemos tirar proveito do &lt;a href=&quot;https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=pt-br&quot;&gt;cache do navegador&lt;/a&gt;, mas para isso, precisamos invalidar o cache após realizarmos mudanças em nosso código, o meio mais comum de fazer isso, é mudando os nomes do arquivos.&lt;/p&gt; &lt;p&gt;Antigamente tínhamos o applications_v1.js, applications_v2.js e assim por diante.&lt;/p&gt; &lt;p&gt;Com o webpack podemos gerar um hash automático a cada build que houver alterações e usar essa...</description>
         <pubDate>Tue, 03 Apr 2018 18:15:33 -0300</pubDate>
         <link>https://caio.ninja/performance-webpack-parte-2/</link>
         <guid isPermaLink="true">https://caio.ninja/performance-webpack-parte-2/</guid>

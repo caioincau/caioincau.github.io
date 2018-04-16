@@ -13,7 +13,7 @@ categories:
 twitter_text: 'Melhorando a performance webpack'
 ---
 
-# Performance Webpack - Parte 2
+# Performance Webpack - Final
 
 Vou dar continuidade no [post anterior](https://caio.ninja/performance-webpack-parte-2/) sobre performance em aplicações que usam Webpack.
 
