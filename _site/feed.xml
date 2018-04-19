@@ -5,9 +5,19 @@
     <description>Um blog sobre pessoas e tecnologia</description>
     <link>https://caio.ninja/</link>
     <atom:link href="https://caio.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 Apr 2018 10:39:36 -0300</pubDate>
-    <lastBuildDate>Mon, 16 Apr 2018 10:39:36 -0300</lastBuildDate>
+    <pubDate>Thu, 19 Apr 2018 16:37:34 -0300</pubDate>
+    <lastBuildDate>Thu, 19 Apr 2018 16:37:34 -0300</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Não seja cuzão</title>
+        <description>&lt;p&gt;O título deste post, poderia ser impresso e colado em metade das empresas que conheço, quem nunca trabalhou com um Dev que é básicamente o senhor da razão?&lt;/p&gt; &lt;h2 id=&quot;o-profissional-unicórnio&quot;&gt;O profissional “unicórnio”&lt;/h2&gt; &lt;p&gt;Na área de desenvolvimento de software criou-se um mito do profissional “Unicórnio” (também conhecido como Jedi/Ninja ou qualquer outro adjetivo que espresse maestria), o que começou como uma brincadeira para rotular bons profissionais, foi levado a sério demais pelas empresas.&lt;/p&gt; &lt;p&gt;Quem nunca viu alguma com esses títulos? Pois é, até mesmo o RH está usando estes termos.&lt;/p&gt; &lt;p&gt;Mas qual o problema dele ser rotulado deste modo? Sinceramente, nenhum,...</description>
+        <pubDate>Thu, 19 Apr 2018 11:41:37 -0300</pubDate>
+        <link>https://caio.ninja/nao-seja-cuzao/</link>
+        <guid isPermaLink="true">https://caio.ninja/nao-seja-cuzao/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Performance Webpack - Final</title>
