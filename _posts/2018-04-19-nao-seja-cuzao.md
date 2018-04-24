@@ -20,7 +20,7 @@ Na área de desenvolvimento de software criou-se um mito do profissional "Unicó
 
 Quem nunca viu alguma com esses títulos? Pois é, até mesmo o RH está usando estes termos.
 
-Mas qual o problema dele ser rotulado deste modo? Sinceramente, nenhum, como vocês podem perceber, o domínio sob o qual este site está sendo servido é `caio.ninja`.
+Mas qual o problema dele ser rotulado deste modo? Sinceramente, nenhum, como vocês podem perceber, o domínio sob o qual este site está servido é `caio.ninja`.
 
 O problema ocorre quando este título vem acompanhando com outra característica, o "ser cuzão".
 
