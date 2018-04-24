@@ -5,8 +5,8 @@
     <description>Um blog sobre pessoas e tecnologia</description>
     <link>https://caio.ninja/</link>
     <atom:link href="https://caio.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 Apr 2018 08:34:50 -0300</pubDate>
-    <lastBuildDate>Tue, 24 Apr 2018 08:34:50 -0300</lastBuildDate>
+    <pubDate>Tue, 24 Apr 2018 08:39:40 -0300</pubDate>
+    <lastBuildDate>Tue, 24 Apr 2018 08:39:40 -0300</lastBuildDate>
     <generator>Jekyll v3.8.0</generator>
     
       <item>
@@ -15,6 +15,10 @@
         <pubDate>Thu, 19 Apr 2018 11:41:37 -0300</pubDate>
         <link>https://caio.ninja/nao-seja-cuzao/</link>
         <guid isPermaLink="true">https://caio.ninja/nao-seja-cuzao/</guid>
+        
+        <category>pessoal</category>
+        
+        <category>carreira</category>
         
         
       </item>

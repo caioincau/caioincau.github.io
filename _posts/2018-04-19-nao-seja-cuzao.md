@@ -5,8 +5,10 @@ date: 2018-04-19 14:41:37
 image: '/assets/img/'
 description:
 tags:
+- pessoal
+- carreira
 categories:
-twitter_text:
+twitter_text: "Não seja um dev cuzão"
 ---
 
 
@@ -59,6 +61,8 @@ Não, e vou apontar os motivos:
 Veja que um cara desses, mesmo que produza muito, irá atrapalhar o time todo, além de como dito, deficiência técnica se concerta.
 
 ## Conclusão
+
+![Netflix](/assets/img/jerk/brilliantjerks.jpg)
 
 Se você sofre com isso na sua empresa, então os seus gestores estão falhando em identificar e corrigir esse tipo de atitude.
 
