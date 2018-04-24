@@ -28,17 +28,17 @@ O cuzão se parece como um dev normal, se veste como um dev normal, mas é nas s
 
 Atitudes comuns de um cuzão:
 
-- Achar que o código/solução dele é melhor do que a equipe toda, independente dos argumentos.
+ \- Achar que o código/solução dele é melhor do que a equipe toda, independente dos argumentos.
 
-- Fingir que argumenta, mas no fundo ele só repete a própria opinião por várias vezes.
+ \- Fingir que argumenta, mas no fundo ele só repete a própria opinião por várias vezes.
 
-- Acredita que todos em volta são inferiores.
+ \- Acredita que todos em volta são inferiores.
 
-- Tenta se livrar o mais rápido possível de alguém que pede ajuda.
+ \- Tenta se livrar o mais rápido possível de alguém que pede ajuda.
 
-- Acha que ser honesto/transparente é poder falar sem filtro e de forma ofensiva.
+ \- Acha que ser honesto/transparente é poder falar sem filtro e de forma ofensiva.
 
-- Não escreve documentação, o código dele é lindo e 100% auto explicativo, sempre.
+ \- Não escreve documentação, o código dele é lindo e 100% auto explicativo, sempre.
 
 Mas mesmo com todas essas atitudes o cara ainda esta lá, incrível, não?
 
@@ -48,13 +48,13 @@ Pois no geral, eles são pessoas realmente talentosas no que fazem e se esforça
 
 Não, e vou apontar os motivos:
 
-- O cara vai acabar com a moral do time e por mais que ele produza bem, o resto da equipe irá produzir menos por estar com a moral abalada.
+ \- O cara vai acabar com a moral do time e por mais que ele produza bem, o resto da equipe irá produzir menos por estar com a moral abalada.
 
-- Deficiência técnica pode ser consertada facilmente, temos livros, cursos, mentoria e muitos outros meios, já deficiência de caráter é bem mais complicado.
+ \- Deficiência técnica pode ser consertada facilmente, temos livros, cursos, mentoria e muitos outros meios, já deficiência de caráter é bem mais complicado.
 
-- Você está arriscando perder boas pessoas do time que interagem com ele.
+ \- Você está arriscando perder boas pessoas do time que interagem com ele.
 
-- Ele irá impedir o crescimento das pessoas a sua volta, seja diretamente ao não compartilhar conhecimento de forma empática ou só pelo fato de desincentivar as pessoas em volta.
+ \- Ele irá impedir o crescimento das pessoas a sua volta, seja diretamente ao não compartilhar conhecimento de forma empática ou só pelo fato de desincentivar as pessoas em volta.
 
 Veja que um cara desses, mesmo que produza muito, irá atrapalhar o time todo, além de como dito, deficiência técnica se concerta.
 
