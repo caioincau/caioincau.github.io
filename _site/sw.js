@@ -1,7 +1,9 @@
-const staticCacheName = 'caio-incau-2018-04-24-08-43';
+const staticCacheName = 'caio-incau-2018-05-21-09-26';
 
 const filesToCache = [
   
+  
+    '/economize-com-o-cart%C3%A3o-de-cr%C3%A9dito/',
   
     '/nao-seja-cuzao/',
   
