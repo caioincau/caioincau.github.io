@@ -80,4 +80,4 @@ Ou seja, você economizou R$600/ano, fora o que o seu dinheiro rendeu ao ser apl
 
 Nesse post vimos o modo mais genérico de se economizar, mas que ainda sim é de grande valia, imagina uma viagem internacional todo ano, pagando apenas hospedagem? Pois é, você pode estar perdendo isto, só de não seguir o básico desse post.
 
-No próximo posts irei citar os programas de benefício dos cartões, é neste ponto que se pode tirar grande proveito dos cartões.
+No próximo post irei citar os programas de benefício dos cartões, é neste ponto que se pode tirar grande proveito dos cartões.
