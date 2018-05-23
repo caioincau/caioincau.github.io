@@ -18,7 +18,7 @@ twitter_text: "Economize usando seu cartão de crédito"
 
 O título parece clickbait não é mesmo?
 
-Muitas pessoas treme só de ouvir “cartão de crédito”,  mas é verdade, eu cheguei a economizar R$4000 nos últimos doze meses, só com as dicas que vou passar nesses dois posts.
+Muitas pessoas tremem só de ouvir “cartão de crédito”,  mas é verdade, eu cheguei a economizar R$4000 nos últimos doze meses, só com as dicas que vou passar nesses dois posts.
 
 ## Centralize seus gastos
 
