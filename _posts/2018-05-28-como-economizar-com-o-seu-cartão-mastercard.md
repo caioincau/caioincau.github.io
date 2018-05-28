@@ -106,7 +106,7 @@ Vale a ressalva de que esse benefício varia de banco para banco, alguns cobram 
 
 ### Cartões elegíveis: Black
 
-Outra situação inconveniente, atrasar ou perder uma bagagem pode arruinar sua viagem, pois bem, se sua viagem atrasar de 4 horas há 4 dias, você pode pedir até U$600 de reembolso para compras de emergência como roupas, higiene pessoal e afins.
+Outra situação inconveniente, atrasar ou perder uma bagagem pode arruinar sua viagem, pois bem, se sua bagagem atrasar de 4 horas há 4 dias, você pode pedir até U$600 de reembolso para compras de emergência como roupas, higiene pessoal e afins.
 
 Se o atraso for superior, é considerado perda e o limite sobe para U$3000.
 
