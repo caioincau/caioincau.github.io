@@ -38,7 +38,7 @@ Claro que existem N limitações, mas é possível recuperar até U$100 na compr
 
 ### Cartões elegíveis: Gold, Platinum e Black
 
-Outra situação chata: o vendedro da loja, te oferecendo garantia estendida a qualquer custo.
+Outra situação chata: o vendedor da loja, te oferecendo garantia estendida a qualquer custo.
 
 Sabia que é possível obter essa garantia de graça?
 
