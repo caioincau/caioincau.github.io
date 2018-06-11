@@ -1,4 +1,4 @@
-const staticCacheName = 'caio-incau-2018-06-11-14-05';
+const staticCacheName = 'caio-incau-2018-06-11-14-08';
 
 const filesToCache = [
   
