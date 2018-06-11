@@ -19,9 +19,9 @@ Algo semelhante ocorreu na área de tecnologia e foi levado ao extremo em desenv
 
 ## Mas palestrar é ruim?
 
-Não, muito pelo contrário, palestrar é ótimo e eu recomendo que você tente pelo menos uma vez, para ver se é algo que você gosta, se você não sabe por onde começar, existe o [Help4Papers](http://help4papers.com.br/), também tem meu twitter [@iCaioIncau](http://twitter.com/iCaioIncau), fique a vontade para tirar dúvidas e afins.
+Não, muito pelo contrário, palestrar é ótimo e eu recomendo que você tente pelo menos uma vez, para ver se é algo que você gosta, se você não sabe por onde começar, o [Help4Papers](http://help4papers.com.br/) pode te ajudar, também tem meu twitter [@iCaioIncau](http://twitter.com/iCaioIncau), fique a vontade para tirar dúvidas e afins.
 
-O motivo deste post, não é tirar seu incentivo para motivar, mas mostrar que existem outros caminhos para evoluir.
+O motivo deste post, não é tirar seu incentivo para palestrar, mas mostrar que existem outros caminhos para evoluir.
 
 ## Palestrar me faz um profissional melhor?
 
