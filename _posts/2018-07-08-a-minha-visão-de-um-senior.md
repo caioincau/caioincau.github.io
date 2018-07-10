@@ -10,7 +10,7 @@ categories:
 twitter_text: "A minha visão de um Senior"
 ---
 
-Esse mês rolou um caso que me perturbou um pouco:
+Pouco tempo atrás, ouvi uma frase que me perturbou um pouco:
 
 > Meu sonho é ser um Senior super respeitado, onde "ninguém encosta", que digam "Nossa, se eu não sei resolver, vou perguntar para o Fulano, por que ele sempre sabe."
 
