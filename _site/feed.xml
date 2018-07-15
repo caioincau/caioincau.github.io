@@ -5,9 +5,25 @@
     <description>Um blog sobre pessoas e tecnologia</description>
     <link>https://caio.ninja/</link>
     <atom:link href="https://caio.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Jul 2018 09:56:41 -0300</pubDate>
-    <lastBuildDate>Tue, 10 Jul 2018 09:56:41 -0300</lastBuildDate>
-    <generator>Jekyll v3.8.3</generator>
+    <pubDate>Sat, 14 Jul 2018 21:06:24 -0300</pubDate>
+    <lastBuildDate>Sat, 14 Jul 2018 21:06:24 -0300</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Cuidado com os heróis</title>
+        <description>&lt;h2 id=&quot;introdução&quot;&gt;Introdução&lt;/h2&gt; &lt;blockquote&gt; &lt;p&gt;“Ou você morre como herói, ou vive o bastante para se tornar o vilão” - Harvey Dent&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Acho que a maioria dos meu conhecidos próximos(está no cabeçalho do meu site também), sabe que sou um grande fã do Batman, um ser humano “comum”, mas que é capaz de ajudar e fazer o bem para milhares de pessoas, usando apenas sua força de vontade(e algum dinheiro).&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;https://instagram.fcgh5-1.fna.fbcdn.net/vp/50f65bcbb575ae4a8c022adaae233628/5BCE4878/t51.2885-15/e35/18298975_252458728494827_6420062353227776000_n.jpg&quot; alt=&quot;Estátua do Batman&quot; /&gt; &lt;em&gt;Eu carregando uma das minhas estátuas do morcego&lt;/em&gt;&lt;/p&gt; &lt;h2 id=&quot;quem-são-os-heróis-em-desenvolvimento-de-software&quot;&gt;Quem são os heróis em desenvolvimento de software?&lt;/h2&gt; &lt;p&gt;Heróis são aqueles que estão sempre vigiando, são...</description>
+        <pubDate>Sat, 14 Jul 2018 16:51:48 -0300</pubDate>
+        <link>https://caio.ninja/cuidado-com-os-her%C3%B3is/</link>
+        <guid isPermaLink="true">https://caio.ninja/cuidado-com-os-her%C3%B3is/</guid>
+        
+        <category>pessoal</category>
+        
+        <category>carreira</category>
+        
+        <category>gestão</category>
+        
+        
+      </item>
     
       <item>
         <title>A minha visão de um Senior</title>
