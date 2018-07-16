@@ -37,8 +37,6 @@ Não me entenda errado, é sempre bom, ter pessoas de confiança em sua equipe, 
 
 O Dev herói pode se sentir bem e valorizado por ter salvado o dia, prevenido uma perda de dinheiro para a empresa e isso tem realmente valor, mas com o tempo, o herói se cansa, ser herói é algo exaustivo.
 
-![Batman aposentado](http://2.bp.blogspot.com/-E4YHVp0WkW0/UjMtpq-tshI/AAAAAAAA-JU/KBrBj6Bhbc4/s1600/pdc_batmanold.jpg)
-
 Muitas vezes o herói acaba recebendo o seu "Batphone", onde ele será chamado pelo seu gerente para resolver uma crise, atrapalhando assim sua vida social.
 
 Em um curto período esse Dev irá desanimar do seu trabalho, poucas pessoas gostam de trabalhar apagando incêndio, sinceramente, não conheço ninguém que fique realmente feliz em ser acordado de madrugada para corrigir um bug.
