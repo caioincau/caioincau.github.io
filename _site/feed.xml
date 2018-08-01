@@ -5,9 +5,25 @@
     <description>Um blog sobre pessoas e tecnologia</description>
     <link>https://caio.ninja/</link>
     <atom:link href="https://caio.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 Jul 2018 08:19:36 -0300</pubDate>
-    <lastBuildDate>Mon, 16 Jul 2018 08:19:36 -0300</lastBuildDate>
+    <pubDate>Wed, 01 Aug 2018 08:37:01 -0300</pubDate>
+    <lastBuildDate>Wed, 01 Aug 2018 08:37:01 -0300</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Cultura de debate</title>
+        <description>&lt;h1 id=&quot;cultura-de-debate&quot;&gt;Cultura de debate&lt;/h1&gt; &lt;p&gt;Estamos em uma época, onde, mais do que nunca, as pessoas começaram a ter voz, a serem realmente empoderadas, e por que não, portar isto para as empresas? Principalmente na área de desenvolvimento, nesta área, somos pagos para trabalhar, quase que exclusivamente, com nosso cérebro, então, por que não vamos usar ele por completo?&lt;/p&gt; &lt;h2 id=&quot;incentive-discussões&quot;&gt;Incentive discussões&lt;/h2&gt; &lt;p&gt;Discutir é saudável, desde que feito de forma respeitosa, discussões podem inclusive serem acaloradas, mas precisam ser livres de ego e cheias de fatos, já ouviu o famoso jargão, “contra fatos não há argumentos?”, pois é, quase sempre, isso...</description>
+        <pubDate>Wed, 01 Aug 2018 05:34:32 -0300</pubDate>
+        <link>https://caio.ninja/cultura-de-debate/</link>
+        <guid isPermaLink="true">https://caio.ninja/cultura-de-debate/</guid>
+        
+        <category>pessoal</category>
+        
+        <category>carreira</category>
+        
+        <category>gestão</category>
+        
+        
+      </item>
     
       <item>
         <title>Cuidado com os heróis</title>
@@ -162,22 +178,6 @@
         
         
         <category>Webpack</category>
-        
-      </item>
-    
-      <item>
-        <title>Porque decidi escrever</title>
-        <description>&lt;h2 id=&quot;por-que-escrever&quot;&gt;Por que escrever?&lt;/h2&gt; &lt;h3 id=&quot;disseminar-conhecimento&quot;&gt;Disseminar conhecimento&lt;/h3&gt; &lt;p&gt;Há algum tempo atrás tive a chance de conhecer um ótimo profissional chamado &lt;a href=&quot;https://www.linkedin.com/in/fabiano-beselga-5885a714/&quot;&gt;Fabiano Beselga&lt;/a&gt;, ele me questionou sobre como eu participava da comunidade e afins.&lt;/p&gt; &lt;p&gt;Durante o papo foi levantado, por que não fazer posts? Eu participo bastante de eventos da comunidade de Front End em SP, mas apenas participar dos eventos e não divulgar online é limitar o acesso das pessoas, as informações que passo nas talks.&lt;/p&gt; &lt;h3 id=&quot;solucionar-problemas&quot;&gt;Solucionar problemas&lt;/h3&gt; &lt;p&gt;O problema que você passa, na maioria das vezes, vai ser o problema de outras pessoas, logo postar sobre isso...</description>
-        <pubDate>Sun, 25 Mar 2018 06:08:44 -0300</pubDate>
-        <link>https://caio.ninja/porque-decidi-escrever/</link>
-        <guid isPermaLink="true">https://caio.ninja/porque-decidi-escrever/</guid>
-        
-        <category>pessoal</category>
-        
-        <category>web</category>
-        
-        
-        <category>Pessoal</category>
         
       </item>
     
