@@ -5,9 +5,31 @@
     <description>Um blog sobre pessoas e tecnologia</description>
     <link>https://caio.ninja/</link>
     <atom:link href="https://caio.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Aug 2018 08:37:01 -0300</pubDate>
-    <lastBuildDate>Wed, 01 Aug 2018 08:37:01 -0300</lastBuildDate>
+    <pubDate>Tue, 09 Oct 2018 08:25:59 -0300</pubDate>
+    <lastBuildDate>Tue, 09 Oct 2018 08:25:59 -0300</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Não corte o cafézinho</title>
+        <description>&lt;p&gt;Educação financeira virou moda nos últimos anos, não me entenda mal, acho isso incrível e acredito que teríamos uma população muito mais saudável mental e fisicamente, se isto fosse ensinado no ensino de base.&lt;/p&gt; &lt;p&gt;O problema é que no desespero de se diferenciar ao gerar conteúdo em um mercado quase que saturado, aparecem fórmulas mágicas de “enriquecimento”, uma das mais famosas, são as contas de boteco, onde dizem para você cortar X ou Y e economizar um valor alto nos próximos 20-30 anos.&lt;/p&gt; &lt;h2 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h2&gt; &lt;p&gt;Sem dúvidas, esse texto não se aplica a todo mundo, estou supondo aqui, que quem...</description>
+        <pubDate>Tue, 09 Oct 2018 05:24:41 -0300</pubDate>
+        <link>https://caio.ninja/nao-corte-o-cafezinho/</link>
+        <guid isPermaLink="true">https://caio.ninja/nao-corte-o-cafezinho/</guid>
+        
+        <category>Pessoal</category>
+        
+        <category>Financeiro</category>
+        
+        <category>investimentos</category>
+        
+        
+        <category>Pessoal</category>
+        
+        <category>Financeiro</category>
+        
+        <category>investimentos</category>
+        
+      </item>
     
       <item>
         <title>Cultura de debate</title>
@@ -151,24 +173,6 @@
         <pubDate>Tue, 03 Apr 2018 18:15:33 -0300</pubDate>
         <link>https://caio.ninja/performance-webpack-parte-2/</link>
         <guid isPermaLink="true">https://caio.ninja/performance-webpack-parte-2/</guid>
-        
-        <category>webpack</category>
-        
-        <category>web</category>
-        
-        <category>javascript</category>
-        
-        
-        <category>Webpack</category>
-        
-      </item>
-    
-      <item>
-        <title>Performance Webpack Parte - 1</title>
-        <description>&lt;h1 id=&quot;performance-webpack&quot;&gt;Performance Webpack&lt;/h1&gt; &lt;p&gt;Essa é a primeira de um série de posts sobre performance Webpack, falei sobre este tema no JSSP, foi uma das talks que eu percebi mais interesse das pessoas.&lt;/p&gt; &lt;p&gt;Por isso acho justo compartilhar o tema em formato de blog posts, para disseminar esse conhecimento para quem não teve a chance de ir no meetup.&lt;/p&gt; &lt;p&gt;Sem mais delongas, vamos começar.&lt;/p&gt; &lt;p&gt;Os posts irão abordar os seguintes temas:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Diminuir o tamanho dos arquivos no Front-End&lt;/li&gt; &lt;li&gt;Melhorias de cache&lt;/li&gt; &lt;li&gt;Monitorar e analisar a aplicação&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Vamos começar por:&lt;/p&gt; &lt;h2 id=&quot;diminuir-o-tamanho-dos-arquivos-no-front-end&quot;&gt;Diminuir o tamanho dos arquivos no Front-End&lt;/h2&gt; &lt;h3 id=&quot;ligue-a-minificação&quot;&gt;Ligue...</description>
-        <pubDate>Sun, 01 Apr 2018 04:15:08 -0300</pubDate>
-        <link>https://caio.ninja/performance-webpack-parte-1/</link>
-        <guid isPermaLink="true">https://caio.ninja/performance-webpack-parte-1/</guid>
         
         <category>webpack</category>
         
