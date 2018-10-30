@@ -5,9 +5,31 @@
     <description>Um blog sobre pessoas e tecnologia</description>
     <link>https://caio.ninja/</link>
     <atom:link href="https://caio.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Oct 2018 09:38:21 -0300</pubDate>
-    <lastBuildDate>Fri, 19 Oct 2018 09:38:21 -0300</lastBuildDate>
-    <generator>Jekyll v3.8.3</generator>
+    <pubDate>Tue, 30 Oct 2018 07:59:14 -0300</pubDate>
+    <lastBuildDate>Tue, 30 Oct 2018 07:59:14 -0300</lastBuildDate>
+    <generator>Jekyll v3.8.4</generator>
+    
+      <item>
+        <title>Economize e será livre</title>
+        <description>&lt;p&gt;Eu acredito na teoria de que nenhum ser humano é livre de verdade, até não depender mais de outro para lhe prover condições de sobrevivência.&lt;/p&gt; &lt;p&gt;O que, no mundo moderno capitalista, pode nos prover condições de sobrevivência? Se você pensou em dinheiro, acertou, dinheiro é 90%, claro que existem fatores como saúde e afins, mas até nisto, o dinheiro pode ajudar, compare a fila e os profissionais que vão te atender no SUS, com os do Hospital Albert Einsten.&lt;/p&gt; &lt;p&gt;##Será que você é livre?&lt;/p&gt; &lt;p&gt;Você se considera uma pessoa livre? Então por exemplo, hoje, você poderia levantar da sua cadeira,...</description>
+        <pubDate>Sat, 20 Oct 2018 07:58:25 -0300</pubDate>
+        <link>https://caio.ninja/economize-e-ser%C3%A1-livre/</link>
+        <guid isPermaLink="true">https://caio.ninja/economize-e-ser%C3%A1-livre/</guid>
+        
+        <category>Pessoal</category>
+        
+        <category>Financeiro</category>
+        
+        <category>investimentos</category>
+        
+        
+        <category>Pessoal</category>
+        
+        <category>Financeiro</category>
+        
+        <category>investimentos</category>
+        
+      </item>
     
       <item>
         <title>Não corte o cafézinho</title>
@@ -155,24 +177,6 @@
         <pubDate>Thu, 12 Apr 2018 07:04:30 -0300</pubDate>
         <link>https://caio.ninja/performance-webpack-final/</link>
         <guid isPermaLink="true">https://caio.ninja/performance-webpack-final/</guid>
-        
-        <category>webpack</category>
-        
-        <category>web</category>
-        
-        <category>javascript</category>
-        
-        
-        <category>Webpack</category>
-        
-      </item>
-    
-      <item>
-        <title>Performance Webpack Parte 2</title>
-        <description>&lt;h1 id=&quot;performance-webpack---parte-2&quot;&gt;Performance Webpack - Parte 2&lt;/h1&gt; &lt;p&gt;Vamos dar continuidade no &lt;a href=&quot;https://caio.ninja/performance-webpack-parte-1/&quot;&gt;post anterior&lt;/a&gt; sobre performance em aplicações que usam Webpack.&lt;/p&gt; &lt;p&gt;Nesse segundo post iremos cobrir a parte de melhoria de cache e separação de código.&lt;/p&gt; &lt;h2 id=&quot;versionamento-de-cache&quot;&gt;Versionamento de cache&lt;/h2&gt; &lt;p&gt;Nós podemos tirar proveito do &lt;a href=&quot;https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=pt-br&quot;&gt;cache do navegador&lt;/a&gt;, mas para isso, precisamos invalidar o cache após realizarmos mudanças em nosso código, o meio mais comum de fazer isso, é mudando os nomes do arquivos.&lt;/p&gt; &lt;p&gt;Antigamente tínhamos o applications_v1.js, applications_v2.js e assim por diante.&lt;/p&gt; &lt;p&gt;Com o webpack podemos gerar um hash automático a cada build que houver alterações e usar essa...</description>
-        <pubDate>Tue, 03 Apr 2018 18:15:33 -0300</pubDate>
-        <link>https://caio.ninja/performance-webpack-parte-2/</link>
-        <guid isPermaLink="true">https://caio.ninja/performance-webpack-parte-2/</guid>
         
         <category>webpack</category>
         

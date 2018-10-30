@@ -30,7 +30,7 @@ Mas ter seis meses do seu custo de vida guardado, ainda não é ser livre, poré
 
 ##O poder do trabalho sobre você
 
-Pessoas que não tem nem os seis meses de custo de vida guardado, o chamado 'fundo de emergência', tendem a performar pior no trabalho, dos que as pessoas que tem, sabe por quê?
+Pessoas que não tem nem os seis meses de custo de vida guardado, o chamado 'fundo de emergência', tendem a performar pior no trabalho, do que as pessoas que tem, sabe por quê?
 
 Pois a grande maioria das pessoas nessa situação, tem o medo de desagradar ou perder o emprego, embutido em suas decisões.
 
@@ -47,7 +47,7 @@ A empresa iria reconhecer o quanto você poupou e olhar com mais carinho quando 
 
 ##Entendendo o poder
 
-O medo sempre foi e sempre será um dos maiores meios de se ter poder, recomendo fortemente a leitura de O Príncipe de Nicolau Maquiavel, onde ele cita inclusive que para os monarcas, é melhor ser temido que ser amado.
+O medo sempre foi e sempre será um dos maiores meios de se ter poder, recomendo fortemente a leitura de O Príncipe de Nicolau Maquiavel, onde ele cita inclusive que, para os monarcas, é melhor ser temido do que ser amado.
 
 Vamos supor o contrário, que você não está em uma empresa que valoriza seus funcionários, mas que impõe medo neles, com chefes abusivos e afins, se você perde o medo de ser demitido, ou ao menos reduz ele substancialmente ao ter sua reserva financeira, logo você não precisará mais estar sujeito a situações de abuso de poder, conheço casos de pessoas que escaparam de assédios morais, por poderem ter a segurança de se manifestar.
 
@@ -55,13 +55,15 @@ Vamos supor o contrário, que você não está em uma empresa que valoriza seus 
 
 Mesmo tendo essa reserva construída, você é parcialmente livre, certo? O único modo de ser totalmente livre, é vivendo de renda, e para chegar nesse ponto é exigido vários e vários anos de trabalho, ou tomar grandes riscos, como criar uma empresa ou arriscar na bolsa como  trader.
 
-Chegar neste patamar é algo inimaginável para muitos de nós, porém, não é por isso que podemos desistir, existem dois modos de se viver de renda mais cedo, ganhando mais, ou gastando menos.
+Isso de ter sua reserva de emergência não te deixa independente financeiramente falando, mas sim, te entrega a liberdade financeira, recomendo fortemente o vídeo do [André bona, onde esse conceito é melhor explicado](https://www.youtube.com/watch?v=5QmU0B5daCE).
+
+Chegar no patamar da independência financeira é algo inimaginável para muitos de nós, porém, não é por isso que podemos desistir, existem dois modos de se viver de renda mais cedo, ganhando mais, ou gastando menos.
 
 ##FIRE Movement
 
 Existem pessoas que levam a sério a segunda opção(gastar menos) e seguem um movimento chamado "FIRE", onde elas cortam os gastos o máximo possível e assim conseguem se aposentar cedo, mudam para o interior, ou até de país, onde o câmbio ajuda, por exemplo, um americano que conseguiu juntar U$500k aos 30~35 anos, algo não tão complicado, principalmente na área de tecnologia onde os salários giram em torno de U$100k por ano, se muda para o Brasil, com uma taxa de câmbio de 4 para 1, trazendo assim, R$ 2milhões.
 
-No Brasil, sem muito esforço, com as nossas taxas de juros e esses R$2milhões, seria possível, sem muito esforço, fazer R$7-8mil reais ao mês, acima da inflação(ponto importante a ser considerado).
+No Brasil, com as nossas taxas de juros e esses R$2milhões, seria possível, sem muito esforço, fazer R$7-8mil reais ao mês, acima da inflação(ponto importante a ser considerado).
 
 ##Conclusão
 
@@ -75,4 +77,4 @@ Tente mudar sua vida e inverter o poder que o seu trabalho tem sobre você, exis
 
 - Mude seu mindset, se você hoje pensa apenas no imediatismo, comece a pensar no futuro.
 
-Por fim, espero que este post abre um pouco sua cabeça, sei que não é uma realidade para todos o que foi dito aqui, entendo que existem familias vivendo com menos de um salário minímo e espero que você tenha bom senso para entender que este post não foi feito com essas pessoas em mente.
+Por fim, espero que este post abre um pouco sua cabeça, sei que não é uma realidade para todos o que foi dito aqui, entendo que existem famílias vivendo com menos de um salário minimo e espero que você tenha bom senso para entender que este post não foi feito com essas pessoas em mente.
