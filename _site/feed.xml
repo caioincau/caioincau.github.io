@@ -5,9 +5,23 @@
     <description>Um blog sobre pessoas e tecnologia</description>
     <link>https://caio.ninja/</link>
     <atom:link href="https://caio.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 30 Oct 2018 07:59:14 -0300</pubDate>
-    <lastBuildDate>Tue, 30 Oct 2018 07:59:14 -0300</lastBuildDate>
-    <generator>Jekyll v3.8.4</generator>
+    <pubDate>Thu, 20 Dec 2018 10:48:54 -0200</pubDate>
+    <lastBuildDate>Thu, 20 Dec 2018 10:48:54 -0200</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Inspired</title>
+        <description>&lt;p&gt;Esse ano li vários livros, a maioria focada em gestão e produtos, esse ano foi um ano de transformação na minha vida, cresci muito e acabei colocando um pé em gestão, por isso este foco maior no tema.&lt;/p&gt; &lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;pt&quot;&gt;&lt;p lang=&quot;pt&quot; dir=&quot;ltr&quot;&gt;Estou bem contente com a quantidade de livros que li este ano, este ano li:&lt;br /&gt;As Armas de Persuasão&lt;br /&gt;Sprint&lt;br /&gt;High Output Performance&lt;br /&gt;Rápido devagar&lt;br /&gt;Radical Candor&lt;br /&gt;Manager&amp;#39;s Path&lt;br /&gt;Agilidade emocional&lt;br /&gt;Crucial Conversations&lt;br /&gt;Extreme Ownership&lt;br /&gt;Antifrágil&lt;br /&gt;Cisne Negro&lt;br /&gt;Inspired&lt;br /&gt;BetterWeb Type&lt;/p&gt;&amp;mdash; Caio Incau (@iCaioIncau) &lt;a href=&quot;https://twitter.com/iCaioIncau/status/1073231341083332608?ref_src=twsrc%5Etfw&quot;&gt;13 de dezembro de 2018&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt; &lt;p&gt;Não é uma média...</description>
+        <pubDate>Thu, 20 Dec 2018 07:54:04 -0200</pubDate>
+        <link>https://caio.ninja/inspired/</link>
+        <guid isPermaLink="true">https://caio.ninja/inspired/</guid>
+        
+        <category>pessoal</category>
+        
+        <category>carreira</category>
+        
+        
+      </item>
     
       <item>
         <title>Economize e será livre</title>
@@ -73,8 +87,8 @@
         <title>Cuidado com os heróis</title>
         <description>&lt;h2 id=&quot;introdução&quot;&gt;Introdução&lt;/h2&gt; &lt;blockquote&gt; &lt;p&gt;“Ou você morre como herói, ou vive o bastante para se tornar o vilão” - Harvey Dent&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Acho que a maioria dos meu conhecidos próximos(está no cabeçalho do meu site também), sabe que sou um grande fã do Batman, um ser humano “comum”, mas que é capaz de ajudar e fazer o bem para milhares de pessoas, usando apenas sua força de vontade(e algum dinheiro).&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;https://instagram.fcgh5-1.fna.fbcdn.net/vp/50f65bcbb575ae4a8c022adaae233628/5BCE4878/t51.2885-15/e35/18298975_252458728494827_6420062353227776000_n.jpg&quot; alt=&quot;Estátua do Batman&quot; /&gt; &lt;em&gt;Eu carregando uma das minhas estátuas do morcego&lt;/em&gt;&lt;/p&gt; &lt;h2 id=&quot;quem-são-os-heróis-em-desenvolvimento-de-software&quot;&gt;Quem são os heróis em desenvolvimento de software?&lt;/h2&gt; &lt;p&gt;Heróis são aqueles que estão sempre vigiando, são...</description>
         <pubDate>Sat, 14 Jul 2018 16:51:48 -0300</pubDate>
-        <link>https://caio.ninja/cuidado-com-os-her%C3%B3is/</link>
-        <guid isPermaLink="true">https://caio.ninja/cuidado-com-os-her%C3%B3is/</guid>
+        <link>https://caio.ninja/cuidado-com-os-hero-is/</link>
+        <guid isPermaLink="true">https://caio.ninja/cuidado-com-os-hero-is/</guid>
         
         <category>pessoal</category>
         
@@ -89,8 +103,8 @@
         <title>A minha visão de um Senior</title>
         <description>&lt;p&gt;Pouco tempo atrás, ouvi uma frase que me perturbou um pouco:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Meu sonho é ser um Senior super respeitado, onde “ninguém encosta”, que digam “Nossa, se eu não sei resolver, vou perguntar para o Fulano, por que ele sempre sabe.”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Com base nessa citação, achei interessante compartilhar a minha visão sobre o que é um profissional Senior e suas responsabilidades.&lt;/p&gt; &lt;h2 id=&quot;sou-um-ótimo-desenvolvedor-isso-me-torna-um-senior&quot;&gt;Sou um ótimo desenvolvedor, isso me torna um Senior?&lt;/h2&gt; &lt;p&gt;Você pode saber programar em doze linguagens diferentes, mandar PR para o Linux, saber todas as funções de uma linguagem, mas se você não sabe se comunicar bem...</description>
         <pubDate>Sun, 08 Jul 2018 06:29:00 -0300</pubDate>
-        <link>https://caio.ninja/a-minha-vis%C3%A3o-de-um-senior/</link>
-        <guid isPermaLink="true">https://caio.ninja/a-minha-vis%C3%A3o-de-um-senior/</guid>
+        <link>https://caio.ninja/a-minha-visa-o-de-um-senior/</link>
+        <guid isPermaLink="true">https://caio.ninja/a-minha-visa-o-de-um-senior/</guid>
         
         <category>pessoal</category>
         
@@ -103,8 +117,8 @@
         <title>Você não precisa palestrar</title>
         <description>&lt;p&gt;Nos dias de hoje, criou-se o mito da “startup/empreendedorismo”, essa se tornou a fórmula padrão de “vencer” na vida, mas isso não é uma verdade absoluta, existem diferentes tipos de pessoas, com diferentes objetivos/ambições, além do mais, a geração dos nossos pais se virou bem, sem precisar entrar nesse método.&lt;/p&gt; &lt;p&gt;Existe algo ainda pior, o &lt;a href=&quot;http://www.administradores.com.br/artigos/empreendedorismo/o-que-e-empreendedorismo-de-palco/101286/&quot;&gt;empreendedor de palco&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Algo semelhante ocorreu na área de tecnologia e foi levado ao extremo em desenvolvimento de software, foi criado o “caminho correto” para evoluir, que são as palestras.&lt;/p&gt; &lt;h2 id=&quot;mas-palestrar-é-ruim&quot;&gt;Mas palestrar é ruim?&lt;/h2&gt; &lt;p&gt;Não, muito pelo contrário, palestrar é ótimo e eu...</description>
         <pubDate>Sat, 09 Jun 2018 03:52:30 -0300</pubDate>
-        <link>https://caio.ninja/voc%C3%AA-n%C3%A3o-precisa-palestrar/</link>
-        <guid isPermaLink="true">https://caio.ninja/voc%C3%AA-n%C3%A3o-precisa-palestrar/</guid>
+        <link>https://caio.ninja/voce-na-o-precisa-palestrar/</link>
+        <guid isPermaLink="true">https://caio.ninja/voce-na-o-precisa-palestrar/</guid>
         
         <category>pessoal</category>
         
@@ -117,8 +131,8 @@
         <title>Como economizar com o seu cartão Mastercard</title>
         <description>&lt;h1 id=&quot;como-economizar-com-o-seu-cartão-mastercard&quot;&gt;Como economizar com o seu cartão Mastercard&lt;/h1&gt; &lt;p&gt;Hoje vamos continuar o post sobre como economizar no cartão, queria começar agradecendo a todos que leram e divulgaram, foi o post mais acessado até o momento.&lt;/p&gt; &lt;p&gt;No post de hoje vamos explorar os benefícios específicos da Mastercard.&lt;/p&gt; &lt;h2 id=&quot;seguro-de-preço&quot;&gt;Seguro de preço&lt;/h2&gt; &lt;h3 id=&quot;cartões-elegíveis-gold-e-black&quot;&gt;Cartões elegíveis: Gold e Black&lt;/h3&gt; &lt;p&gt;Sabe aquela sensação horrível quando você compra algo e após uma semana aquele produto entra em promoção e acaba que você gastou mais “atoa”?&lt;/p&gt; &lt;p&gt;Pois bem, é possível reaver a diferença, caso você tenha comprado com algum dos cartões elegíveis.&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://www.mastercard.com.br/pt-br/consumidores/encontre-seu-cartao/cartoes-credito/mastercard-gold/seguro-protecao-preco.html&quot;&gt;https://www.mastercard.com.br/pt-br/consumidores/encontre-seu-cartao/cartoes-credito/mastercard-gold/seguro-protecao-preco.html&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Claro que...</description>
         <pubDate>Mon, 28 May 2018 05:24:19 -0300</pubDate>
-        <link>https://caio.ninja/como-economizar-com-o-seu-cart%C3%A3o-mastercard/</link>
-        <guid isPermaLink="true">https://caio.ninja/como-economizar-com-o-seu-cart%C3%A3o-mastercard/</guid>
+        <link>https://caio.ninja/como-economizar-com-o-seu-carta-o-mastercard/</link>
+        <guid isPermaLink="true">https://caio.ninja/como-economizar-com-o-seu-carta-o-mastercard/</guid>
         
         <category>Pessoal</category>
         
@@ -139,8 +153,8 @@
         <title>Economize com o cartão de crédito</title>
         <description>&lt;h1 id=&quot;economize-com-o-cartão-de-crédito&quot;&gt;Economize com o cartão de crédito&lt;/h1&gt; &lt;p&gt;O título parece clickbait não é mesmo?&lt;/p&gt; &lt;p&gt;Muitas pessoas tremem só de ouvir “cartão de crédito”, mas é verdade, eu cheguei a economizar R$4000 nos últimos doze meses, só com as dicas que vou passar nesses dois posts.&lt;/p&gt; &lt;h2 id=&quot;centralize-seus-gastos&quot;&gt;Centralize seus gastos&lt;/h2&gt; &lt;p&gt;Pague tudo no cartão, não tenha vergonha de pagar valores baixos no cartão, sempre pergunte se no débito é mais barato, caso contrário, pague no cartão de crédito.&lt;/p&gt; &lt;h3 id=&quot;por-que-este-passo-é-importante-vou-listar-alguns-motivos&quot;&gt;Por que este passo é importante? Vou listar alguns motivos.&lt;/h3&gt; &lt;ol&gt; &lt;li&gt;Fica mais fácil controlar seus gastos, basta olhar a fatura e...</description>
         <pubDate>Mon, 21 May 2018 05:53:46 -0300</pubDate>
-        <link>https://caio.ninja/economize-com-o-cart%C3%A3o-de-cr%C3%A9dito/</link>
-        <guid isPermaLink="true">https://caio.ninja/economize-com-o-cart%C3%A3o-de-cr%C3%A9dito/</guid>
+        <link>https://caio.ninja/economize-com-o-carta-o-de-cre-dito/</link>
+        <guid isPermaLink="true">https://caio.ninja/economize-com-o-carta-o-de-cre-dito/</guid>
         
         <category>Pessoal</category>
         
@@ -168,24 +182,6 @@
         
         <category>carreira</category>
         
-        
-      </item>
-    
-      <item>
-        <title>Performance Webpack - Final</title>
-        <description>&lt;h1 id=&quot;performance-webpack---final&quot;&gt;Performance Webpack - Final&lt;/h1&gt; &lt;p&gt;Vou dar continuidade no &lt;a href=&quot;https://caio.ninja/performance-webpack-parte-2/&quot;&gt;post anterior&lt;/a&gt; sobre performance em aplicações que usam Webpack.&lt;/p&gt; &lt;p&gt;Com este post, também concluo essa série&lt;/p&gt; &lt;p&gt;Nesse terceiro post irei abordar a parte de monitoria de performance na sua aplicação, focada, claro, na parte do bundle que seu webpack gera.&lt;/p&gt; &lt;p&gt;Não iremos cobrir temas como performance diretamente no navegador e afins, acredito que este tema já tenho sido amplamente explorado em outros sites.&lt;/p&gt; &lt;p&gt;Enfim, vamos ao post!&lt;/p&gt; &lt;h2 id=&quot;melhor-visualização-com-webpack-dashboard&quot;&gt;Melhor visualização com Webpack Dashboard&lt;/h2&gt; &lt;p&gt;Com esse plugin, nós podemos ver melhor todos os nossos módulos, sendo que ele mesmo nos envia...</description>
-        <pubDate>Thu, 12 Apr 2018 07:04:30 -0300</pubDate>
-        <link>https://caio.ninja/performance-webpack-final/</link>
-        <guid isPermaLink="true">https://caio.ninja/performance-webpack-final/</guid>
-        
-        <category>webpack</category>
-        
-        <category>web</category>
-        
-        <category>javascript</category>
-        
-        
-        <category>Webpack</category>
         
       </item>
     
