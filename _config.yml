@@ -2,12 +2,12 @@
 title: Meu blog pessoal
 description: Um blog sobre pessoas e tecnologia
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://caio.ninja" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://caio.dev" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Caio Incau
-user_description: Front-End Engineer, JS lover and Batman fan.
-user_title: Front-End Engineer, JS lover and Batman fan.
+user_description: Tech manager, Front End developer, writter
+user_title: Tech manager, Front End developer, writter
 email: caioincau@gmail.com
 twitter_username: icaioincau
 github_username:  caioincau

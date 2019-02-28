@@ -3,18 +3,18 @@
   <channel>
     <title>Meu blog pessoal</title>
     <description>Um blog sobre pessoas e tecnologia</description>
-    <link>https://caio.ninja/</link>
-    <atom:link href="https://caio.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Feb 2019 10:39:13 -0300</pubDate>
-    <lastBuildDate>Sun, 24 Feb 2019 10:39:13 -0300</lastBuildDate>
-    <generator>Jekyll v3.7.3</generator>
+    <link>https://caio.dev/</link>
+    <atom:link href="https://caio.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 28 Feb 2019 17:10:47 -0300</pubDate>
+    <lastBuildDate>Thu, 28 Feb 2019 17:10:47 -0300</lastBuildDate>
+    <generator>Jekyll v3.8.4</generator>
     
       <item>
         <title>Feitas para durar - parte 2</title>
         <description>&lt;p&gt;Dando continuidade no post anterior, vou continuar com os mitos que são desmascarados neste livro.&lt;/p&gt; &lt;h2 id=&quot;mito-6-empresas-visionárias-sempre-possuem-planos-brilhantes-extremamente-bem-detalhados&quot;&gt;Mito 6: Empresas visionárias sempre possuem planos brilhantes, extremamente bem detalhados&lt;/h2&gt; &lt;p&gt;No geral, estas empresa apostavam mais na experimentação do que em planos super detalhados, o seu foco é evoluir e não revolucionar, elas focam em criar um ambiente onde a falha é celebrada, se for seguida de um aprendizado, muitas vezes estes experimentos acabam se tornando produtos revolucionários, como os Band Aids(&lt;a href=&quot;https://pt.wikipedia.org/wiki/Band-Aid&quot;&gt;https://pt.wikipedia.org/wiki/Band-Aid&lt;/a&gt;) da Johnson &amp;amp; Johnson ou os Post-its da 3M(&lt;a href=&quot;https://pt.wikipedia.org/wiki/Post-it&quot;&gt;https://pt.wikipedia.org/wiki/Post-it&lt;/a&gt;), esta última inclusive incentiva que os seus funcionários gastem 15%...</description>
         <pubDate>Sun, 24 Feb 2019 07:04:10 -0300</pubDate>
-        <link>https://caio.ninja/feitas-para-durar-parte-2/</link>
-        <guid isPermaLink="true">https://caio.ninja/feitas-para-durar-parte-2/</guid>
+        <link>https://caio.dev/feitas-para-durar-parte-2/</link>
+        <guid isPermaLink="true">https://caio.dev/feitas-para-durar-parte-2/</guid>
         
         <category>pessoal</category>
         
@@ -27,8 +27,8 @@
         <title>Feitas para durar - parte 1</title>
         <description>&lt;p&gt;Empresas feitas para durar foi o último livro que li sobre gestão, neste livro Jim Collins desconstrói vários mitos sobre os motivos de sucesso de uma empresa.&lt;/p&gt; &lt;p&gt;O livro é baseado em uma pesquisa com centenas de executivos, onde foram selecionadas 18 empresas consideradas visionárias, a pesquisa durou seis anos e tenta encontrar os fatores em comum que levaram essas empresas até o topo e que até hoje as mantém no topo.&lt;/p&gt; &lt;p&gt;Como o livro é bem extenso e fiz bastante anotações, irei separar os posts em duas partes&lt;/p&gt; &lt;h2 id=&quot;sobre-a-pesquisa&quot;&gt;Sobre a pesquisa&lt;/h2&gt; &lt;p&gt;Após as entrevistas e a seleção das...</description>
         <pubDate>Tue, 19 Feb 2019 05:24:18 -0300</pubDate>
-        <link>https://caio.ninja/feitas-para-durar/</link>
-        <guid isPermaLink="true">https://caio.ninja/feitas-para-durar/</guid>
+        <link>https://caio.dev/feitas-para-durar/</link>
+        <guid isPermaLink="true">https://caio.dev/feitas-para-durar/</guid>
         
         <category>pessoal</category>
         
@@ -41,8 +41,8 @@
         <title>Inspired</title>
         <description>&lt;p&gt;Esse ano li vários livros, a maioria focada em gestão e produtos, esse ano foi um ano de transformação na minha vida, cresci muito e acabei colocando um pé em gestão, por isso este foco maior no tema.&lt;/p&gt; &lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;pt&quot;&gt;&lt;p lang=&quot;pt&quot; dir=&quot;ltr&quot;&gt;Estou bem contente com a quantidade de livros que li este ano, este ano li:&lt;br /&gt;As Armas de Persuasão&lt;br /&gt;Sprint&lt;br /&gt;High Output Performance&lt;br /&gt;Rápido devagar&lt;br /&gt;Radical Candor&lt;br /&gt;Manager&amp;#39;s Path&lt;br /&gt;Agilidade emocional&lt;br /&gt;Crucial Conversations&lt;br /&gt;Extreme Ownership&lt;br /&gt;Antifrágil&lt;br /&gt;Cisne Negro&lt;br /&gt;Inspired&lt;br /&gt;BetterWeb Type&lt;/p&gt;&amp;mdash; Caio Incau (@iCaioIncau) &lt;a href=&quot;https://twitter.com/iCaioIncau/status/1073231341083332608?ref_src=twsrc%5Etfw&quot;&gt;13 de dezembro de 2018&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt; &lt;p&gt;Não é uma média...</description>
         <pubDate>Thu, 20 Dec 2018 07:54:04 -0200</pubDate>
-        <link>https://caio.ninja/inspired/</link>
-        <guid isPermaLink="true">https://caio.ninja/inspired/</guid>
+        <link>https://caio.dev/inspired/</link>
+        <guid isPermaLink="true">https://caio.dev/inspired/</guid>
         
         <category>pessoal</category>
         
@@ -55,8 +55,8 @@
         <title>Economize e será livre</title>
         <description>&lt;p&gt;Eu acredito na teoria de que nenhum ser humano é livre de verdade, até não depender mais de outro para lhe prover condições de sobrevivência.&lt;/p&gt; &lt;p&gt;O que, no mundo moderno capitalista, pode nos prover condições de sobrevivência? Se você pensou em dinheiro, acertou, dinheiro é 90%, claro que existem fatores como saúde e afins, mas até nisto, o dinheiro pode ajudar, compare a fila e os profissionais que vão te atender no SUS, com os do Hospital Albert Einsten.&lt;/p&gt; &lt;p&gt;##Será que você é livre?&lt;/p&gt; &lt;p&gt;Você se considera uma pessoa livre? Então por exemplo, hoje, você poderia levantar da sua cadeira,...</description>
         <pubDate>Sat, 20 Oct 2018 07:58:25 -0300</pubDate>
-        <link>https://caio.ninja/economize-e-ser%C3%A1-livre/</link>
-        <guid isPermaLink="true">https://caio.ninja/economize-e-ser%C3%A1-livre/</guid>
+        <link>https://caio.dev/economize-e-ser%C3%A1-livre/</link>
+        <guid isPermaLink="true">https://caio.dev/economize-e-ser%C3%A1-livre/</guid>
         
         <category>Pessoal</category>
         
@@ -77,8 +77,8 @@
         <title>Não corte o cafézinho</title>
         <description>&lt;p&gt;Educação financeira virou moda nos últimos anos, não me entenda mal, acho isso incrível e acredito que teríamos uma população muito mais saudável mental e fisicamente, se isto fosse ensinado no ensino de base.&lt;/p&gt; &lt;p&gt;O problema é que no desespero de se diferenciar ao gerar conteúdo em um mercado quase que saturado, aparecem fórmulas mágicas de “enriquecimento”, uma das mais famosas, são as contas de boteco, onde dizem para você cortar X ou Y e economizar um valor alto nos próximos 20-30 anos.&lt;/p&gt; &lt;h2 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h2&gt; &lt;p&gt;Sem dúvidas, esse texto não se aplica a todo mundo, estou supondo aqui, que quem...</description>
         <pubDate>Tue, 09 Oct 2018 05:24:41 -0300</pubDate>
-        <link>https://caio.ninja/nao-corte-o-cafezinho/</link>
-        <guid isPermaLink="true">https://caio.ninja/nao-corte-o-cafezinho/</guid>
+        <link>https://caio.dev/nao-corte-o-cafezinho/</link>
+        <guid isPermaLink="true">https://caio.dev/nao-corte-o-cafezinho/</guid>
         
         <category>Pessoal</category>
         
@@ -99,8 +99,8 @@
         <title>Cultura de debate</title>
         <description>&lt;h1 id=&quot;cultura-de-debate&quot;&gt;Cultura de debate&lt;/h1&gt; &lt;p&gt;Estamos em uma época, onde, mais do que nunca, as pessoas começaram a ter voz, a serem realmente empoderadas, e por que não, portar isto para as empresas? Principalmente na área de desenvolvimento, nesta área, somos pagos para trabalhar, quase que exclusivamente, com nosso cérebro, então, por que não vamos usar ele por completo?&lt;/p&gt; &lt;h2 id=&quot;incentive-discussões&quot;&gt;Incentive discussões&lt;/h2&gt; &lt;p&gt;Discutir é saudável, desde que feito de forma respeitosa, discussões podem inclusive serem acaloradas, mas precisam ser livres de ego e cheias de fatos, já ouviu o famoso jargão, “contra fatos não há argumentos?”, pois é, quase sempre, isso...</description>
         <pubDate>Wed, 01 Aug 2018 05:34:32 -0300</pubDate>
-        <link>https://caio.ninja/cultura-de-debate/</link>
-        <guid isPermaLink="true">https://caio.ninja/cultura-de-debate/</guid>
+        <link>https://caio.dev/cultura-de-debate/</link>
+        <guid isPermaLink="true">https://caio.dev/cultura-de-debate/</guid>
         
         <category>pessoal</category>
         
@@ -115,8 +115,8 @@
         <title>Cuidado com os heróis</title>
         <description>&lt;h2 id=&quot;introdução&quot;&gt;Introdução&lt;/h2&gt; &lt;blockquote&gt; &lt;p&gt;“Ou você morre como herói, ou vive o bastante para se tornar o vilão” - Harvey Dent&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Acho que a maioria dos meu conhecidos próximos(está no cabeçalho do meu site também), sabe que sou um grande fã do Batman, um ser humano “comum”, mas que é capaz de ajudar e fazer o bem para milhares de pessoas, usando apenas sua força de vontade(e algum dinheiro).&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;https://instagram.fcgh5-1.fna.fbcdn.net/vp/50f65bcbb575ae4a8c022adaae233628/5BCE4878/t51.2885-15/e35/18298975_252458728494827_6420062353227776000_n.jpg&quot; alt=&quot;Estátua do Batman&quot; /&gt; &lt;em&gt;Eu carregando uma das minhas estátuas do morcego&lt;/em&gt;&lt;/p&gt; &lt;h2 id=&quot;quem-são-os-heróis-em-desenvolvimento-de-software&quot;&gt;Quem são os heróis em desenvolvimento de software?&lt;/h2&gt; &lt;p&gt;Heróis são aqueles que estão sempre vigiando, são...</description>
         <pubDate>Sat, 14 Jul 2018 16:51:48 -0300</pubDate>
-        <link>https://caio.ninja/cuidado-com-os-hero-is/</link>
-        <guid isPermaLink="true">https://caio.ninja/cuidado-com-os-hero-is/</guid>
+        <link>https://caio.dev/cuidado-com-os-her%C3%B3is/</link>
+        <guid isPermaLink="true">https://caio.dev/cuidado-com-os-her%C3%B3is/</guid>
         
         <category>pessoal</category>
         
@@ -131,8 +131,8 @@
         <title>A minha visão de um Senior</title>
         <description>&lt;p&gt;Pouco tempo atrás, ouvi uma frase que me perturbou um pouco:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Meu sonho é ser um Senior super respeitado, onde “ninguém encosta”, que digam “Nossa, se eu não sei resolver, vou perguntar para o Fulano, por que ele sempre sabe.”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Com base nessa citação, achei interessante compartilhar a minha visão sobre o que é um profissional Senior e suas responsabilidades.&lt;/p&gt; &lt;h2 id=&quot;sou-um-ótimo-desenvolvedor-isso-me-torna-um-senior&quot;&gt;Sou um ótimo desenvolvedor, isso me torna um Senior?&lt;/h2&gt; &lt;p&gt;Você pode saber programar em doze linguagens diferentes, mandar PR para o Linux, saber todas as funções de uma linguagem, mas se você não sabe se comunicar bem...</description>
         <pubDate>Sun, 08 Jul 2018 06:29:00 -0300</pubDate>
-        <link>https://caio.ninja/a-minha-visa-o-de-um-senior/</link>
-        <guid isPermaLink="true">https://caio.ninja/a-minha-visa-o-de-um-senior/</guid>
+        <link>https://caio.dev/a-minha-vis%C3%A3o-de-um-senior/</link>
+        <guid isPermaLink="true">https://caio.dev/a-minha-vis%C3%A3o-de-um-senior/</guid>
         
         <category>pessoal</category>
         
@@ -145,8 +145,8 @@
         <title>Você não precisa palestrar</title>
         <description>&lt;p&gt;Nos dias de hoje, criou-se o mito da “startup/empreendedorismo”, essa se tornou a fórmula padrão de “vencer” na vida, mas isso não é uma verdade absoluta, existem diferentes tipos de pessoas, com diferentes objetivos/ambições, além do mais, a geração dos nossos pais se virou bem, sem precisar entrar nesse método.&lt;/p&gt; &lt;p&gt;Existe algo ainda pior, o &lt;a href=&quot;http://www.administradores.com.br/artigos/empreendedorismo/o-que-e-empreendedorismo-de-palco/101286/&quot;&gt;empreendedor de palco&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Algo semelhante ocorreu na área de tecnologia e foi levado ao extremo em desenvolvimento de software, foi criado o “caminho correto” para evoluir, que são as palestras.&lt;/p&gt; &lt;h2 id=&quot;mas-palestrar-é-ruim&quot;&gt;Mas palestrar é ruim?&lt;/h2&gt; &lt;p&gt;Não, muito pelo contrário, palestrar é ótimo e eu...</description>
         <pubDate>Sat, 09 Jun 2018 03:52:30 -0300</pubDate>
-        <link>https://caio.ninja/voce-na-o-precisa-palestrar/</link>
-        <guid isPermaLink="true">https://caio.ninja/voce-na-o-precisa-palestrar/</guid>
+        <link>https://caio.dev/voc%C3%AA-n%C3%A3o-precisa-palestrar/</link>
+        <guid isPermaLink="true">https://caio.dev/voc%C3%AA-n%C3%A3o-precisa-palestrar/</guid>
         
         <category>pessoal</category>
         
@@ -159,8 +159,8 @@
         <title>Como economizar com o seu cartão Mastercard</title>
         <description>&lt;h1 id=&quot;como-economizar-com-o-seu-cartão-mastercard&quot;&gt;Como economizar com o seu cartão Mastercard&lt;/h1&gt; &lt;p&gt;Hoje vamos continuar o post sobre como economizar no cartão, queria começar agradecendo a todos que leram e divulgaram, foi o post mais acessado até o momento.&lt;/p&gt; &lt;p&gt;No post de hoje vamos explorar os benefícios específicos da Mastercard.&lt;/p&gt; &lt;h2 id=&quot;seguro-de-preço&quot;&gt;Seguro de preço&lt;/h2&gt; &lt;h3 id=&quot;cartões-elegíveis-gold-e-black&quot;&gt;Cartões elegíveis: Gold e Black&lt;/h3&gt; &lt;p&gt;Sabe aquela sensação horrível quando você compra algo e após uma semana aquele produto entra em promoção e acaba que você gastou mais “atoa”?&lt;/p&gt; &lt;p&gt;Pois bem, é possível reaver a diferença, caso você tenha comprado com algum dos cartões elegíveis.&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://www.mastercard.com.br/pt-br/consumidores/encontre-seu-cartao/cartoes-credito/mastercard-gold/seguro-protecao-preco.html&quot;&gt;https://www.mastercard.com.br/pt-br/consumidores/encontre-seu-cartao/cartoes-credito/mastercard-gold/seguro-protecao-preco.html&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Claro que...</description>
         <pubDate>Mon, 28 May 2018 05:24:19 -0300</pubDate>
-        <link>https://caio.ninja/como-economizar-com-o-seu-carta-o-mastercard/</link>
-        <guid isPermaLink="true">https://caio.ninja/como-economizar-com-o-seu-carta-o-mastercard/</guid>
+        <link>https://caio.dev/como-economizar-com-o-seu-cart%C3%A3o-mastercard/</link>
+        <guid isPermaLink="true">https://caio.dev/como-economizar-com-o-seu-cart%C3%A3o-mastercard/</guid>
         
         <category>Pessoal</category>
         
