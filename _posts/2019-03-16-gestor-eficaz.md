@@ -49,3 +49,18 @@ Existem cinco práticas que Peter enumera como necessárias para se tornar efica
 
 O resto do livro é focado em examinar esses pontos.
 
+## Bom uso do seu tempo
+
+O tempo é um recurso finito e escasso, se não nos preocuparmos em emprega-lo de forma eficaz, ele pode ser consumido de forma muito rápida e que não tenhamos controle, para tornar o uso do seu tempo eficaz, você deve se atentar aos seguintes passos:
+
+1- Observe onde seu tempo está sendo gastos.
+2- Tente controlar esse tempo e corte o uso improdutivo.
+3- Consolide seu tempo em unidades com a maior continuidade possível.
+
+Esta última dica é incrível, existem inúmeros estudos falando sobre os danos da troca de contexto no sua produtividade.
+
+O melhor modo de ver onde você está gastando seu tempo, é registrando os gastos, use uma planilha e anote tudo que faz e quanto tempo gastou, sempre anote na hora que aconteceu, não confie na sua memória, a partir dai você consegue analisar o que você está fazendo, porém não gera valor, ou gera pouco valor.
+
+Peter nos diz que não existe nenhum gerente que não consiga cortar ao menos 1/4 das suas tarefas e lembre-se de se livrar de qualquer coisa que possa ser feita por outra pessoa, delegando e dando autonomia para que as pessoas façam tarefas que não são mais suas.
+
+## Principais causas da perda de tempo
