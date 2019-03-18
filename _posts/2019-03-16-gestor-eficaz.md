@@ -41,11 +41,11 @@ Você pode aprender a ser eficaz, ser eficaz não é um traço de personalidade 
 
 Existem cinco práticas que Peter enumera como necessárias para se tornar eficaz e em sua opinião, gerentes eficazes:
 
-1- Sabem empregar bem o tempo.
-2- Condizem esforços para resultados.
-3- Se baseiam em suas forças e não em suas fraquezas.
-4- Estabelecem e mantêm prioridades.
-5- Tomam decisões eficazes.
+1. Sabem empregar bem o tempo.
+2. Condizem esforços para resultados.
+3. Se baseiam em suas forças e não em suas fraquezas.
+4. Estabelecem e mantêm prioridades.
+5. Tomam decisões eficazes.
 
 O resto do livro é focado em examinar esses pontos.
 
@@ -53,9 +53,9 @@ O resto do livro é focado em examinar esses pontos.
 
 O tempo é um recurso finito e escasso, se não nos preocuparmos em emprega-lo de forma eficaz, ele pode ser consumido de forma muito rápida e que não tenhamos controle, para tornar o uso do seu tempo eficaz, você deve se atentar aos seguintes passos:
 
-1- Observe onde seu tempo está sendo gastos.
-2- Tente controlar esse tempo e corte o uso improdutivo.
-3- Consolide seu tempo em unidades com a maior continuidade possível.
+1. Observe onde seu tempo está sendo gastos.
+2. Tente controlar esse tempo e corte o uso improdutivo.
+3. Consolide seu tempo em unidades com a maior continuidade possível.
 
 Esta última dica é incrível, existem inúmeros estudos falando sobre os danos da troca de contexto no sua produtividade.
 
@@ -81,9 +81,9 @@ Você precisa olhar além do seu trabalho, Peter prega que todas as pessoas deve
 
 A empresa também precisa ter foco nos seguintes pilares, para melhorar seus resultados:
 
-1- Resultados diretos
-2- Construção e reafirmação de valores
-3- Construção e desenvolvimento de pessoas para o futuro
+1. Resultados diretos
+2. Construção e reafirmação de valores
+3. Construção e desenvolvimento de pessoas para o futuro
 
 Os resultados diretos são sempre o foco principal, afinal, é o que paga as contas, mas a reafirmação de valores é necessária para que as pessoas se norteiem e saibam trabalhar sozinhos, reduzindo assim o tempo gasto com direcionamento, o terceiro ponto é para garantir a perpetuação das empresas, afinal de contas, sem sucessão uma empresa pode fechar e uma empresa que não se perpetua, é uma empresa falha.
 
