@@ -23,9 +23,9 @@ O foco deste livro é ensinar o por quê precisamos ser eficazes e como podemos 
 
 Peter nos diz que ser eficaz é a principal característica de um gestor, pois por mais criativo e inteligente que você possa ser, se você não aplicar estas qualidades no lugar correto, você não irá obter resultados e de nada irá adiantar tais características.
 
-Apesar disto parecer quase óbvio, ainda sim não vemos isto em prática por aí, e Peter nos diz que a principal causa disto é a "recente" mudança no modo que trabalhamos, pois passamos de um trabalho manual, para um trabalho focado em conhecimento, Peter nos chama de "trabalhadores do conhecimento".
+Apesar disto parecer quase óbvio, ainda sim não vemos isto em prática por aí, e Peter nos diz que a principal causa disto é a "recente" mudança no modo que trabalhamos, pois, passamos de um trabalho manual, para um trabalho focado em conhecimento, Peter nos chama de "trabalhadores do conhecimento".
 
-No passado o trabalhador manual, tinha foco em eficiência, o trabalho era medido por exemplo, por quantos sapatos você produzia em uma semana, mas como fazer isso com trabalho de conhecimento? Nós não produzimos algo físico, mas conhecimento e ideias, esses produtos, se não forem os corretos, de nada servem.
+No passado o trabalhador manual, tinha foco em eficiência, o trabalho era medido, por exemplo, por quantos sapatos você produzia em uma semana, mas como fazer isso com trabalho de conhecimento? Nós não produzimos algo físico, mas conhecimento e ideias, esses produtos, se não forem os corretos, de nada servem.
 
 ## Quem é o gerente?
 
@@ -57,9 +57,9 @@ O tempo é um recurso finito e escasso, se não nos preocuparmos em emprega-lo d
 2. Tente controlar esse tempo e corte o uso improdutivo.
 3. Consolide seu tempo em unidades com a maior continuidade possível.
 
-Esta última dica é incrível, existem inúmeros estudos falando sobre os danos da troca de contexto no sua produtividade.
+Esta última dica é incrível, existem inúmeros estudos falando sobre os danos da troca de contexto na sua produtividade.
 
-O melhor modo de ver onde você está gastando seu tempo, é registrando os gastos, use uma planilha e anote tudo que faz e quanto tempo gastou, sempre anote na hora que aconteceu, não confie na sua memória, a partir dai você consegue analisar o que você está fazendo, porém não gera valor, ou gera pouco valor.
+O melhor modo de ver onde você está gastando seu tempo, é registrando os gastos, use uma planilha e anote tudo que faz e quanto tempo gastou, sempre anote na hora que aconteceu, não confie na sua memória, a partir dai você consegue analisar o que você está fazendo, porém, não gera valor, ou gera pouco valor.
 
 Peter nos diz que não existe nenhum gerente que não consiga cortar ao menos 1/4 das suas tarefas e lembre-se de se livrar de qualquer coisa que possa ser feita por outra pessoa, delegando e dando autonomia para que as pessoas façam tarefas que não são mais suas.
 
@@ -77,7 +77,7 @@ O gestor eficaz deve fazer a seguinte questão:
 
 Com que posso contribuir para afetar, o desempenho e os resultados da empresa que trabalho?
 
-Você precisa olhar além do seu trabalho, Peter prega que todas as pessoas deveriam focar mais em contribuir e gerar resultados, assumir responsabildiades, este não é um trabalho só do gestor, mas ele deveria ser o exemplo.
+Você precisa olhar além do seu trabalho, Peter prega que todas as pessoas deveriam focar mais em contribuir e gerar resultados, assumir responsabilidades, este não é um trabalho só do gestor, mas ele deveria ser o exemplo.
 
 A empresa também precisa ter foco nos seguintes pilares, para melhorar seus resultados:
 
@@ -85,7 +85,7 @@ A empresa também precisa ter foco nos seguintes pilares, para melhorar seus res
 2. Construção e reafirmação de valores
 3. Construção e desenvolvimento de pessoas para o futuro
 
-Os resultados diretos são sempre o foco principal, afinal, é o que paga as contas, mas a reafirmação de valores é necessária para que as pessoas se norteiem e saibam trabalhar sozinhos, reduzindo assim o tempo gasto com direcionamento, o terceiro ponto é para garantir a perpetuação das empresas, afinal de contas, sem sucessão uma empresa pode fechar e uma empresa que não se perpetua, é uma empresa falha.
+Os resultados diretos são sempre o foco principal, afinal, é o que paga as contas, mas a reafirmação de valores é necessária para que as pessoas se norteiem e saibam trabalhar sozinhos, reduzindo assim o tempo gasto com direcionamento, o terceiro ponto é para garantir a perpetuação das empresas, sem sucessão uma empresa pode fechar e uma empresa que não se perpetua, é uma empresa falha.
 
 ## Conclusão
 
