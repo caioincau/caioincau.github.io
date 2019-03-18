@@ -64,3 +64,9 @@ O melhor modo de ver onde você está gastando seu tempo, é registrando os gast
 Peter nos diz que não existe nenhum gerente que não consiga cortar ao menos 1/4 das suas tarefas e lembre-se de se livrar de qualquer coisa que possa ser feita por outra pessoa, delegando e dando autonomia para que as pessoas façam tarefas que não são mais suas.
 
 ## Principais causas da perda de tempo
+
+Um dos principais pontos de perda de tempo é a má organização de uma empresa, que gera excesso de reuniões. Uma empresa em que todos se reúnem o tempo todo é uma empresa em que ninguém sabe o que fazer.
+
+Outro grande ponto de atenção é a falta de informação, ou informações passadas de forma errada, pois perdemos muito tempo correndo atrás das informações, ou averiguando elas.
+
+Por fim, um terceiro ponto que Peter nos aponta é o excesso de relacionamento dentro da empresa, quais interações são realmente necessárias?
