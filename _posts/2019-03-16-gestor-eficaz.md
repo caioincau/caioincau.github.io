@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gestor Eficaz"
+title: "O Gestor Eficaz, o que aprendi - Parte 1"
 date: 2019-03-16 19:55:24
 image: '/assets/img/'
 description:
@@ -8,7 +8,7 @@ tags:
 - pessoal
 - carreira
 categories:
-twitter_text: "O Gestor Eficaz, o que aprendi"
+twitter_text: "O Gestor Eficaz, o que aprendi - Parte 1"
 ---
 
 Recentemente li um livro muito interessante, o livro se chama "O Gestor Eficaz", em inglês ele é chamado "The Effective Executive", este livro foi publicado por um dos gurus da gestão, Peter Drucker.
@@ -70,3 +70,23 @@ Um dos principais pontos de perda de tempo é a má organização de uma empresa
 Outro grande ponto de atenção é a falta de informação, ou informações passadas de forma errada, pois perdemos muito tempo correndo atrás das informações, ou averiguando elas.
 
 Por fim, um terceiro ponto que Peter nos aponta é o excesso de relacionamento dentro da empresa, quais interações são realmente necessárias?
+
+## Foco em resultados
+
+O gestor eficaz deve fazer a seguinte questão:
+
+Com que posso contribuir para afetar, o desempenho e os resultados da empresa que trabalho?
+
+Você precisa olhar além do seu trabalho, Peter prega que todas as pessoas deveriam focar mais em contribuir e gerar resultados, assumir responsabildiades, este não é um trabalho só do gestor, mas ele deveria ser o exemplo.
+
+A empresa também precisa ter foco nos seguintes pilares, para melhorar seus resultados:
+
+1- Resultados diretos
+2- Construção e reafirmação de valores
+3- Construção e desenvolvimento de pessoas para o futuro
+
+Os resultados diretos são sempre o foco principal, afinal, é o que paga as contas, mas a reafirmação de valores é necessária para que as pessoas se norteiem e saibam trabalhar sozinhos, reduzindo assim o tempo gasto com direcionamento, o terceiro ponto é para garantir a perpetuação das empresas, afinal de contas, sem sucessão uma empresa pode fechar e uma empresa que não se perpetua, é uma empresa falha.
+
+## Conclusão
+
+Encerro por aqui a primeira parte, para não ficar muito extenso, sem dúvidas este é um livro que todas as pessoas que são gestoras ou pretendem trabalhar com gestão deveriam ler, Peter Drucker é um dos gurus da administração moderna e apesar de ser um livro antigo, o tema continua atual.
