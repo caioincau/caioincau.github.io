@@ -79,3 +79,15 @@ Precisamos escolher entre duas alternativas. Uma decisão importante é aquela q
 Peter é um homem que tem regras para tudo e o processo decisório não fica de fora disto.
 
 Temos como base cinco regras:
+
+1. A certeza de que o problema é genérico e cria muitas ocorrências, do contrário, ele é uma exceção e pode ser cuidada de forma individual.
+
+2. Sabes os resultados esperados dessa decisão, também conhecido como condições-limite.
+
+3. A certeza de que a solução atende integralmente as especificações.
+
+4. Transformar a decisão em ação e executar a mesma.
+
+5. Uma retrospectiva se a decisão e a ação forma realmente eficazes.
+
+## Conclusão
