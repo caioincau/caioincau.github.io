@@ -5,9 +5,23 @@
     <description>Um blog sobre pessoas e tecnologia</description>
     <link>https://caio.dev/</link>
     <atom:link href="https://caio.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Mar 2019 15:32:11 -0300</pubDate>
-    <lastBuildDate>Mon, 18 Mar 2019 15:32:11 -0300</lastBuildDate>
+    <pubDate>Mon, 01 Apr 2019 08:04:09 -0300</pubDate>
+    <lastBuildDate>Mon, 01 Apr 2019 08:04:09 -0300</lastBuildDate>
     <generator>Jekyll v3.8.4</generator>
+    
+      <item>
+        <title>O Gestor Eficaz, o que aprendi - Parte 2</title>
+        <description>&lt;p&gt;Após duas semanas, volto para concluir este post/resumo do livro Gestor Eficaz, você pode conferir a primeira parte &lt;a href=&quot;https://caio.dev/gestor-eficaz/&quot;&gt;aqui&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Vamos continuar nosso post:&lt;/p&gt; &lt;h2 id=&quot;gestores-eficazes-tem-relações-eficazes&quot;&gt;Gestores eficazes tem relações eficazes&lt;/h2&gt; &lt;p&gt;Existem quatro focos de relações eficazes:&lt;/p&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;Ouvem a todos e principalmente os subordinados.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Trabalham em equipe, de acordo com a lógica da situação e sabem quem na organização devem usar para que o resultado do trabalho seja eficaz.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Foco em autodesenvolvimento, sabem quais conhecimentos e habilidades precisam ser evoluidas para melhorar seus resultados&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Estimular subordinados e superiores a se melhorarem.&lt;/p&gt; &lt;/li&gt; &lt;/ol&gt;...</description>
+        <pubDate>Sat, 30 Mar 2019 07:19:18 -0300</pubDate>
+        <link>https://caio.dev/gestor-eficaz-2/</link>
+        <guid isPermaLink="true">https://caio.dev/gestor-eficaz-2/</guid>
+        
+        <category>pessoal</category>
+        
+        <category>carreira</category>
+        
+        
+      </item>
     
       <item>
         <title>O Gestor Eficaz, o que aprendi - Parte 1</title>
@@ -147,20 +161,6 @@
         <pubDate>Sun, 08 Jul 2018 06:29:00 -0300</pubDate>
         <link>https://caio.dev/a-minha-vis%C3%A3o-de-um-senior/</link>
         <guid isPermaLink="true">https://caio.dev/a-minha-vis%C3%A3o-de-um-senior/</guid>
-        
-        <category>pessoal</category>
-        
-        <category>carreira</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Você não precisa palestrar</title>
-        <description>&lt;p&gt;Nos dias de hoje, criou-se o mito da “startup/empreendedorismo”, essa se tornou a fórmula padrão de “vencer” na vida, mas isso não é uma verdade absoluta, existem diferentes tipos de pessoas, com diferentes objetivos/ambições, além do mais, a geração dos nossos pais se virou bem, sem precisar entrar nesse método.&lt;/p&gt; &lt;p&gt;Existe algo ainda pior, o &lt;a href=&quot;http://www.administradores.com.br/artigos/empreendedorismo/o-que-e-empreendedorismo-de-palco/101286/&quot;&gt;empreendedor de palco&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Algo semelhante ocorreu na área de tecnologia e foi levado ao extremo em desenvolvimento de software, foi criado o “caminho correto” para evoluir, que são as palestras.&lt;/p&gt; &lt;h2 id=&quot;mas-palestrar-é-ruim&quot;&gt;Mas palestrar é ruim?&lt;/h2&gt; &lt;p&gt;Não, muito pelo contrário, palestrar é ótimo e eu...</description>
-        <pubDate>Sat, 09 Jun 2018 03:52:30 -0300</pubDate>
-        <link>https://caio.dev/voc%C3%AA-n%C3%A3o-precisa-palestrar/</link>
-        <guid isPermaLink="true">https://caio.dev/voc%C3%AA-n%C3%A3o-precisa-palestrar/</guid>
         
         <category>pessoal</category>
         
