@@ -27,7 +27,7 @@ Existem quatro focos de relações eficazes:
 
 4. Estimular subordinados e superiores a se melhorarem.
 
-Esses são os quatro pilares para que suas releções com os colegas de trabalho sejam eficazes.
+Esses são os quatro pilares para que suas relações com os colegas de trabalho sejam eficazes.
 
 ## Reuniões eficazes
 
@@ -37,13 +37,13 @@ Para isto, toda reunião deve ter uma finalidade e um resultado esperado, mesmo 
 
 Existe uma "regra" para se ter uma boa reunião: focalizar desde o início na contribuição e no resultado esperado.
 
-## Jutando as forças
+## Juntando as forças
 
 Gestores eficazes junta forças com seus liderados, seu superiores e seus pares, para escolher com quem você irá se juntar, Peter nos sugere quatro regras:
 
 1. Se uma função gera falha de duas ou três pessoas sucessivamente, a função precisa ser reestruturada.
 
-2. Gestores eficazes entregam funções para que as pessoas tenham a chance de mostrar todo o seu potencial e se possível, evoluirem.
+2. Gestores eficazes entregam funções para que as pessoas tenham a chance de mostrar todo o seu potencial e se possível, evoluírem.
 
 3. Gestores eficazes tem foco no que a pessoa pode/sabe fazer e não na função em si.
 
@@ -91,3 +91,9 @@ Temos como base cinco regras:
 5. Uma retrospectiva se a decisão e a ação forma realmente eficazes.
 
 ## Conclusão
+
+Este livro é ótimo para quem deseja ter um dia a dia mais eficaz e focar no que realmente importa, por muitas vezes nos desesperamos para fazer mais horas de trabalho do que deveríamos, isso é resultado da falta de eficácia, pois se estivéssemos fazendo apenas a coisa certa, com certeza precisariamos trabalhar menos.
+
+Gosto também do modo que o autor expõe as suas conclusões, sumarizando-as em regras simples e que podem ser seguidar por qualquer um.
+
+Peter Drucker é um dos pais da administração moderna e este é seu livro mais famoso.
