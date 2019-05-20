@@ -21,9 +21,9 @@ Agora falando de organização do evento em si, estava impecável, sem dúvidas 
 
 Eu como palestrante, fiz questão de parabenizar pessoalmente a empresa que estava organizando o coffee.
 
-Mas voltando ao espaço, havia cadeira para todos os participantes e os patrocinadores estavam com estandes realmente interessantes, a OLX chegou a levar um massagista para o seu stand!
+Mas voltando ao espaço, haviam cadeiras para todos os participantes e os patrocinadores estavam com estandes realmente interessantes, a OLX chegou a levar um massagista para o seu stand!
 
-Além dos brindes e sorteios promovidos pelos patrocinadores, que iam desde camisetas até fones de ouvido de mais de R$2.000, a QConSP organizou vários brindes interessantes, todos os participantes receberam um pacote de café, o qual estava realmente muito bom, caderno e caneta para anotações e uma cerveja!
+Além dos brindes e sorteios promovidos pelos patrocinadores, que iam desde camisetas até fones de ouvido de mais de R$2.000, a QConSP organizou vários brindes interessantes, todos os participantes receberam um pacote de café, o qual estava realmente muito bom, caderno e caneta para anotações, uma meia e uma cerveja!
 
 Por fim, o evento terminou com um happy hour open bar no qual era possível fazer conexões e conversar com muita gente interessante.
 
