@@ -5,9 +5,23 @@
     <description>Um blog sobre pessoas e tecnologia</description>
     <link>https://caio.dev/</link>
     <atom:link href="https://caio.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Apr 2019 08:04:09 -0300</pubDate>
-    <lastBuildDate>Mon, 01 Apr 2019 08:04:09 -0300</lastBuildDate>
+    <pubDate>Mon, 20 May 2019 08:00:02 -0300</pubDate>
+    <lastBuildDate>Mon, 20 May 2019 08:00:02 -0300</lastBuildDate>
     <generator>Jekyll v3.8.4</generator>
+    
+      <item>
+        <title>Como foi a QCon</title>
+        <description>&lt;p&gt;Muitas pessoas vieram me perguntar como foi a QConSP 2019 e acredito que se houve tanto interesse de pessoas próximas em saber como foi o evento, mais pessoas poderiam se interessar na minha perspectiva do evento, eis que surge a ideia de escrever este texto que você está lendo.&lt;/p&gt; &lt;h2 id=&quot;o-espaço-e-amenities&quot;&gt;O espaço e amenities&lt;/h2&gt; &lt;p&gt;O evento aconteceu no centro de convenções Frei Caneca, dentro do Shopping Frei Caneca, isso por si só, já é um grande ponto positivo, além do centro de convenções ter um ótimo ambiente, grande, com ar condicionado que realmente atendeu bem o evento, ficar dentro de...</description>
+        <pubDate>Tue, 14 May 2019 05:05:49 -0300</pubDate>
+        <link>https://caio.dev/como-foi-a-qcon/</link>
+        <guid isPermaLink="true">https://caio.dev/como-foi-a-qcon/</guid>
+        
+        <category>pessoal</category>
+        
+        <category>carreira</category>
+        
+        
+      </item>
     
       <item>
         <title>O Gestor Eficaz, o que aprendi - Parte 2</title>
@@ -151,20 +165,6 @@
         <category>carreira</category>
         
         <category>gestão</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>A minha visão de um Senior</title>
-        <description>&lt;p&gt;Pouco tempo atrás, ouvi uma frase que me perturbou um pouco:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Meu sonho é ser um Senior super respeitado, onde “ninguém encosta”, que digam “Nossa, se eu não sei resolver, vou perguntar para o Fulano, por que ele sempre sabe.”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Com base nessa citação, achei interessante compartilhar a minha visão sobre o que é um profissional Senior e suas responsabilidades.&lt;/p&gt; &lt;h2 id=&quot;sou-um-ótimo-desenvolvedor-isso-me-torna-um-senior&quot;&gt;Sou um ótimo desenvolvedor, isso me torna um Senior?&lt;/h2&gt; &lt;p&gt;Você pode saber programar em doze linguagens diferentes, mandar PR para o Linux, saber todas as funções de uma linguagem, mas se você não sabe se comunicar bem...</description>
-        <pubDate>Sun, 08 Jul 2018 06:29:00 -0300</pubDate>
-        <link>https://caio.dev/a-minha-vis%C3%A3o-de-um-senior/</link>
-        <guid isPermaLink="true">https://caio.dev/a-minha-vis%C3%A3o-de-um-senior/</guid>
-        
-        <category>pessoal</category>
-        
-        <category>carreira</category>
         
         
       </item>

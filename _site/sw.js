@@ -1,7 +1,9 @@
-const staticCacheName = 'caio-incau-2019-04-01-08-04';
+const staticCacheName = 'caio-incau-2019-05-20-08-00';
 
 const filesToCache = [
   
+  
+    '/como-foi-a-qcon/',
   
     '/gestor-eficaz-2/',
   
@@ -12,8 +14,6 @@ const filesToCache = [
     '/feitas-para-durar/',
   
     '/inspired/',
-  
-    '/economize-e-ser%C3%A1-livre/',
   
   
 ];
