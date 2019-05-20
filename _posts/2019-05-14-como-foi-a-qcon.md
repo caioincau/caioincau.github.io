@@ -29,17 +29,17 @@ Por fim, o evento terminou com um happy hour open bar no qual era possível faze
 
 ## As palestras
 
-Acho que não é segredo para ninguém que a QConSP é um evento focado em um público bem senior, haviam lá CTOs, gerentes, arquitetos e vários devs seniors.
+Acho que não é segredo para ninguém que a QConSP é um evento focado em um público bem sênior, haviam lá CTOs, gerentes, arquitetos e vários devs sêniors.
 
 Dito isso, era necessário um alto nível de palestrantes para que as expectativas fossem atendidas, todo dia, antes da trilha iniciar, havia um Keynote principal, o qual era um pouco mais genérico, para atender a todos, todos os Keynotes foram ótimos e você pode ver a lista de palestras [aqui](https://qconsp.com/schedule/sp2019/tabular).
 
-Cada dia tinhamos seis trilhas de palestras, cada uma com um curador, que aliás estão de parabéns pelo trabalho feito, eu frequentei várias trilhas com maior focos nas trilhas de Front-End, cultura empresarial e carreira, organizados respectivamente por: [Christiano Milfont](https://qconsp.com/sp2019/pc-chairs/christiano-milfont), [Anderson Borges](https://qconsp.com/sp2019/pc-chairs/anderson-borges) e [Bruno Souza](https://qconsp.com/sp2019/pc-chairs/bruno-souza).
+Cada dia tínhamos seis trilhas de palestras, cada uma com um curador, que aliás estão de parabéns pelo trabalho feito, eu frequentei várias trilhas com maior focos nas trilhas de Front-End, cultura empresarial e carreira, organizados respectivamente por: [Christiano Milfont](https://qconsp.com/sp2019/pc-chairs/christiano-milfont), [Anderson Borges](https://qconsp.com/sp2019/pc-chairs/anderson-borges) e [Bruno Souza](https://qconsp.com/sp2019/pc-chairs/bruno-souza).
 
 Já havia frequentado a QCon há muitos anos, onde confesso, não consegui aproveitar tanto, pois era muito novo no mercado de desenvolvimento, já neste ano, sai de lá com vários insights, tivemos talks de grandes empresas de fora, como Netflix, Facebook, Google, Instagram, Spotify, mas sem deixar de prestigiar o ótimo trabalho feito por empresas brazucas como RD, Nubank, Wirecard, Creditas, Serpro e etc...
 
 ## Palestrantes
 
-As palestras não são mais do que slides perdidos sem os seus palestrantes, e estes deram um show a parte, tive a oportunidade de conversar com vários deles, pessoas incríveis e com histórias ímpares para contar, conversei com Marin Spier, arquiteto de performance na Netflix, Alexandre Freire, diretor de engenharia da Netflix, Katharina Probst, Senior Manager no Google, Rodrigo Schmidt, diretor de engenharia do Instagram e vários outros devs sensacionais como o André Poleza(Nubank), Celso Henrique(Easynvest), Sergío Lopes(Caelum), Yuri Teixeira(Spotify) entre outros, poderia ficar horas falando sobre as pessoas incríveis que pude bater este papo.
+As palestras não são mais do que slides perdidos sem os seus palestrantes, e estes deram um show a parte, tive a oportunidade de conversar com vários deles, pessoas incríveis e com histórias ímpares para contar, conversei com Marin Spier, arquiteto de performance na Netflix, Alexandre Freire, diretor de engenharia da Netflix, Katharina Probst, sênior Manager no Google, Rodrigo Schmidt, diretor de engenharia do Instagram e vários outros devs sensacionais como o André Poleza(Nubank), Celso Henrique(Easynvest), Sergío Lopes(Caelum), Yuri Teixeira(Spotify) entre outros, poderia ficar horas falando sobre as pessoas incríveis que pude bater este papo.
 
 Os palestrantes estavam extremamente acessíveis, seja em painéis de discussão, ou mesmo caminhando durante o evento.
 
@@ -49,7 +49,12 @@ A organização está de parabéns por selecionar pessoas que não apenas tem um
 
 A organização deu um show a parte, desde o mais básico, como a recepção dos inscritos, super organizada e calorosa, quase não havia filas para receber as credenciais, credenciais que funcionavam com QRCode, estes estavam integrados com os estandes do evento.
 
-Também tivemos uma feature nova que achei super interessante, a possibilidade de avaliar palestras através de um tablet, muitos eventos fazem isto com post-it e sempre achei isto desconfortável, pois era bem visível quando o pessoal não gostava da palestra, o que gera algum constragimento para o palestrante, já neste sistema de tablet, tudo fica mais anônimo e o palestrante recebe o feedback de forma mais privada.
+Também tivemos uma feature nova que achei super interessante, a possibilidade de avaliar palestras através de um tablet, muitos eventos fazem isto com post-it e sempre achei isto desconfortável, pois era bem visível quando o pessoal não gostava da palestra, o que gera algum constrangimento para o palestrante, já neste sistema de tablet, tudo fica mais anônimo e o palestrante recebe o feedback de forma mais privada.
 
 Também houve uma grande preocupação da organização com o som e projeção das trilhas, haviam operadores de som em todas as tracks, microfones dedicados ao melhor estilo Sandy e Junior(brincadeira, eram ótimos, de verdade), sinceramente, o som estava impecável e mesmo nos grandes Keynotes, onde a sala era enorme e por vezes fiquei mais ao fundo, foi possível ouvir perfeitamente, parabéns ao Leandro Guimarães e ao Eder Ignatowicz que lideram isto tudo, também gostaria de parabenizar todas as pessoas que trabalharam no evento também, sejam como voluntários ou contratados.
 
+## Conclusão
+
+Muitos me perguntam se valeu a pena ir na QConSP e se a resposta não ficou óbvia no meu texto, sim, valeu muito a pena, sem dúvidas não é um evento barato, mas tem um altíssimo nível de palestras e tópicos, uma organização ímpar e sem dúvidas entrega uma experiência  única.
+
+Recomendo a todos que tiveram a oportunidade de ir em ao menos uma QCon para sentir como é estar neste evento.
