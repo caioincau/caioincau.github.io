@@ -45,6 +45,7 @@ Você conhece seu novo líder? Gosta do seu atual? A grande maioria das pessoas 
 
 As pessoas possuem prioridades diferentes, por isso é importante pesar para você, quais pontos pesam mais? Quais terão maior impacto na sua decisão? Priorize a lista de acordo com suas prioridades e se possível atribua notas a cada ponto relevante.
 
+
 ## Conclusão 
 
 Para mim, ter esse roteiro me ajudou a tomar a melhor decisão que foi a decisão de mudança, para você, pode ser ficar, mas é importante ter clareza na sua decisão.
