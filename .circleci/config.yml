@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run: npm install
       - run: gem install bundler jekyll
-      - run: gulp
+      - run: jekyll build
       - run: git commit -m "[ci skip] new build"
       - run: git push
       - deploy:
