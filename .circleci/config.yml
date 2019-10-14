@@ -7,7 +7,6 @@ jobs:
       - checkout
       - run: npm install
       - run: gem install bundler jekyll
-      - run: npm install gulp -g
       - run: gulp
       - deploy:
           name: Deploy Release to GitHub
