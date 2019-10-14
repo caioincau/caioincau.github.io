@@ -7,7 +7,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "SO:ME:FIN:G:ER:PR:IN:T"
+            - "34:36:9f:cd:ec:81:a9:5f:57:0b:8e:5c:2c:2b:52:66"
       - checkout
       - run: npm install
       - run: gem install bundler jekyll
