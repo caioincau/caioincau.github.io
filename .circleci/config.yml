@@ -11,6 +11,7 @@ jobs:
       - run: jekyll build
       - run: git config --global user.email "caioincau@gmail.com"
       - run: git config --global user.name "Caio Incau"
+      - run: git config --global push.default matching
       - run: git commit -am "[ci skip] new build"
       - run: git push
       - deploy:
