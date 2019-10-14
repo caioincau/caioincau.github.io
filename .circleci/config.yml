@@ -34,8 +34,7 @@ jobs:
           command: |
             apk add --update nodejs npm
 
-
-        - run:
-          name: gulp
-          command: |
-            gulp
+      - run:
+        name: gulp
+        command: |
+          gulp
