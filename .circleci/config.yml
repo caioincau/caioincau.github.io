@@ -3,11 +3,14 @@ jobs:
   deploy:
     docker:
       - image: circleci/ruby:2.4.3-node-browsers
+    working_directory: ~/caioincau.github.io
     steps:
       - checkout
       - run: npm install
       - run: gem install bundler jekyll
       - run: jekyll build
+      - run: git config --global user.email "caioincau@gmail.com"
+      - run: git config --global user.name "Caio Incau"
       - run: git commit -m "[ci skip] new build"
       - run: git push
       - deploy:
