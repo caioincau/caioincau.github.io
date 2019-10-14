@@ -8,6 +8,8 @@ jobs:
       - run: npm install
       - run: gem install bundler jekyll
       - run: gulp
+      - run: git commit -m "[ci skip] new build"
+      - run: git push
       - deploy:
           name: Deploy Release to GitHub
           command: |
