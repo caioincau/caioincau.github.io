@@ -5,6 +5,9 @@ jobs:
       - image: circleci/ruby:2.4.3-node-browsers
     working_directory: ~/caioincau.github.io
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "SO:ME:FIN:G:ER:PR:IN:T"
       - checkout
       - run: npm install
       - run: gem install bundler jekyll
