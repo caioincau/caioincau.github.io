@@ -78,7 +78,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-04-03 18:15:33 -0300" class="date">03 Apr 2018</time>
+            <time itemprop="datePublished" datetime="2018-04-03 21:15:33 +0000" class="date">03 Apr 2018</time>
         
         <h1 class="post-title" itemprop="name">Performance Webpack Parte 2</h1>
         <p itemprop="description" class="subtitle"></p>
@@ -142,9 +142,9 @@
 <p>Com o webpack podemos gerar um hash automático a cada build que houver alterações e usar essa variável gerada, para concatenar no nome dos arquivos:</p>
 
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="na">entry</span><span class="p">:</span> <span class="s1">'./index.js'</span><span class="p">,</span>
+    <span class="na">entry</span><span class="p">:</span> <span class="dl">'</span><span class="s1">./index.js</span><span class="dl">'</span><span class="p">,</span>
     <span class="na">output</span><span class="p">:</span> <span class="p">{</span>
-        <span class="na">filename</span><span class="p">:</span> <span class="s1">'bundle.[chunkhash].js'</span><span class="p">,</span>
+        <span class="na">filename</span><span class="p">:</span> <span class="dl">'</span><span class="s1">bundle.[chunkhash].js</span><span class="dl">'</span><span class="p">,</span>
             <span class="c1">// → bundle.8e0d62a03.js</span>
     <span class="p">},</span>
 <span class="p">};</span></code></pre></figure>
@@ -160,9 +160,9 @@
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
     <span class="na">plugins</span><span class="p">:</span> <span class="p">[</span>
         <span class="k">new</span> <span class="nx">webpack</span><span class="p">.</span><span class="nx">optimize</span><span class="p">.</span><span class="nx">CommonsChunkPlugin</span><span class="p">({</span>
-            <span class="na">name</span><span class="p">:</span> <span class="s1">'vendor'</span><span class="p">,</span>
+            <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">vendor</span><span class="dl">'</span><span class="p">,</span>
             <span class="na">minChunks</span><span class="p">:</span> <span class="nx">module</span> <span class="o">=&gt;</span> <span class="nx">module</span><span class="p">.</span><span class="nx">context</span> <span class="o">&amp;&amp;</span>
-                <span class="nx">module</span><span class="p">.</span><span class="nx">context</span><span class="p">.</span><span class="nx">includes</span><span class="p">(</span><span class="s1">'node_modules'</span><span class="p">),</span>
+                <span class="nx">module</span><span class="p">.</span><span class="nx">context</span><span class="p">.</span><span class="nx">includes</span><span class="p">(</span><span class="dl">'</span><span class="s1">node_modules</span><span class="dl">'</span><span class="p">),</span>
         <span class="p">}),</span>
     <span class="p">],</span>
 <span class="p">};</span></code></pre></figure>
@@ -180,7 +180,7 @@
 <p>Vamos supor que nós temos um página com uma seção de comentários, mas não queremos trazer os comentários de forma automática, queremos que os comentários sejam carregados apenas quando clicar em “ver comentários”.</p>
 
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">onShowCommentsClick</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="k">import</span><span class="p">(</span><span class="s1">'./comments'</span><span class="p">).</span><span class="nx">then</span><span class="p">((</span><span class="nx">comments</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="k">import</span><span class="p">(</span><span class="dl">'</span><span class="s1">./comments</span><span class="dl">'</span><span class="p">).</span><span class="nx">then</span><span class="p">((</span><span class="nx">comments</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
         <span class="nx">comments</span><span class="p">.</span><span class="nx">renderComments</span><span class="p">();</span>
     <span class="p">});</span>
 <span class="p">});</span></code></pre></figure>
@@ -195,9 +195,9 @@
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// webpack.config.js</span>
 <span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
     <span class="na">entry</span><span class="p">:</span> <span class="p">{</span>
-        <span class="na">home</span><span class="p">:</span> <span class="s1">'./src/Home/index.js'</span><span class="p">,</span>
-        <span class="na">article</span><span class="p">:</span> <span class="s1">'./src/Article/index.js'</span><span class="p">,</span>
-        <span class="na">profile</span><span class="p">:</span> <span class="s1">'./src/Profile/index.js'</span>
+        <span class="na">home</span><span class="p">:</span> <span class="dl">'</span><span class="s1">./src/Home/index.js</span><span class="dl">'</span><span class="p">,</span>
+        <span class="na">article</span><span class="p">:</span> <span class="dl">'</span><span class="s1">./src/Article/index.js</span><span class="dl">'</span><span class="p">,</span>
+        <span class="na">profile</span><span class="p">:</span> <span class="dl">'</span><span class="s1">./src/Profile/index.js</span><span class="dl">'</span>
     <span class="p">},</span>
 <span class="p">};</span></code></pre></figure>
 

@@ -78,7 +78,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-04-12 07:04:30 -0300" class="date">12 Apr 2018</time>
+            <time itemprop="datePublished" datetime="2018-04-12 10:04:30 +0000" class="date">12 Apr 2018</time>
         
         <h1 class="post-title" itemprop="name">Performance Webpack - Final</h1>
         <p itemprop="description" class="subtitle"></p>
@@ -149,7 +149,7 @@
 
 <p>Basta importar e adicionar o plugin no seu <code class="highlighter-rouge">webpack.config</code></p>
 
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">const</span> <span class="nx">DashboardPlugin</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'webpack-dashboard/plugin'</span><span class="p">);</span>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">const</span> <span class="nx">DashboardPlugin</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">webpack-dashboard/plugin</span><span class="dl">'</span><span class="p">);</span>
 
 <span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
   <span class="na">plugins</span><span class="p">:</span> <span class="p">[</span>
@@ -172,18 +172,18 @@
 
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// package.json</span>
 <span class="p">{</span>
-  <span class="s2">"bundlesize"</span><span class="p">:</span> <span class="p">[</span>
+  <span class="dl">"</span><span class="s2">bundlesize</span><span class="dl">"</span><span class="p">:</span> <span class="p">[</span>
     <span class="p">{</span>
-      <span class="s2">"path"</span><span class="p">:</span> <span class="s2">"./dist/*.png"</span><span class="p">,</span>
-      <span class="s2">"maxSize"</span><span class="p">:</span> <span class="s2">"16 kB"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">path</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">./dist/*.png</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">maxSize</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">16 kB</span><span class="dl">"</span><span class="p">,</span>
     <span class="p">},</span>
     <span class="p">{</span>
-      <span class="s2">"path"</span><span class="p">:</span> <span class="s2">"./dist/main.*.js"</span><span class="p">,</span>
-      <span class="s2">"maxSize"</span><span class="p">:</span> <span class="s2">"20 kB"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">path</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">./dist/main.*.js</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">maxSize</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">20 kB</span><span class="dl">"</span><span class="p">,</span>
     <span class="p">},</span>
     <span class="p">{</span>
-      <span class="s2">"path"</span><span class="p">:</span> <span class="s2">"./dist/vendors.*.js"</span><span class="p">,</span>
-      <span class="s2">"maxSize"</span><span class="p">:</span> <span class="s2">"35 kB"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">path</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">./dist/vendors.*.js</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">maxSize</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">35 kB</span><span class="dl">"</span><span class="p">,</span>
     <span class="p">}</span>
   <span class="p">]</span>
 <span class="p">}</span></code></pre></figure>
@@ -215,7 +215,7 @@
 
 <p>E adicionar seu plugin no webpack:</p>
 
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">const</span> <span class="nx">BundleAnalyzerPlugin</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'webpack-bundle-analyzer'</span><span class="p">).</span><span class="nx">BundleAnalyzerPlugin</span><span class="p">;</span>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">const</span> <span class="nx">BundleAnalyzerPlugin</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">webpack-bundle-analyzer</span><span class="dl">'</span><span class="p">).</span><span class="nx">BundleAnalyzerPlugin</span><span class="p">;</span>
 
 <span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
     <span class="na">plugins</span><span class="p">:</span> <span class="p">[</span>

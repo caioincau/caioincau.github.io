@@ -78,7 +78,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-04-01 04:15:08 -0300" class="date">01 Apr 2018</time>
+            <time itemprop="datePublished" datetime="2018-04-01 07:15:08 +0000" class="date">01 Apr 2018</time>
         
         <h1 class="post-title" itemprop="name">Performance Webpack Parte - 1</h1>
         <p itemprop="description" class="subtitle"></p>
@@ -153,7 +153,7 @@
 Para que nunca usou minificação, o processo básicamente remove os espaços em branco, além de substituir os simbolos, por simbolos menores, economizando kbytes.
 O processo é simples usando o plugin UglifyJS:</p>
 
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">const</span> <span class="nx">webpack</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'webpack'</span><span class="p">);</span>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">const</span> <span class="nx">webpack</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">webpack</span><span class="dl">'</span><span class="p">);</span>
 
 <span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
     <span class="na">plugins</span><span class="p">:</span> <span class="p">[</span>
@@ -164,30 +164,30 @@ O processo é simples usando o plugin UglifyJS:</p>
 <h4 id="código-que-escrevemos">Código que escrevemos</h4>
 
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// comments.js</span>
-<span class="k">import</span> <span class="s1">'./comments.css'</span><span class="p">;</span>
+<span class="k">import</span> <span class="dl">'</span><span class="s1">./comments.css</span><span class="dl">'</span><span class="p">;</span>
 <span class="k">export</span> <span class="kd">function</span> <span class="nx">render</span><span class="p">(</span><span class="nx">data</span><span class="p">,</span> <span class="nx">target</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Rendered!'</span><span class="p">);</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Rendered!</span><span class="dl">'</span><span class="p">);</span>
 <span class="p">}</span></code></pre></figure>
 
 <h4 id="código-após-compile-do-webpack-com-babel">Código após compile do Webpack com babel</h4>
 
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// bundle.js (part of)</span>
-<span class="s2">"use strict"</span><span class="p">;</span>
-<span class="nb">Object</span><span class="p">.</span><span class="nx">defineProperty</span><span class="p">(</span><span class="nx">__webpack_exports__</span><span class="p">,</span> <span class="s2">"__esModule"</span><span class="p">,</span> <span class="p">{</span> <span class="na">value</span><span class="p">:</span> <span class="kc">true</span> <span class="p">});</span>
-<span class="cm">/* harmony export (immutable) */</span> <span class="nx">__webpack_exports__</span><span class="p">[</span><span class="s2">"render"</span><span class="p">]</span> <span class="o">=</span> <span class="nx">render</span><span class="p">;</span>
+<span class="dl">"</span><span class="s2">use strict</span><span class="dl">"</span><span class="p">;</span>
+<span class="nb">Object</span><span class="p">.</span><span class="nx">defineProperty</span><span class="p">(</span><span class="nx">__webpack_exports__</span><span class="p">,</span> <span class="dl">"</span><span class="s2">__esModule</span><span class="dl">"</span><span class="p">,</span> <span class="p">{</span> <span class="na">value</span><span class="p">:</span> <span class="kc">true</span> <span class="p">});</span>
+<span class="cm">/* harmony export (immutable) */</span> <span class="nx">__webpack_exports__</span><span class="p">[</span><span class="dl">"</span><span class="s2">render</span><span class="dl">"</span><span class="p">]</span> <span class="o">=</span> <span class="nx">render</span><span class="p">;</span>
 <span class="cm">/* harmony import */</span> <span class="kd">var</span> <span class="nx">__WEBPACK_IMPORTED_MODULE_0__comments_css__</span> <span class="o">=</span> <span class="nx">__webpack_require__</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
 <span class="cm">/* harmony import */</span> <span class="kd">var</span> <span class="nx">__WEBPACK_IMPORTED_MODULE_0__comments_css_js___default</span> <span class="o">=</span>
 <span class="nx">__webpack_require__</span><span class="p">.</span><span class="nx">n</span><span class="p">(</span><span class="nx">__WEBPACK_IMPORTED_MODULE_0__comments_css__</span><span class="p">);</span>
 
 <span class="kd">function</span> <span class="nx">render</span><span class="p">(</span><span class="nx">data</span><span class="p">,</span> <span class="nx">target</span><span class="p">)</span> <span class="p">{</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Rendered!'</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Rendered!</span><span class="dl">'</span><span class="p">);</span>
 <span class="p">}</span></code></pre></figure>
 
 <h4 id="código-após-o-uglifyjs">Código após o UglifyJS</h4>
 
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// minified bundle.js (part of)</span>
-<span class="s2">"use strict"</span><span class="p">;</span><span class="kd">function</span> <span class="nx">t</span><span class="p">(</span><span class="nx">e</span><span class="p">,</span><span class="nx">n</span><span class="p">){</span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"Rendered!"</span><span class="p">)}</span>
-<span class="nb">Object</span><span class="p">.</span><span class="nx">defineProperty</span><span class="p">(</span><span class="nx">n</span><span class="p">,</span><span class="s2">"__esModule"</span><span class="p">,{</span><span class="na">value</span><span class="p">:</span><span class="o">!</span><span class="mi">0</span><span class="p">}),</span><span class="nx">n</span><span class="p">.</span><span class="nx">render</span><span class="o">=</span><span class="nx">t</span><span class="p">;</span><span class="kd">var</span> <span class="nx">o</span><span class="o">=</span><span class="nx">r</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span><span class="nx">r</span><span class="p">.</span><span class="nx">n</span><span class="p">(</span><span class="nx">o</span><span class="p">)</span></code></pre></figure>
+<span class="dl">"</span><span class="s2">use strict</span><span class="dl">"</span><span class="p">;</span><span class="kd">function</span> <span class="nx">t</span><span class="p">(</span><span class="nx">e</span><span class="p">,</span><span class="nx">n</span><span class="p">){</span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">Rendered!</span><span class="dl">"</span><span class="p">)}</span>
+<span class="nb">Object</span><span class="p">.</span><span class="nx">defineProperty</span><span class="p">(</span><span class="nx">n</span><span class="p">,</span><span class="dl">"</span><span class="s2">__esModule</span><span class="dl">"</span><span class="p">,{</span><span class="na">value</span><span class="p">:</span><span class="o">!</span><span class="mi">0</span><span class="p">}),</span><span class="nx">n</span><span class="p">.</span><span class="nx">render</span><span class="o">=</span><span class="nx">t</span><span class="p">;</span><span class="kd">var</span> <span class="nx">o</span><span class="o">=</span><span class="nx">r</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span><span class="nx">r</span><span class="p">.</span><span class="nx">n</span><span class="p">(</span><span class="nx">o</span><span class="p">)</span></code></pre></figure>
 
 <h3 id="minifique-seu-css">Minifique seu CSS</h3>
 
@@ -202,8 +202,8 @@ O processo é simples usando o plugin UglifyJS:</p>
         <span class="p">{</span>
             <span class="na">test</span><span class="p">:</span> <span class="sr">/</span><span class="se">\.</span><span class="sr">css$/</span><span class="p">,</span>
             <span class="na">use</span><span class="p">:</span> <span class="p">[</span>
-                <span class="s1">'style-loader'</span><span class="p">,</span>
-                <span class="p">{</span> <span class="na">loader</span><span class="p">:</span> <span class="s1">'css-loader'</span><span class="p">,</span> <span class="na">options</span><span class="p">:</span> <span class="p">{</span> <span class="na">minimize</span><span class="p">:</span> <span class="kc">true</span> <span class="p">}</span> <span class="p">},</span>
+                <span class="dl">'</span><span class="s1">style-loader</span><span class="dl">'</span><span class="p">,</span>
+                <span class="p">{</span> <span class="na">loader</span><span class="p">:</span> <span class="dl">'</span><span class="s1">css-loader</span><span class="dl">'</span><span class="p">,</span> <span class="na">options</span><span class="p">:</span> <span class="p">{</span> <span class="na">minimize</span><span class="p">:</span> <span class="kc">true</span> <span class="p">}</span> <span class="p">},</span>
             <span class="p">],</span>
         <span class="p">},</span>
         <span class="p">],</span>
@@ -227,12 +227,12 @@ O processo é simples usando o plugin UglifyJS:</p>
 <p>Podemos usar o <code class="highlighter-rouge">webpack.DefinePlugin</code> para substituir as ocorrências de <code class="highlighter-rouge">process.env.NODE_ENV</code> para <code class="highlighter-rouge">'production'</code></p>
 
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// webpack.config.js</span>
-<span class="kd">const</span> <span class="nx">webpack</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'webpack'</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">webpack</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">webpack</span><span class="dl">'</span><span class="p">);</span>
 
 <span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
 <span class="na">plugins</span><span class="p">:</span> <span class="p">[</span>
     <span class="k">new</span> <span class="nx">webpack</span><span class="p">.</span><span class="nx">DefinePlugin</span><span class="p">({</span>
-    <span class="s1">'process.env.NODE_ENV'</span><span class="p">:</span> <span class="s1">'"production"'</span><span class="p">,</span>
+    <span class="dl">'</span><span class="s1">process.env.NODE_ENV</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">"production"</span><span class="dl">'</span><span class="p">,</span>
     <span class="p">}),</span>
     <span class="k">new</span> <span class="nx">webpack</span><span class="p">.</span><span class="nx">optimize</span><span class="p">.</span><span class="nx">UglifyJsPlugin</span><span class="p">(),</span>
 <span class="p">],</span>
@@ -240,18 +240,18 @@ O processo é simples usando o plugin UglifyJS:</p>
 
 <p>Deste modo o UglifyJS vai avaliar uma expressão como essa do Vue:</p>
 
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">val</span> <span class="o">===</span> <span class="s1">'string'</span><span class="p">)</span> <span class="p">{</span>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">val</span> <span class="o">===</span> <span class="dl">'</span><span class="s1">string</span><span class="dl">'</span><span class="p">)</span> <span class="p">{</span>
     <span class="nx">name</span> <span class="o">=</span> <span class="nx">camelize</span><span class="p">(</span><span class="nx">val</span><span class="p">);</span>
     <span class="nx">res</span><span class="p">[</span><span class="nx">name</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span> <span class="na">type</span><span class="p">:</span> <span class="kc">null</span> <span class="p">};</span>
-<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="s2">"production"</span> <span class="o">!==</span> <span class="s1">'production'</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">warn</span><span class="p">(</span><span class="s1">'props must be strings when using array syntax.'</span><span class="p">);</span>
+<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="dl">"</span><span class="s2">production</span><span class="dl">"</span> <span class="o">!==</span> <span class="dl">'</span><span class="s1">production</span><span class="dl">'</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">warn</span><span class="p">(</span><span class="dl">'</span><span class="s1">props must be strings when using array syntax.</span><span class="dl">'</span><span class="p">);</span>
 <span class="p">}</span></code></pre></figure>
 
 <p>E automáticamente remover o else que retornará false, ou seja, deadcode.</p>
 
 <p>Transformando em:</p>
 
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">val</span> <span class="o">===</span> <span class="s1">'string'</span><span class="p">)</span> <span class="p">{</span>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">val</span> <span class="o">===</span> <span class="dl">'</span><span class="s1">string</span><span class="dl">'</span><span class="p">)</span> <span class="p">{</span>
     <span class="nx">name</span> <span class="o">=</span> <span class="nx">camelize</span><span class="p">(</span><span class="nx">val</span><span class="p">);</span>
     <span class="nx">res</span><span class="p">[</span><span class="nx">name</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span> <span class="na">type</span><span class="p">:</span> <span class="kc">null</span> <span class="p">};</span>
 <span class="p">}</span></code></pre></figure>
@@ -265,18 +265,18 @@ O processo é simples usando o plugin UglifyJS:</p>
 <p>Vamos pegar o seguinte código de exemplo:</p>
 
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// comments.js</span>
-<span class="k">export</span> <span class="kd">const</span> <span class="nx">render</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span> <span class="k">return</span> <span class="s1">'Rendered!'</span><span class="p">;</span> <span class="p">};</span>
-<span class="k">export</span> <span class="kd">const</span> <span class="nx">commentRestEndpoint</span> <span class="o">=</span> <span class="s1">'/rest/comments'</span><span class="p">;</span>
+<span class="k">export</span> <span class="kd">const</span> <span class="nx">render</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span> <span class="k">return</span> <span class="dl">'</span><span class="s1">Rendered!</span><span class="dl">'</span><span class="p">;</span> <span class="p">};</span>
+<span class="k">export</span> <span class="kd">const</span> <span class="nx">commentRestEndpoint</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">/rest/comments</span><span class="dl">'</span><span class="p">;</span>
 
 <span class="c1">// index.js</span>
-<span class="k">import</span> <span class="p">{</span> <span class="nx">render</span> <span class="p">}</span> <span class="k">from</span> <span class="s1">'./comments.js'</span><span class="p">;</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">render</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./comments.js</span><span class="dl">'</span><span class="p">;</span>
 <span class="nx">render</span><span class="p">();</span></code></pre></figure>
 
 <p>Agora vamos ver como ficam os imports após compilado:</p>
 
 <p>Veja que ele remove a função <code class="highlighter-rouge">commentRestEndpoint</code> ao perceber que ela, apesar de estar no arquivo, não foi utilizada.</p>
 
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">n</span><span class="p">,</span><span class="nx">e</span><span class="p">){</span><span class="s2">"use strict"</span><span class="p">;</span><span class="kd">var</span> <span class="nx">r</span><span class="o">=</span><span class="kd">function</span><span class="p">(){</span><span class="k">return</span><span class="s2">"Rendered!"</span><span class="p">};</span><span class="nx">e</span><span class="p">.</span><span class="nx">b</span><span class="o">=</span><span class="nx">r</span><span class="p">})</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">n</span><span class="p">,</span><span class="nx">e</span><span class="p">){</span><span class="dl">"</span><span class="s2">use strict</span><span class="dl">"</span><span class="p">;</span><span class="kd">var</span> <span class="nx">r</span><span class="o">=</span><span class="kd">function</span><span class="p">(){</span><span class="k">return</span><span class="dl">"</span><span class="s2">Rendered!</span><span class="dl">"</span><span class="p">};</span><span class="nx">e</span><span class="p">.</span><span class="nx">b</span><span class="o">=</span><span class="nx">r</span><span class="p">})</span></code></pre></figure>
 
 <p>Vale lembrar que se você usa babel, é necessário passar <code class="highlighter-rouge">{ modules: false }</code> no env, para evitar o uso de CommonJS.</p>
 
@@ -292,7 +292,7 @@ O processo é simples usando o plugin UglifyJS:</p>
     <span class="na">rules</span><span class="p">:</span> <span class="p">[</span>
     <span class="p">{</span>
         <span class="na">test</span><span class="p">:</span> <span class="sr">/</span><span class="se">\.(</span><span class="sr">jpe</span><span class="se">?</span><span class="sr">g|png|gif</span><span class="se">)</span><span class="sr">$/</span><span class="p">,</span>
-        <span class="na">loader</span><span class="p">:</span> <span class="s1">'url-loader'</span><span class="p">,</span>
+        <span class="na">loader</span><span class="p">:</span> <span class="dl">'</span><span class="s1">url-loader</span><span class="dl">'</span><span class="p">,</span>
         <span class="na">options</span><span class="p">:</span> <span class="p">{</span>
         <span class="c1">// Inline files smaller than 10 kB (10240 bytes)</span>
         <span class="na">limit</span><span class="p">:</span> <span class="mi">10</span> <span class="o">*</span> <span class="mi">1024</span><span class="p">,</span>
@@ -316,7 +316,7 @@ O processo é simples usando o plugin UglifyJS:</p>
 
 <p>Ele possui 223 KB minificado, o que no projeto que trabalho seria mais da metade do nosso projeto, porém 170kb são de arquivos de locale, boa parte deles podem ser excluídos e podemos fazer isso através do webpack:</p>
 
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">const</span> <span class="nx">MomentLocalesPlugin</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'moment-locales-webpack-plugin'</span><span class="p">);</span>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">const</span> <span class="nx">MomentLocalesPlugin</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">moment-locales-webpack-plugin</span><span class="dl">'</span><span class="p">);</span>
 
 <span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
     <span class="na">plugins</span><span class="p">:</span> <span class="p">[</span>
@@ -326,7 +326,7 @@ O processo é simples usando o plugin UglifyJS:</p>
         <span class="c1">// Or: To strip all locales except “en”, “es-us” and “ru”</span>
         <span class="c1">// (“en” is built into Moment and can’t be removed)</span>
         <span class="k">new</span> <span class="nx">MomentLocalesPlugin</span><span class="p">({</span>
-            <span class="na">localesToKeep</span><span class="p">:</span> <span class="p">[</span><span class="s1">'es-us'</span><span class="p">,</span> <span class="s1">'ru'</span><span class="p">],</span>
+            <span class="na">localesToKeep</span><span class="p">:</span> <span class="p">[</span><span class="dl">'</span><span class="s1">es-us</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">ru</span><span class="dl">'</span><span class="p">],</span>
         <span class="p">}),</span>
     <span class="p">],</span>
 <span class="p">};</span></code></pre></figure>
@@ -339,7 +339,7 @@ O processo é simples usando o plugin UglifyJS:</p>
 
 <p>Vale lembrar que ligar esta melhoria iria quebrar os módulos de hot-reload, por isso, essa configuração só deve ser usada em produção.</p>
 
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">const</span> <span class="nx">webpack</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'webpack'</span><span class="p">);</span>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">const</span> <span class="nx">webpack</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">webpack</span><span class="dl">'</span><span class="p">);</span>
 
 <span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
 <span class="na">plugins</span><span class="p">:</span> <span class="p">[</span>
