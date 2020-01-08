@@ -1,3 +1,11 @@
+## Config
+Install ruby usign nvm
+[Install Jekyll](http://jekyllrb.com)
+Install node 8.x.x
+Run npm install
+
+
+
 ## Will Jekyll Template - [Demo](https://willianjusten.github.io/will-jekyll-template)
 
 ![Screenshot](screenshot.png)
