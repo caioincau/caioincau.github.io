@@ -1,4 +1,4 @@
-I"�<h2 id="por-que-escrever">Por que escrever?</h2>
+I"�<h2 id="por-que-escrever">Por que escrever?</h2>
 
 <h3 id="disseminar-conhecimento">Disseminar conhecimento</h3>
 
@@ -24,7 +24,7 @@
 
 <p>Não necessariamente, eu hoje, acredito que temos poucas opções de boa literatura em português, mesmo que a maioria dos devs domine inglês para leitura, eles se sentem mais confortáveis e produtivos ao ler em português.</p>
 
-<p>Mas o ideal, que ainda pretendo atingir, é fazer ambos, então, no futuro, quando tiver mais tempo, irei fazer um <code class="highlighter-rouge">/en</code> no site para leitores de fora.</p>
+<p>Mas o ideal, que ainda pretendo atingir, é fazer ambos, então, no futuro, quando tiver mais tempo, irei fazer um <code class="language-plaintext highlighter-rouge">/en</code> no site para leitores de fora.</p>
 
 <h3 id="qual-tecnologia-usar">Qual tecnologia usar?</h3>
 <p>Essa foi a parte mais fácil, tenho familiaridade com Jenkins e o <a href="http://willianjusten.com.br/">Willian Justen</a> fez esse ótimo tema, obrigado Will, logo, preferi usar algo que facilitasse o meu dia a dia, como o Jenkins.</p>

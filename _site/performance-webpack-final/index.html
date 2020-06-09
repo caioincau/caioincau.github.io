@@ -78,7 +78,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-04-12 07:04:30 -0300" class="date">12 Apr 2018</time>
+            <time itemprop="datePublished" datetime="2018-04-12 10:04:30 +0000" class="date">12 Apr 2018</time>
         
         <h1 class="post-title" itemprop="name">Performance Webpack - Final</h1>
         <p itemprop="description" class="subtitle"></p>
@@ -147,7 +147,7 @@
 
 <p>Sua configuração é muito simples:</p>
 
-<p>Basta importar e adicionar o plugin no seu <code class="highlighter-rouge">webpack.config</code></p>
+<p>Basta importar e adicionar o plugin no seu <code class="language-plaintext highlighter-rouge">webpack.config</code></p>
 
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">const</span> <span class="nx">DashboardPlugin</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">webpack-dashboard/plugin</span><span class="dl">'</span><span class="p">);</span>
 
@@ -165,10 +165,10 @@
 
 <p>Mas como vamos integrar? Primeiro instalamos no projeto:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm install bundlesize --save-dev
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm install bundlesize --save-dev
 </code></pre></div></div>
 
-<p>Depois configuramos no <code class="highlighter-rouge">package.json</code>:</p>
+<p>Depois configuramos no <code class="language-plaintext highlighter-rouge">package.json</code>:</p>
 
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// package.json</span>
 <span class="p">{</span>
@@ -188,11 +188,11 @@
   <span class="p">]</span>
 <span class="p">}</span></code></pre></figure>
 
-<p>Repare que podemos criar diversar regras, no primeiro caso, limitamos os arquivos <code class="highlighter-rouge">.png</code> em no máximo 16kb.</p>
+<p>Repare que podemos criar diversar regras, no primeiro caso, limitamos os arquivos <code class="language-plaintext highlighter-rouge">.png</code> em no máximo 16kb.</p>
 
 <p>Nosso bundle principal em 20kb e nosso vendors em 35kb.</p>
 
-<p>Basta configurar o CI para rodar  o comando <code class="highlighter-rouge">bundlesize</code> e pronto.</p>
+<p>Basta configurar o CI para rodar  o comando <code class="language-plaintext highlighter-rouge">bundlesize</code> e pronto.</p>
 
 <p>Mas e se o chunk estourar o tamanho? Temos um modo fácil de diagnosticar o problema.</p>
 
@@ -209,7 +209,7 @@
   <li>Otimizar!</li>
 </ul>
 
-<p>Para rodarmos essa análise, precisamos instalar o <code class="highlighter-rouge">webpack-analyzer</code>.</p>
+<p>Para rodarmos essa análise, precisamos instalar o <code class="language-plaintext highlighter-rouge">webpack-analyzer</code>.</p>
 
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript">  <span class="nx">npm</span> <span class="nx">install</span> <span class="nx">webpack</span><span class="o">-</span><span class="nx">bundle</span><span class="o">-</span><span class="nx">analyzer</span> <span class="o">--</span><span class="nx">save</span><span class="o">-</span><span class="nx">dev</span></code></pre></figure>
 

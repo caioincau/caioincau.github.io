@@ -1,4 +1,4 @@
-I"_<h1 id="performance-webpack---parte-2">Performance Webpack - Parte 2</h1>
+I"�<h1 id="performance-webpack---parte-2">Performance Webpack - Parte 2</h1>
 
 <p>Vamos dar continuidade no <a href="https://caio.ninja/performance-webpack-parte-1/">post anterior</a> sobre performance em aplicações que usam Webpack.</p>
 
@@ -46,7 +46,7 @@
 
 <p>Sendo assim, não travamos o carregamento inicial da página para o usuário.</p>
 
-<p>Podemos fazer isso com o uso da função <code class="highlighter-rouge">import</code>, ela faz a requisição para trazer o arquivo e retorna uma <code class="highlighter-rouge">promisse</code>, que ao ser resolvida, possui as funções do script importado.</p>
+<p>Podemos fazer isso com o uso da função <code class="language-plaintext highlighter-rouge">import</code>, ela faz a requisição para trazer o arquivo e retorna uma <code class="language-plaintext highlighter-rouge">promisse</code>, que ao ser resolvida, possui as funções do script importado.</p>
 
 <p>Vamos supor que nós temos um página com uma seção de comentários, mas não queremos trazer os comentários de forma automática, queremos que os comentários sejam carregados apenas quando clicar em “ver comentários”.</p>
 
@@ -56,12 +56,12 @@
     <span class="p">});</span>
 <span class="p">});</span></code></pre></figure>
 
-<p>Com o código acima, o arquivo de script <code class="highlighter-rouge">comments</code> só iria ser carregado no <code class="highlighter-rouge">click</code>.</p>
+<p>Com o código acima, o arquivo de script <code class="language-plaintext highlighter-rouge">comments</code> só iria ser carregado no <code class="language-plaintext highlighter-rouge">click</code>.</p>
 
 <h2 id="code-split">Code Split</h2>
 <p>Podemos dividir nosso código em mais do que somente dependências e aplicação,  na verdade, podemos dividir nossa aplicação em quantas partes precisarmos, por exemplo, cada rota pode possuir seu código especifico.</p>
 
-<p>Para isso, é só adicionarmos mais entry points no nosso <code class="highlighter-rouge">webpack.config.js</code>.</p>
+<p>Para isso, é só adicionarmos mais entry points no nosso <code class="language-plaintext highlighter-rouge">webpack.config.js</code>.</p>
 
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// webpack.config.js</span>
 <span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>

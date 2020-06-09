@@ -1,4 +1,4 @@
-I"OU<h1 id="performance-webpack">Performance Webpack</h1>
+I"�U<h1 id="performance-webpack">Performance Webpack</h1>
 
 <p>Essa é a primeira de um série de posts sobre performance Webpack, falei sobre este tema no JSSP, foi uma das talks que eu percebi mais interesse das pessoas.</p>
 
@@ -83,7 +83,7 @@ O processo é simples usando o plugin UglifyJS:</p>
 
 <h3 id="ligue-o-node_env-em-modo-de-produção">Ligue o NODE_ENV em modo de produção</h3>
 
-<p>Ligue o <code class="highlighter-rouge">NODE_ENV=production</code></p>
+<p>Ligue o <code class="language-plaintext highlighter-rouge">NODE_ENV=production</code></p>
 
 <p>Muitas das nossas dependências, usam o NODE_ENV para verificar se aplicam ou não otimizações como importar o .map, ou remover console.log.</p>
 
@@ -95,7 +95,7 @@ O processo é simples usando o plugin UglifyJS:</p>
 
 <h3 id="usando-o-defineplugin">Usando o DefinePlugin</h3>
 
-<p>Podemos usar o <code class="highlighter-rouge">webpack.DefinePlugin</code> para substituir as ocorrências de <code class="highlighter-rouge">process.env.NODE_ENV</code> para <code class="highlighter-rouge">'production'</code></p>
+<p>Podemos usar o <code class="language-plaintext highlighter-rouge">webpack.DefinePlugin</code> para substituir as ocorrências de <code class="language-plaintext highlighter-rouge">process.env.NODE_ENV</code> para <code class="language-plaintext highlighter-rouge">'production'</code></p>
 
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// webpack.config.js</span>
 <span class="kd">const</span> <span class="nx">webpack</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">webpack</span><span class="dl">'</span><span class="p">);</span>
@@ -131,7 +131,7 @@ O processo é simples usando o plugin UglifyJS:</p>
 
 <h3 id="use-es-imports">Use ES imports!</h3>
 
-<p>Quando você usa ES modules, o Webpack é capaz de fazer o famoso <code class="highlighter-rouge">'tree-shaking'</code> e trazer somente o necessário dos arquivos importados.</p>
+<p>Quando você usa ES modules, o Webpack é capaz de fazer o famoso <code class="language-plaintext highlighter-rouge">'tree-shaking'</code> e trazer somente o necessário dos arquivos importados.</p>
 
 <p>Vamos pegar o seguinte código de exemplo:</p>
 
@@ -145,11 +145,11 @@ O processo é simples usando o plugin UglifyJS:</p>
 
 <p>Agora vamos ver como ficam os imports após compilado:</p>
 
-<p>Veja que ele remove a função <code class="highlighter-rouge">commentRestEndpoint</code> ao perceber que ela, apesar de estar no arquivo, não foi utilizada.</p>
+<p>Veja que ele remove a função <code class="language-plaintext highlighter-rouge">commentRestEndpoint</code> ao perceber que ela, apesar de estar no arquivo, não foi utilizada.</p>
 
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">n</span><span class="p">,</span><span class="nx">e</span><span class="p">){</span><span class="dl">"</span><span class="s2">use strict</span><span class="dl">"</span><span class="p">;</span><span class="kd">var</span> <span class="nx">r</span><span class="o">=</span><span class="kd">function</span><span class="p">(){</span><span class="k">return</span><span class="dl">"</span><span class="s2">Rendered!</span><span class="dl">"</span><span class="p">};</span><span class="nx">e</span><span class="p">.</span><span class="nx">b</span><span class="o">=</span><span class="nx">r</span><span class="p">})</span></code></pre></figure>
 
-<p>Vale lembrar que se você usa babel, é necessário passar <code class="highlighter-rouge">{ modules: false }</code> no env, para evitar o uso de CommonJS.</p>
+<p>Vale lembrar que se você usa babel, é necessário passar <code class="language-plaintext highlighter-rouge">{ modules: false }</code> no env, para evitar o uso de CommonJS.</p>
 
 <p>Falamos de script, falamos de css, mas ainda temos um grande vilão no nosso bundle size, as imagens!</p>
 
