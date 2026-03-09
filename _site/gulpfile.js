@@ -8,7 +8,6 @@ const jeet = require('jeet');
 const rupture = require('rupture');
 const koutoSwiss = require('kouto-swiss');
 const prefixer = require('autoprefixer-stylus');
-const imagemin = require('gulp-imagemin');
 const cp = require('child_process');
 
 const jekyllCommand = (/^win/.test(process.platform)) ? 'jekyll.bat' : 'jekyll';
@@ -54,20 +53,15 @@ function scripts() {
 }
 
 function images() {
-	return src('src/img/**/*.{jpg,png,gif}')
+	return src('src/img/**/*.{jpg,png,gif,svg,webp}')
 		.pipe(plumber())
-		.pipe(imagemin({
-			optimizationLevel: 3,
-			progressive: true,
-			interlaced: true
-		}))
 		.pipe(dest('assets/img/'));
 }
 
 function watchFiles() {
 	watch('src/styl/**/*.styl', styles);
 	watch('src/js/**/*.js', scripts);
-	watch('src/img/**/*.{jpg,png,gif}', images);
+	watch('src/img/**/*.{jpg,png,gif,svg,webp}', images);
 	watch(['*.html', '_includes/*.html', '_layouts/*.html', '_posts/*'], series(jekyllBuild, browserSyncReload));
 }
 
