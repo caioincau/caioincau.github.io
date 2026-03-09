@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     {% include head.html %}
-    <body>
+    <body class="page-transition">
         {% include svg-icons.html %}
+        {% include reading-progress.html %}
         {% include header-post.html %}
+        {% include toc.html %}
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
@@ -11,9 +13,12 @@
             </article>
 
             {% include share.html %}
+            {% include related-posts.html %}
             {% include author.html %}
             {% include comments.html %}
             {% include footer.html %}
         </section>
+        {% include theme-toggle.html %}
+        {% include mobile-nav.html %}
     </body>
 </html>

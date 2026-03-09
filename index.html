@@ -2,33 +2,42 @@
 layout: default
 ---
 
-<main id="scroll" class="home" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-    {% for post in site.posts %}
-        <article role="article" class="post-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-                <a class="datetime" href="{{ post.url | prepend: site.baseurl }}">
-                    <meta itemprop="datePublished" content="{{post.date}}">
-                    <time datetime="{{ post.date | date_to_xmlschema }}">
-                        <span class="day">
-                            {{ post.date | date: "%d" }}
-                        </span>
-                        <span class="month-year">
-                            {{ post.date | date: "%B %Y" }}
-                        </span>
+<main id="scroll" class="home page-transition" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+    <div class="posts-grid">
+        {% for post in site.posts %}
+        <article class="post-card" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+            <div class="post-card-content">
+                <div class="post-card-meta">
+                    <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">
+                        {{ post.date | date: "%d %b %Y" }}
                     </time>
-                </a>
-                <div class="content">
-                    <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="post-title" itemprop="name">{{ post.title }}</h2></a>
-                    <p class="description">
-                        {{ post.content | strip_html | truncatewords:40 }}
-                        <a href="{{ post.url | prepend: site.baseurl }}" class="link">Read more about {{post.title}}</a>
-                    </p>
-
-                    <div class="tags">
-                        {% for tag in post.tags %}
-                            <a href="{{ site.baseurl }}/tags/#{{tag | slugify }}">{{ tag }}</a>
-                        {% endfor %}
-                    </div>
+                    <span class="reading-time">{{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min</span>
                 </div>
+                <h2 class="post-card-title" itemprop="name">
+                    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h2>
+                <p class="post-card-excerpt">
+                    {% if post.description and post.description != '' %}
+                        {{ post.description | strip_html | truncatewords: 25 }}
+                    {% else %}
+                        {{ post.content | strip_html | truncatewords: 25 }}
+                    {% endif %}
+                </p>
+                <div class="post-card-tags">
+                    {% for tag in post.tags limit:3 %}
+                    <a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
+                    {% endfor %}
+                </div>
+                <div class="post-card-footer">
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="read-more-link">
+                        Ler mais
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
         </article>
-    {% endfor %}
+        {% endfor %}
+    </div>
 </main>

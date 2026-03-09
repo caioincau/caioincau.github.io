@@ -6,8 +6,9 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    <!-- Google Authorship Markup -->
-    <link rel="author" href="https://plus.google.com/{{site.gplus_username}}?rel=author">
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
@@ -31,7 +32,7 @@
     <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:site_name" content="{{ site.title }}">
 
-    <!-- Social: Google+ / Schema.org  -->
+    <!-- Social: Schema.org -->
     <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
     <meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta itemprop="image" content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}"/>
@@ -51,17 +52,27 @@
     <link rel="manifest" sizes="152x152" href="{{site.baseurl}}/assets/manifest.json" />
     <!-- Windows 8 Tile Icons -->
     <meta name="application-name" content="{{site.username}} Blog">
-    <meta name="msapplication-TileColor" content="#330867">
+    <meta name="msapplication-TileColor" content="#6366f1">
     <meta name="msapplication-square70x70logo" content="smalltile.png" />
     <meta name="msapplication-square150x150logo" content="mediumtile.png" />
     <meta name="msapplication-wide310x150logo" content="widetile.png" />
     <meta name="msapplication-square310x310logo" content="largetile.png" />
     <!-- Android Lolipop Theme Color -->
-    <meta name="theme-color" content="#330867">
+    <meta name="theme-color" content="#6366f1">
 
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+    
+    <!-- Dark mode script (runs before render to prevent flash) -->
+    <script>
+        (function() {
+            const theme = localStorage.getItem('theme') || 
+                (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            document.documentElement.setAttribute('data-theme', theme);
+        })();
+    </script>
+
     <!-- Add Service Worker -->
     <script type="text/javascript">
         if ("serviceWorker" in navigator) {

@@ -1,0 +1,62 @@
+// Improved Mobile Navigation
+.mobile-nav
+  display none
+  +below(cut)
+    display block
+    position fixed
+    bottom 0
+    left 0
+    right 0
+    background var(--header-bg)
+    backdrop-filter blur(12px)
+    -webkit-backdrop-filter blur(12px)
+    border-top 1px solid var(--border-color)
+    z-index 1000
+    padding-bottom env(safe-area-inset-bottom)
+
+.mobile-nav-inner
+  display flex
+  justify-content space-around
+  align-items center
+  padding spacingSm 0
+
+.mobile-nav-item
+  display flex
+  flex-direction column
+  align-items center
+  justify-content center
+  padding spacingSm spacingMd
+  text-decoration none
+  color var(--text-muted)
+  transition all transitionFast
+  border-radius radiusMd
+  &:hover, &.active
+    color var(--gradient-start)
+    background rgba(99, 102, 241, 0.1)
+  svg
+    width 24px
+    height 24px
+    margin-bottom 2px
+  span
+    font-size 0.625rem
+    font-weight 500
+
+// Hide old mobile menu button on mobile, show new nav
++below(cut)
+  .slideButton, .dosearch
+    display none
+  body
+    padding-bottom 70px
+
+// Desktop header improvements with glassmorphism
++above(cut)
+  .slideButton, .dosearch
+    position fixed
+    background var(--header-bg)
+    backdrop-filter blur(12px)
+    -webkit-backdrop-filter blur(12px)
+    border 1px solid var(--border-color)
+    border-radius radiusMd
+    box-shadow shadowSm
+    .icon-menu
+      background transparent

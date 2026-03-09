@@ -1,19 +1,35 @@
 .comments
     center(rem(800px))
-    padding 0 rem(20px)
+    padding 0 spacingLg
     h3
-        margin 0 0 rem(30px)
-        font-size rem(30px)
+        margin 0 0 spacingLg
+        font-size rem(24px)
+        color var(--text-primary)
 
 footer
-    background main
-    padding rem(25px) 0
-    margin-top 100px
-    p,a
+    background-image linear-gradient(135deg, var(--gradient-start), var(--gradient-end))
+    padding spacingXl 0
+    margin-top spacing2xl
+    text-align center
+    p, a
         text-decoration none
-        mainFont(300)
+        mainFont(400)
         color sec
         text-align center
         margin 0
-    a:hover
-        color #990000
+        font-size rem(14px)
+    a
+        opacity 0.9
+        transition opacity transitionFast
+        &:hover
+            opacity 1
+            text-decoration underline
+    .love
+        display inline-block
+        animation heartbeat 1.5s ease infinite
+        
+@keyframes heartbeat
+    0%, 100%
+        transform scale(1)
+    50%
+        transform scale(1.2)

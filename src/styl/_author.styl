@@ -1,50 +1,60 @@
 .author
-    background lightGray
+    background var(--bg-secondary)
     display table
     width 100%
-    padding rem(40px) 0
-    margin rem(40px) 0
+    padding spacingXl 0
+    margin spacingXl 0
     +above(cut)
-        padding rem(50px) 0
+        padding spacing2xl 0
     .details
         margin auto
         max-width rem(800px)
-        padding 0 rem(20px)
+        padding 0 spacingLg
         +below(cut)
             text-align center
     img
-        border-radius 50%
+        border-radius radiusFull
         display block
         margin auto
+        border 4px solid var(--gradient-start)
+        box-shadow shadowMd
         +above(cut)
             float left
-            margin-right 3.125rem
+            margin-right spacingXl
     .def
-        color gray
-        font-size 1.125rem
-        mainFont(300)
-        margin rem(10px)
+        color var(--text-muted)
+        font-size rem(14px)
+        mainFont(400)
+        margin spacingSm
+        text-transform uppercase
+        letter-spacing 0.05em
         +above(cut)
             margin 0
-            padding-top rem(25px)
+            padding-top spacingMd
     .name
         margin 0
         a
-            mainFont()
+            mainFont(700)
             text-decoration none
-            color black
-            font-size rem(30px)
+            color var(--text-primary)
+            font-size rem(28px)
+            transition color transitionFast
             &:hover
-                color main
+                color var(--gradient-start)
             +above(cut)
-                font-size rem(45px)
+                font-size rem(36px)
     .desc
-        mainFont(300)
-        margin rem(10px)
-        font-size rem(16px)
+        mainFont(400)
+        margin spacingSm
+        font-size rem(15px)
+        color var(--text-secondary)
+        line-height 1.6
         +above(cut)
-            font-size rem(20px)
+            font-size rem(17px)
     .email
         text-decoration none
-        color main
-
+        color var(--gradient-start)
+        font-weight 500
+        transition color transitionFast
+        &:hover
+            color var(--gradient-end)

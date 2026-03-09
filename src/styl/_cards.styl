@@ -1,0 +1,111 @@
+// Card-based layout for home
+.posts-grid
+  display grid
+  grid-template-columns repeat(auto-fill, minmax(320px, 1fr))
+  gap spacing2xl
+  center(rem(1200px))
+  padding spacing2xl spacingLg
+  +below(cut)
+    grid-template-columns 1fr
+    gap spacingXl
+    padding spacingXl spacingMd
+
+.post-card
+  background var(--bg-card)
+  border-radius radiusLg
+  border 1px solid var(--border-color)
+  overflow hidden
+  transition all transitionBase
+  box-shadow shadowSm
+  margin-bottom 30px
+  &:hover
+    transform translateY(-4px)
+    box-shadow shadowLg
+    border-color var(--gradient-start)
+
+.post-card-content
+  padding spacingLg
+
+.post-card-meta
+  display flex
+  align-items center
+  gap spacingSm
+  margin-bottom spacingSm
+  font-size 0.875rem
+  color var(--text-muted)
+  .reading-time
+    display flex
+    align-items center
+    gap spacingXs
+    &::before
+      content ''
+      width 4px
+      height 4px
+      background var(--text-muted)
+      border-radius radiusFull
+
+.post-card-title
+  font-size 1.25rem
+  font-weight 700
+  line-height 1.4
+  margin-bottom spacingSm
+  color var(--text-primary)
+  a
+    text-decoration none
+    color inherit
+    &:hover
+      color var(--gradient-start)
+
+.post-card-excerpt
+  font-size 0.9375rem
+  line-height 1.6
+  color var(--text-secondary)
+  margin-bottom spacingMd
+  display -webkit-box
+  -webkit-line-clamp 3
+  -webkit-box-orient vertical
+  overflow hidden
+
+.post-card-tags
+  display flex
+  flex-wrap wrap
+  gap spacingXs
+  a
+    display inline-block
+    font-size 0.75rem
+    font-weight 500
+    padding spacingXs spacingSm
+    background var(--bg-secondary)
+    color var(--text-secondary)
+    border-radius radiusFull
+    text-decoration none
+    transition all transitionFast
+    &:hover
+      background var(--gradient-start)
+      color white
+
+.post-card-footer
+  display flex
+  justify-content space-between
+  align-items center
+  padding-top spacingMd
+  border-top 1px solid var(--border-color)
+  margin-top spacingMd
+
+.read-more-link
+  display inline-flex
+  align-items center
+  gap spacingXs
+  font-size 0.875rem
+  font-weight 600
+  color var(--gradient-start)
+  text-decoration none
+  transition color transitionFast
+  &:hover
+    color var(--gradient-end)
+  svg
+    width 16px
+    height 16px
+    transition transform transitionFast
+  &:hover svg
+    transform translateX(4px)

@@ -7,40 +7,59 @@ background-linear-gradient(startPoint, startColor, startInterval, endColor, endI
 	background-image linear-gradient(startPoint, startColor startInterval, endColor endInterval)
 
 $bg
-	background-linear-gradient(0 , #30cfd0 ,0%, main, 100%)
-	height 100%
+	background-image linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%)
 	.content
 		width 95%
-		align(both)
+		max-width 800px
+		margin 0 auto
 		text-align center
 
 // Header home
 .header-site
 	@extends $bg
+	position relative
+	padding spacing2xl spacingLg
+	+above(cut)
+		padding 4rem spacingLg
 	h1,h2
-		color: sec
+		color sec
 		text-align center
 	.site-title
-		font-size rem(60px)
-		line-height 1
-		margin-top -80px
+		font-size rem(36px)
+		line-height 1.2
 		display block
+		margin-bottom spacingSm
 		+above(cut)
-			margin-bottom 0
-			font-size rem(100px)
+			font-size rem(56px)
 	.site-description
-		font-size rem(20px)
+		font-size rem(16px)
 		display block
-		margin rem(30px) 0
+		margin spacingSm 0 spacingLg
+		opacity 0.9
 		+above(cut)
-			font-size rem(40px)
+			font-size rem(20px)
+	.icons-home
+		a
+			display inline-block
+			margin spacingSm
+			padding spacingSm
+			background rgba(255, 255, 255, 0.1)
+			border-radius radiusFull
+			transition all transitionFast
+			&:hover
+				background rgba(255, 255, 255, 0.2)
+				transform translateY(-2px)
 
 // Header Post
 .header-post
 	@extends $bg
+	position relative
+	padding spacing2xl spacingLg
+	+above(cut)
+		padding 4rem spacingLg
 	.content
-		+above(cut)
-			center(1000px)
+		max-width 800px
+		margin 0 auto
 	.subheader
 		display table
 		padding 20px
@@ -50,20 +69,38 @@ $bg
 			padding 0 10px
 			+above(cut)
 				padding 0 10px
-
+	.post-meta
+		display flex
+		align-items center
+		justify-content center
+		gap spacingMd
+		margin-bottom spacingMd
 	.date
-		mainFont(300)
-		font-size rem(16px)
+		mainFont(400)
+		font-size rem(14px)
+		opacity 0.9
+	.reading-time-badge
+		display inline-flex
+		align-items center
+		gap spacingXs
+		font-size rem(14px)
+		opacity 0.9
+		svg
+			opacity 0.8
 	h1
-		text-transform uppercase
-		font-size rem(30px)
-		margin 0 0 30px
+		text-transform none
+		font-size rem(28px)
+		margin 0 0 20px
+		line-height 1.3
 		+above(cut)
-			font-size rem(60px)
+			font-size rem(48px)
 	.subtitle
-		mainFont(300)
-		font-size rem(20px)
-	h1,.subtitle, .date
+		mainFont(400)
+		font-size rem(18px)
+		opacity 0.9
+		max-width 600px
+		margin 0 auto
+	h1, .subtitle, .date, .reading-time-badge
 		color sec
 		text-align center
 	p
@@ -71,3 +108,7 @@ $bg
 		text-decoration none
 		mainFont(300)
 		font-size rem(18px)
+
+// Down arrow - hidden for compact header
+.down
+	display none

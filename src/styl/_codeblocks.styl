@@ -1,0 +1,95 @@
+// Improved Code Blocks
+pre
+  position relative
+  background var(--code-bg)
+  border-radius radiusMd
+  margin spacingLg auto
+  overflow hidden
+  border 1px solid var(--border-color)
+
+pre code
+  display block
+  padding spacingLg
+  padding-top spacing2xl
+  overflow-x auto
+  font-family monoStack
+  font-size 0.875rem
+  line-height 1.7
+  color var(--text-primary)
+  -webkit-overflow-scrolling touch
+
+.code-header
+  position absolute
+  top 0
+  left 0
+  right 0
+  display flex
+  justify-content space-between
+  align-items center
+  padding spacingXs spacingMd
+  background var(--border-color)
+  border-bottom 1px solid var(--border-color)
+  font-size 0.75rem
+  font-weight 500
+
+.code-language
+  color var(--text-muted)
+  text-transform uppercase
+  letter-spacing 0.05em
+
+.copy-button
+  display flex
+  align-items center
+  gap spacingXs
+  padding spacingXs spacingSm
+  background transparent
+  border 1px solid var(--text-muted)
+  border-radius radiusSm
+  color var(--text-muted)
+  font-size 0.75rem
+  cursor pointer
+  transition all transitionFast
+  &:hover
+    background var(--gradient-start)
+    border-color var(--gradient-start)
+    color white
+  &.copied
+    background #10b981
+    border-color #10b981
+    color white
+  svg
+    width 14px
+    height 14px
+
+// Inline code
+p code, li code
+  background var(--code-bg)
+  padding 0.125rem 0.375rem
+  border-radius radiusSm
+  font-family monoStack
+  font-size 0.875em
+  color var(--gradient-start)
+
+// Syntax highlighting (basic)
+.highlight
+  .k, .kd, .kn, .kp, .kr, .kt  // keywords
+    color #c678dd
+  .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx, .sr, .ss  // strings
+    color #98c379
+  .c, .c1, .cm, .cp, .cs  // comments
+    color #5c6370
+    font-style italic
+  .n, .na, .nb, .nc, .nd, .ne, .nf, .ni, .nn, .no, .nt, .nv  // names
+    color #e06c75
+  .m, .mf, .mh, .mi, .mo  // numbers
+    color #d19a66
+  .o, .ow  // operators
+    color #56b6c2
+
+[data-theme="dark"]
+  pre
+    background #1e293b
+  pre code
+    color #e2e8f0
+  p code, li code
+    background #334155

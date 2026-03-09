@@ -1,10 +1,69 @@
+// Modern Typography with Inter
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap')
+
 a
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color rgba(0,0,0,0)
 
 mainFont(weight = 800)
-    font-family -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
-    font-weight weight
-    font-style normal
+  font-family fontStack
+  font-weight weight
+  font-style normal
 
-h1,h2,h3,h4
-    mainFont()
+html
+  font-size 16px
+  +above(cut)
+    font-size 18px
+  scroll-behavior smooth
+
+body
+  font-family fontStack
+  font-weight 400
+  line-height 1.7
+  -webkit-font-smoothing antialiased
+  -moz-osx-font-smoothing grayscale
+  text-rendering optimizeLegibility
+
+h1, h2, h3, h4, h5, h6
+  mainFont(700)
+  line-height 1.3
+  color var(--text-primary)
+
+h1
+  font-size 2.5rem
+  +above(cut)
+    font-size 3rem
+
+h2
+  font-size 1.875rem
+  +above(cut)
+    font-size 2.25rem
+
+h3
+  font-size 1.5rem
+  +above(cut)
+    font-size 1.75rem
+
+h4
+  font-size 1.25rem
+  +above(cut)
+    font-size 1.5rem
+
+p
+  margin-bottom spacingLg
+  color var(--text-secondary)
+
+a
+  color var(--gradient-start)
+  text-decoration none
+  transition color transitionFast
+  &:hover
+    color var(--gradient-end)
+
+strong
+  font-weight 600
+  color var(--text-primary)
+
+::selection
+  background var(--gradient-start)
+  color white

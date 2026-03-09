@@ -1,7 +1,9 @@
-const staticCacheName = 'caio-incau-2020-06-09-16-24';
+const staticCacheName = 'caio-incau-2026-03-09-10-46';
 
 const filesToCache = [
   
+  
+    '/o-paradoxo-da-produtividade-com-ia/',
   
     '/avalie-sua-empresa/',
   
@@ -12,8 +14,6 @@ const filesToCache = [
     '/gestor-eficaz-2/',
   
     '/gestor-eficaz/',
-  
-    '/feitas-para-durar-parte-2/',
   
   
 ];

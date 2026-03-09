@@ -1,0 +1,69 @@
+// Dark Mode Styles
+:root
+  --bg-primary: #ffffff
+  --bg-secondary: #f8fafc
+  --bg-card: #ffffff
+  --text-primary: #1f2937
+  --text-secondary: #4b5563
+  --text-muted: #9ca3af
+  --border-color: #e5e7eb
+  --code-bg: #f3f4f6
+  --header-bg: rgba(255, 255, 255, 0.85)
+  --shadow-color: rgba(0, 0, 0, 0.1)
+  --gradient-start: #6366f1
+  --gradient-end: #8b5cf6
+
+[data-theme="dark"]
+  --bg-primary: #0f172a
+  --bg-secondary: #1e293b
+  --bg-card: #1e293b
+  --text-primary: #f1f5f9
+  --text-secondary: #cbd5e1
+  --text-muted: #64748b
+  --border-color: #334155
+  --code-bg: #1e293b
+  --header-bg: rgba(15, 23, 42, 0.9)
+  --shadow-color: rgba(0, 0, 0, 0.3)
+  --gradient-start: #818cf8
+  --gradient-end: #a78bfa
+
+body
+  background-color var(--bg-primary)
+  color var(--text-primary)
+  transition background-color transitionBase, color transitionBase
+
+// Dark mode toggle button
+.theme-toggle
+  position fixed
+  bottom 20px
+  right 20px
+  width 50px
+  height 50px
+  border-radius radiusFull
+  background-image linear-gradient(135deg, var(--gradient-start), var(--gradient-end))
+  border none
+  cursor pointer
+  display flex
+  align-items center
+  justify-content center
+  box-shadow shadowLg
+  z-index 1000
+  transition transform transitionFast, box-shadow transitionFast
+  &:hover
+    transform scale(1.1)
+    box-shadow shadowXl
+  svg
+    width 24px
+    height 24px
+    fill white
+  .icon-sun
+    display none
+  .icon-moon
+    display block
+
+[data-theme="dark"]
+  .theme-toggle
+    .icon-sun
+      display block
+    .icon-moon
+      display none

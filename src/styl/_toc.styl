@@ -1,0 +1,59 @@
+// Table of Contents
+.toc-wrapper
+  position fixed
+  top 120px
+  right 20px
+  width 250px
+  max-height "calc(100vh - 160px)"
+  overflow-y auto
+  background var(--bg-card)
+  border 1px solid var(--border-color)
+  border-radius radiusLg
+  padding spacingLg
+  box-shadow shadowMd
+  z-index 100
+  opacity 0
+  transform translateX(20px)
+  transition opacity transitionBase, transform transitionBase
+  &.visible
+    opacity 1
+    transform translateX(0)
+  +below(1400px)
+    display none
+
+.toc-title
+  font-size 0.875rem
+  font-weight 700
+  text-transform uppercase
+  letter-spacing 0.05em
+  color var(--text-muted)
+  margin-bottom spacingMd
+  padding-bottom spacingSm
+  border-bottom 1px solid var(--border-color)
+
+.toc-list
+  list-style none
+  padding 0
+  margin 0
+
+.toc-item
+  margin-bottom spacingSm
+  a
+    display block
+    font-size 0.875rem
+    color var(--text-secondary)
+    text-decoration none
+    padding spacingXs 0
+    padding-left spacingSm
+    border-left 2px solid transparent
+    transition all transitionFast
+    &:hover
+      color var(--gradient-start)
+      border-left-color var(--gradient-start)
+    &.active
+      color var(--gradient-start)
+      border-left-color var(--gradient-start)
+      font-weight 500
+  &.toc-h3 a
+    padding-left spacingLg
+    font-size 0.8125rem

@@ -4,37 +4,61 @@
     box-sizing border-box
 
 body
-  left 0
-  right 0
-  margin auto
+    left 0
+    right 0
+    margin auto
 
 a, aside, .overlay, body
-    transition all .25s ease
+    transition all transitionBase
+
 a.slideButton, .dosearch
-    position absolute
+    position fixed
     display block
-    width 40px
-    height 40px
-    top 10px
+    width 44px
+    height 44px
+    top 15px
     z-index 31
+    border-radius radiusMd
+    +below(cut)
+        display none
+
 .slideButton
-    left 10px
+    left 15px
+    
 .dosearch
-    right 10px
-    background darken(main,10%)
-    border-radius rem(3px)
-    padding rem(2px) rem(3px)
+    right 15px
+    background var(--header-bg)
+    backdrop-filter blur(12px)
+    -webkit-backdrop-filter blur(12px)
+    border 1px solid var(--border-color)
+    padding spacingXs
+    box-shadow shadowSm
+
 .icon-menu
     cursor pointer
-    padding rem(5px)
-    border-radius rem(3px)
-    background darken(main,10%)
-    width rem(40px)
-    height rem(40px)
-    fill sec
+    padding spacingXs
+    border-radius radiusMd
+    background var(--header-bg)
+    backdrop-filter blur(12px)
+    -webkit-backdrop-filter blur(12px)
+    border 1px solid var(--border-color)
+    width rem(44px)
+    height rem(44px)
+    fill var(--text-primary)
+    box-shadow shadowSm
+    transition all transitionFast
+    &:hover
+        background var(--gradient-start)
+        fill white
+        border-color var(--gradient-start)
+
 .icon-search
-    width rem(35px)
-    height rem(35px)
+    width rem(36px)
+    height rem(36px)
+    fill var(--text-primary)
+    transition fill transitionFast
+    &:hover
+        fill var(--gradient-start)
 
 .overlay
     cursor pointer
@@ -45,19 +69,22 @@ a.slideButton, .dosearch
 aside
     position fixed
     height 100%
-    width rem(240px)
-    padding rem(40px) 0 0
+    width rem(280px)
+    padding spacingXl 0 0
     top 0
-    left rem(-240px)
-    background #3F3F3F
+    left rem(-280px)
+    background var(--bg-card)
     z-index 20
-    box-shadow inset -10px -1px 15px -9px rgba(0,0,0,0.5)
+    box-shadow shadowXl
+    border-right 1px solid var(--border-color)
     h2
         text-align center
-        margin 0 0 rem(10px)
-        mainFont(800)
-        font-size rem(20px)
-        color sec
+        margin 0 0 spacingMd
+        mainFont(700)
+        font-size rem(14px)
+        color var(--text-muted)
+        text-transform uppercase
+        letter-spacing 0.1em
     nav
         ul
             padding 0
@@ -67,22 +94,24 @@ aside
             a
                 width 100%
                 display block
-                padding rem(20px)
+                padding spacingMd spacingLg
                 text-decoration none
-                mainFont(300)
-                color #b3b3b1
-                border-top 1px solid darken(lightGray,50%)
+                mainFont(500)
+                color var(--text-secondary)
+                border-left 3px solid transparent
+                transition all transitionFast
                 &:hover
-                    color #191918
-                    background sec
+                    color var(--gradient-start)
+                    background var(--bg-secondary)
+                    border-left-color var(--gradient-start)
         .feed
-            border-bottom 1px solid darken(lightGray,50%)
+            border-top 1px solid var(--border-color)
+            margin-top spacingSm
     &.slide
         left 0
 
-
 a.slideButton.slide
-    left rem(250px)
+    left rem(290px)
     pointer-events none
 
 .overlay
@@ -93,8 +122,9 @@ a.slideButton.slide
     left 0
     pointer-events none
     background transparent
-    z-index 30
+    z-index 19
     &.slide
         pointer-events auto
-        left 240px
-        background rgba(0,0,0,.6)
+        background rgba(0, 0, 0, 0.5)
+        backdrop-filter blur(4px)
+        -webkit-backdrop-filter blur(4px)
