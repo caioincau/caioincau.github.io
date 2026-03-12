@@ -1,7 +1,9 @@
-const staticCacheName = 'caio-incau-2026-03-10-11-16';
+const staticCacheName = 'caio-incau-2026-03-12-14-04';
 
 const filesToCache = [
   
+  
+    '/o-futuro-do-engineering-manager-na-era-da-ia/',
   
     '/o-paradoxo-da-produtividade-com-ia/',
   
@@ -12,8 +14,6 @@ const filesToCache = [
     '/como-foi-a-qcon/',
   
     '/gestor-eficaz-2/',
-  
-    '/gestor-eficaz/',
   
   
 ];

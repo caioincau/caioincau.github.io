@@ -5,9 +5,33 @@
     <description>Um blog sobre pessoas e tecnologia</description>
     <link>https://caio.dev/</link>
     <atom:link href="https://caio.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Mar 2026 11:16:28 -0300</pubDate>
-    <lastBuildDate>Tue, 10 Mar 2026 11:16:28 -0300</lastBuildDate>
+    <pubDate>Thu, 12 Mar 2026 14:04:14 -0300</pubDate>
+    <lastBuildDate>Thu, 12 Mar 2026 14:04:14 -0300</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>O futuro do Engineering Manager na era da IA</title>
+        <description>&lt;p&gt;No último post, falei sobre como a IA está tornando o trabalho de desenvolvimento mais intenso — mais tempo pensando, menos tempo codando. Mas e quem gerencia esses desenvolvedores? Se o dia a dia do dev mudou tanto, o que acontece com o papel do Engineering Manager?&lt;/p&gt; &lt;p&gt;Essa pergunta me persegue faz um tempo. Sou EM há anos, lidero times no Nubank, e não tenho mais certeza de que o playbook que aprendi ainda serve.&lt;/p&gt; &lt;h2 id=&quot;quando-os-devs-entregam-2x-ou-3x-mais-o-que-sobra-para-o-em-fazer&quot;&gt;Quando os devs entregam 2x ou 3x mais, o que sobra para o EM fazer?&lt;/h2&gt; &lt;p&gt;A promessa da IA era clara: devs mais produtivos....</description>
+        <pubDate>Mon, 09 Mar 2026 11:00:00 -0300</pubDate>
+        <link>https://caio.dev/o-futuro-do-engineering-manager-na-era-da-ia/</link>
+        <guid isPermaLink="true">https://caio.dev/o-futuro-do-engineering-manager-na-era-da-ia/</guid>
+        
+        <category>pessoal</category>
+        
+        <category>carreira</category>
+        
+        <category>liderança</category>
+        
+        <category>tecnologia</category>
+        
+        <category>ia</category>
+        
+        
+        <category>pessoal</category>
+        
+        <category>carreira</category>
+        
+      </item>
     
       <item>
         <title>O paradoxo da produtividade com IA</title>
@@ -146,28 +170,6 @@
         
         <category>carreira</category>
         
-        
-      </item>
-    
-      <item>
-        <title>Economize e será livre</title>
-        <description>&lt;p&gt;Eu acredito na teoria de que nenhum ser humano é livre de verdade, até não depender mais de outro para lhe prover condições de sobrevivência.&lt;/p&gt; &lt;p&gt;O que, no mundo moderno capitalista, pode nos prover condições de sobrevivência? Se você pensou em dinheiro, acertou, dinheiro é 90%, claro que existem fatores como saúde e afins, mas até nisto, o dinheiro pode ajudar, compare a fila e os profissionais que vão te atender no SUS, com os do Hospital Albert Einsten.&lt;/p&gt; &lt;p&gt;##Será que você é livre?&lt;/p&gt; &lt;p&gt;Você se considera uma pessoa livre? Então por exemplo, hoje, você poderia levantar da sua cadeira,...</description>
-        <pubDate>Sat, 20 Oct 2018 07:58:25 -0300</pubDate>
-        <link>https://caio.dev/economize-e-ser%C3%A1-livre/</link>
-        <guid isPermaLink="true">https://caio.dev/economize-e-ser%C3%A1-livre/</guid>
-        
-        <category>Pessoal</category>
-        
-        <category>Financeiro</category>
-        
-        <category>investimentos</category>
-        
-        
-        <category>Pessoal</category>
-        
-        <category>Financeiro</category>
-        
-        <category>investimentos</category>
         
       </item>
     
